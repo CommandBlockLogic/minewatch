@@ -1,4 +1,4 @@
-# health:death/died
+# hh:death/died
 # @as dead players
 
 # TODO

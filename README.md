@@ -12,6 +12,7 @@
 | 命名空间 | 全称 | 用途 |
 | ------- | ---- | ---- |
 | .mw | Dot MineWatch | 统筹安排 |
+| hh  | Health Handler | 血量管理 |
 | pah | Player Action Handler | 处理玩家按键行为 |
 | uid | Unique Identity Deliver | 分配玩家独一标识符 |
 

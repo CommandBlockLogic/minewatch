@@ -1,6 +1,6 @@
 # pah:after_tick
 
-scoreboard players reset * pressQ
-scoreboard players reset * pressF
-scoreboard players reset * pressShift
-scoreboard players reset * rightClick
+scoreboard players reset * pahPressQ
+scoreboard players reset * pahPressF
+scoreboard players reset * pahPressShift
+scoreboard players reset * pahRightClick
