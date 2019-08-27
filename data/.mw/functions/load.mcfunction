@@ -1,6 +1,6 @@
 # .mw:load
 
-function health:load
+function hh:load
 function pah:load
 function uid:load
 
