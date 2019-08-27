@@ -1,6 +1,8 @@
 # .mw:player/tick
 # @as players
 
+function .mw:player/keep_alive
+
 execute if entity @s[tag=!blue_team,tag=!red_team] run function .mw:player/get_team_tag
 function .mw:player/join_team
 
