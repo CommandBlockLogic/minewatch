@@ -16,7 +16,7 @@ tag @e[tag=player,tag=!same_team] add enemy
 
 function .mw:player/equip
 function uid:tick
-function health:tick
+function hh:tick
 
 tag @e remove same_team
 tag @e remove teammate
