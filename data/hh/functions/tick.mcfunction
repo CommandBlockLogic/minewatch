@@ -10,6 +10,6 @@
 # scoreboard players operation @s hhReducing *= 2 const
 # scoreboard players operation @s hhReducing /= 3 const
 
-# scoreboard players add @s hhLastDamageTime 1
+scoreboard players add @s hhLastDamageTime 1
 
 # function hh:health/display_health_bar
