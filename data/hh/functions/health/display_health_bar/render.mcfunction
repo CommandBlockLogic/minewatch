@@ -43,5 +43,5 @@ scoreboard players operation lost tmp -= tempArmor tmp
 scoreboard players operation lost tmp -= tempShield tmp
 scoreboard players operation lost tmp -= reducing tmp
 
-execute positioned 0.0 0.0 0.0 unless entity @e[type=minecraft:armor_stand,distance=0,tag=health_bar,tag=my_marker] run summon minecraft:armor_stand ~ ~ ~ {Tags: ["health_bar", "my_marker"], Invisible: 1b, Invulnerable: 1b, Marker: 1b, HandItems: [{Count: 1b, id: "minecraft:stone", tag: {list: []}}]}
-execute positioned 0.0 0.0 0.0 as @e[type=minecraft:armor_stand,distance=0,tag=health_bar,tag=my_marker] run function hh:health/display_health_bar/as_render
+execute unless entity @e[type=minecraft:armor_stand,tag=health_bar,tag=my_marker] run summon minecraft:armor_stand ~ ~ ~ {Tags: ["health_bar", "my_marker"], Invisible: 1b, Invulnerable: 1b, Marker: 1b, HandItems: [{Count: 1b, id: "minecraft:stone", tag: {list: []}}]}
+execute as @e[type=minecraft:armor_stand,tag=health_bar,tag=my_marker] run function hh:health/display_health_bar/as_render
