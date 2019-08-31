@@ -11,6 +11,8 @@
 # @tmp @out
 # - count
 
+data modify entity @s HandItems[0].tag.list set value []
+
 data modify entity @s HandItems[0].tag.list append value "§r"
 scoreboard players operation count tmp = innateHealth tmp
 function hh:health/display_health_bar/render_as_recursive
