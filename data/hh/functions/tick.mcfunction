@@ -20,6 +20,7 @@ scoreboard players operation @s hhReducing /= 3 const
 # Rerender health bar.
 execute unless score @s hhLastTotal = @s hhTotal run scoreboard players set @s hhShouldRerender 1
 execute if score @s hhShouldRerender matches 1.. run function hh:health/display_health_bar/render
+scoreboard players reset @s hhShouldRerender
 
 scoreboard players add @s hhLastDamageTime 1
 scoreboard players operation @s hhLastTotal = @s hhTotal
