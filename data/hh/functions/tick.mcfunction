@@ -1,5 +1,5 @@
 # hh:tick
-# @as players
+# @as player
 
 # Damaged.
 scoreboard players operation totalDamage tmp = @s hhDamagedR
