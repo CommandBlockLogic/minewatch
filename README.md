@@ -12,8 +12,11 @@
 | 命名空间 | 全称 | 用途 |
 | ------- | ---- | ---- |
 | .mw | Dot MineWatch | 统筹安排 |
+| char  | Character | 角色管理 |
+| gc  | Garbage Collecter | 垃圾 marker 回收 |
 | hh  | Health Handler | 血量管理 |
 | pah | Player Action Handler | 处理玩家按键行为 |
+| player | Player | 处理玩家行为 |
 | uid | Unique Identity Deliver | 分配玩家独一标识符 |
 
 ## 角色列表
@@ -48,10 +51,13 @@
 | - | - |
 | char_sample | 角色样本 |
 | enemy | 玩家的敌人 |
+| fucking_cbl | 调试 tag，拥有此 tag 的玩家不会被加入游戏 |
 | health_bar | 储存玩家血条 |
 | marker_with_uid | 有 UID 的 marker |
 | my_marker | 玩家对应的 marker |
 | my_char | 玩家对应的角色样本 |
+| player | 游戏玩家 |
+| protected | 被保护的实体，不会被 GC 收集 |
 | same_team | 玩家的同队玩家（包括自己） |
 | self | 玩家自己 |
 | teammate | 玩家的队友 |

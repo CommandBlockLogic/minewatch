@@ -1,9 +1,10 @@
 # .mw:load
 
+function char:load
 function hh:load
+function gc:load
 function pah:load
 function uid:load
-function char:load
 
 # 记分板
 scoreboard objectives add const dummy "常数"
