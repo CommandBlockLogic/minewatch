@@ -49,6 +49,4 @@ scoreboard players operation absorbedByInnateHealth tmp < @s hhInnateHealth
 scoreboard players operation @s hhInnateHealth -= absorbedByInnateHealth tmp
 scoreboard players operation totalDamage tmp -= absorbedByInnateHealth tmp
 
-scoreboard players operation @s hhHealth > 0 const
-
 function hh:health/display_health_bar/render
