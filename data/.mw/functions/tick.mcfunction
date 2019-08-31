@@ -9,6 +9,6 @@ function pah:after_tick
 
 function gc:tick
 
-scoreboard players reset * tmp
+# scoreboard players reset * tmp
 scoreboard players reset * params
 scoreboard players reset * result
