@@ -32,3 +32,4 @@ function hh:health/display_health_bar/render_as_recursive
 data modify entity @s HandItems[0].tag.list append value "§8"
 scoreboard players operation count tmp = lost tmp
 function hh:health/display_health_bar/render_as_recursive
+data modify entity @s HandItems[0].tag.list append value "§r"
