@@ -3,7 +3,7 @@
 
 execute if score @s hhDamaged matches 1.. run function hh:health/damaged
 function hh:health/calculate_total
-execute if score @s hhTotal matches ..0 run function hh:death/die
+execute if score @s hhTotal matches ..0 unless score @s hhReviveTime matches 0.. run function hh:death/die
 execute if score @s hhHealed matches 1.. run function hh:health/healed
 function hh:health/calculate_total
 
