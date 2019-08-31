@@ -20,38 +20,15 @@
 
 
 
-## 材质列表
+## 模型列表
 
-### 武器
-
-| ID                          | Damage | 角色 | 名称 |
-| --------------------------- | ------ | ---- | ---- |
-| minecraft:carrot_on_a_stick | 0      | 通用 | 空   |
-
-### 动画
-
-| ID                    | Damage | 模型                                              |
-| --------------------- | ------ | ------------------------------------------------- |
-| minecraft:diamond_axe | 0      | minewatch:item/pca/torch/normal/normal |
-
-### GUI
-
-| ID                    | Damage    | 描述                        |
-| --------------------- | --------- | --------------------------- |
-| minecraft:iron_ingot  | N/A       | 弹药（红）                  |
-
-## 弹射物
-
-| ID                    | Damage | 模型                                              |
-| --------------------- | ------ | ------------------------------------------------- |
-| minecraft:wooden_hoe | 1      | minewatch:projectile/slime_ball/red |
-
-### 字体
+## 字体列表
 
 | 字 | 角色 | 描述 |
 | - | - | - |
-| \ue001 | 通用 | 近战击杀 |
-| \ue002 | 通用 | 远程击杀 |
+| \uE001 | 通用 | 近战击杀 |
+| \uE002 | 通用 | 远程击杀 |
+| \uE100 | 通用 | 生命值单位 |
 
 ## 格数分配
 
@@ -65,6 +42,18 @@
 - hotbar.7：技能 F 特定图标
 - hotbar.8：子弹
 
+## 实体标签列表
+
+| 标签 | 描述 |
+| - | - |
+| enemy | 玩家的敌人 |
+| health_bar | 储存玩家血条 |
+| marker_with_uid | 有 UID 的 marker |
+| my_marker | 玩家对应的 marker |
+| same_team | 玩家的同队玩家（包括自己） |
+| self | 玩家自己 |
+| teammate | 玩家的队友 |
+
 ## 枪毙名单
 
 - 数据包：SPGoding HerobrineXia
@@ -74,8 +63,3 @@
     - 音效：Minecraft Overwatch
 - 地　图：HerobrineXia 铃子 Mars_Cloud SPGoding
 - 服务器：K_Bai
-- 鸣　谢：
-    - Amber：制作反向缩进字体。
-
-## 手动执行
-- `/forceload add -1 -1 1 1`

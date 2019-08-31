@@ -1,16 +1,54 @@
 # hh:health/damaged
 # @as players
 
-scoreboard players operation @s hhReducing = @s hhDamaged
-scoreboard players operation @s hhReducing < @s health
+# Calculate totalDamage.
+scoreboard players operation totalDamage tmp = @s hhDamagedR
+scoreboard players operation totalDamage tmp += @s hhDamagedM
 
-# scoreboard players operation hh:health/damage$absorbedByHealthExtra tmp = @s hhDamaged
-# scoreboard players operation hh:health/damage$absorbedByHealthExtra tmp < @s hhExtra
-# scoreboard players operation @s healthExtra -= health:health/damage$absorbedByHealthExtra tmp
-# scoreboard players operation @s healthDamaged -= health:health/damage$absorbedByHealthExtra tmp
-# scoreboard players operation @s health -= @s healthDamaged
+scoreboard players reset @s hhDamagedR
+scoreboard players reset @s hhDamagedM
+scoreboard players operation @s hhReducing = totalDamage tmp
+scoreboard players operation @s hhReducing < @s hhTotal
+execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhLastDamageTime 0
 
-scoreboard players set @s hhDamaged 0
+# Deal with all kinds of armor.
+scoreboard players operation armorTotal tmp = @s hhTempArmor
+scoreboard players operation armorTotal tmp += @s hhInnateArmor
+execute if score armorTotal tmp matches 1.. run scoreboard players operation reduction tmp = totalDamage tmp
+execute if score armorTotal tmp matches 1.. run scoreboard players operation reduction tmp /= 2 const
+execute if score armorTotal tmp matches 1.. run scoreboard players operation reduction tmp < 5 const
+execute if score armorTotal tmp matches 1.. run scoreboard players operation totalDamage tmp -= reduction tmp
+
+# Deal with temp shield.
+scoreboard players operation absorbedByTempShield tmp = totalDamage tmp
+scoreboard players operation absorbedByTempShield tmp < @s hhTempShield
+scoreboard players operation @s hhTempShield -= absorbedByTempShield tmp
+scoreboard players operation totalDamage tmp -= absorbedByTempShield tmp
+
+# Deal with temp armor.
+scoreboard players operation absorbedByTempArmor tmp = totalDamage tmp
+scoreboard players operation absorbedByTempArmor tmp < @s hhTempArmor
+scoreboard players operation @s hhTempArmor -= absorbedByTempArmor tmp
+scoreboard players operation totalDamage tmp -= absorbedByTempArmor tmp
+
+# Deal with innate shield.
+scoreboard players operation absorbedByInnateShield tmp = totalDamage tmp
+scoreboard players operation absorbedByInnateShield tmp < @s hhInnateShield
+scoreboard players operation @s hhInnateShield -= absorbedByInnateShield tmp
+scoreboard players operation totalDamage tmp -= absorbedByInnateShield tmp
+
+# Deal with innate armor.
+scoreboard players operation absorbedByInnateArmor tmp = totalDamage tmp
+scoreboard players operation absorbedByInnateArmor tmp < @s hhInnateArmor
+scoreboard players operation @s hhInnateArmor -= absorbedByInnateArmor tmp
+scoreboard players operation totalDamage tmp -= absorbedByInnateArmor tmp
+
+# Deal with innate health.
+scoreboard players operation absorbedByInnateHealth tmp = totalDamage tmp
+scoreboard players operation absorbedByInnateHealth tmp < @s hhInnateHealth
+scoreboard players operation @s hhInnateHealth -= absorbedByInnateHealth tmp
+scoreboard players operation totalDamage tmp -= absorbedByInnateHealth tmp
+
 scoreboard players operation @s hhHealth > 0 const
 
-scoreboard players set @s hhLastDamageTime 0
+function hh:health/display_health_bar/render

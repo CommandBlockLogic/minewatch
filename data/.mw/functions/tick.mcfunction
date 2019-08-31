@@ -1,6 +1,6 @@
 # .mw:tick
 
-kill @e[type=tnt]
+kill @e[type=minecraft:tnt]
 
 function .mw:tag_player
 
