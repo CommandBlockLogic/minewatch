@@ -1,4 +1,4 @@
-# char:1-pca/as_summon
+# char:1-pca/summon_as
 # @as [tag=char_sample_1-pca]
 
 scoreboard players set @s charID 1
