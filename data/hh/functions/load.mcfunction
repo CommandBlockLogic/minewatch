@@ -13,6 +13,8 @@ scoreboard objectives add hhReducing dummy "正在减少的生命值"
 scoreboard objectives add hhHealed dummy "当前刻治疗生命值"
 scoreboard objectives add hhDamagedR dummy "由远程攻击造成的当前刻伤害生命值"
 scoreboard objectives add hhDamagedM dummy "由近战攻击造成的当前刻伤害生命值"
+scoreboard objectives add hhLastTotal dummy "上一刻总生命"
+scoreboard objectives add hhShouldRerender dummy "是否应当重绘血量条"
 
 # 1：近战攻击
 # 2：普通攻击

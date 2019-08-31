@@ -10,6 +10,7 @@ scoreboard players reset @s hhDamagedM
 scoreboard players operation @s hhReducing = totalDamage tmp
 scoreboard players operation @s hhReducing < @s hhTotal
 execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhLastDamageTime 0
+execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhShouldRerender 1
 
 # Deal with all kinds of armor.
 scoreboard players operation armorTotal tmp = @s hhTempArmor
@@ -48,5 +49,3 @@ scoreboard players operation absorbedByInnateHealth tmp = totalDamage tmp
 scoreboard players operation absorbedByInnateHealth tmp < @s hhInnateHealth
 scoreboard players operation @s hhInnateHealth -= absorbedByInnateHealth tmp
 scoreboard players operation totalDamage tmp -= absorbedByInnateHealth tmp
-
-function hh:health/display_health_bar/render

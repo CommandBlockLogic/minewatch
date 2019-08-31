@@ -13,11 +13,15 @@ execute if score @s hhHealed matches 1.. run function hh:health/healed
 function hh:health/calculate_total
 
 # Recuding animation.
-execute if score @s hhReducing matches 1.. run scoreboard players set shouldRender tmp 1
+execute if score @s hhReducing matches 1.. run scoreboard players set @s hhShouldRerender 1
 scoreboard players operation @s hhReducing *= 2 const
 scoreboard players operation @s hhReducing /= 3 const
-execute if score shouldRender tmp matches 1 run function hh:health/display_health_bar/render
+
+# Rerender health bar.
+execute unless score @s hhLastTotal = @s hhTotal run scoreboard players set @s hhShouldRerender 1
+execute if score @s hhShouldRerender matches 1.. run function hh:health/display_health_bar/render
 
 scoreboard players add @s hhLastDamageTime 1
+scoreboard players operation @s hhLastTotal = @s hhTotal
 
 function hh:health/display_health_bar/tick

@@ -26,5 +26,4 @@ scoreboard players operation @s hhInnateShield += absorbedByInnateShield tmp
 scoreboard players operation @s hhHealed -= absorbedByInnateShield tmp
 
 scoreboard players reset @s hhHealed
-
-function hh:health/display_health_bar/render
+scoreboard players set @s hhShouldRerender 1
