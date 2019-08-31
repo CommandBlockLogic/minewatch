@@ -46,10 +46,12 @@
 
 | 标签 | 描述 |
 | - | - |
+| char_sample | 角色样本 |
 | enemy | 玩家的敌人 |
 | health_bar | 储存玩家血条 |
 | marker_with_uid | 有 UID 的 marker |
 | my_marker | 玩家对应的 marker |
+| my_char | 玩家对应的角色样本 |
 | same_team | 玩家的同队玩家（包括自己） |
 | self | 玩家自己 |
 | teammate | 玩家的队友 |

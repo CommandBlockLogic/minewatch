@@ -1,4 +1,4 @@
-# .mw:player/keep_alive
+# player:keep_alive
 # @as players
 
 execute unless entity @s[nbt={foodLevel: 20}] run effect give @s minecraft:saturation 1 15 true

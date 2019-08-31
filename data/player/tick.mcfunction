@@ -1,10 +1,10 @@
-# .mw:player/tick
+# player:tick
 # @as players
 
-function .mw:player/keep_alive
+function player:keep_alive
 
-execute if entity @s[tag=!blue_team,tag=!red_team] run function .mw:player/get_team_tag
-function .mw:player/join_team
+execute if entity @s[tag=!blue_team,tag=!red_team] run function player:get_team_tag
+function player:join_team
 
 # Tag self.
 tag @s add self
@@ -18,9 +18,11 @@ tag @s remove teammate
 tag @e[tag=player,tag=!same_team] add enemy
 # Tag my_marker.
 execute as @e[tag=marker_with_uid] if score @s uid = @e[tag=self,limit=1] uid run tag @s add my_marker
+# Tag my_char.
+execute positioned 0.0 0.0 0.0 as @e[distance=0,type=minecraft:armor_stand,tag=char_sample] if score @s charID = @e[tag=self,limit=1] charID run tag @s add my_char
 
-function .mw:player/equip
 function uid:tick
+function char:player_tick
 function hh:tick
 
 # Set uid for all my markers.
@@ -31,3 +33,4 @@ tag @e remove same_team
 tag @e remove teammate
 tag @e remove enemy
 tag @e remove self
+tag @e remove my_char

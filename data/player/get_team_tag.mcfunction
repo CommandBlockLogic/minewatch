@@ -1,4 +1,4 @@
-# .mw:player/get_team_tag
+# player:get_team_tag
 # @as players without team tag
 
 execute store result score blue tmp if entity @e[tag=blue_team]

@@ -1,4 +1,4 @@
-# .mw:player/join_team
+# player:join_team
 
 execute if entity @s[tag=red_team,scores={hhLastDamageTime=1..199},team=!redNameTag] run team join redNameTag
 execute if entity @s[tag=red_team,scores={hhLastDamageTime=200..},team=!red] run team join red
