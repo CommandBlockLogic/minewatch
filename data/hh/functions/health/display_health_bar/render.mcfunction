@@ -45,5 +45,5 @@ scoreboard players operation lost tmp -= @s hhReducing
 scoreboard players operation lost tmp *= 50 const
 scoreboard players operation lost tmp /= max tmp
 
-execute unless entity @e[type=minecraft:armor_stand,tag=health_bar,tag=my_marker] run summon minecraft:armor_stand 0.0 0.0 0.0 {Tags: ["health_bar", "my_marker"], Invisible: 1b, Invulnerable: 1b, Marker: 1b, HandItems: [{Count: 1b, id: "minecraft:stone", tag: {list: []}}]}
+execute unless entity @e[type=minecraft:armor_stand,tag=health_bar,tag=my_marker] run summon minecraft:armor_stand 0.0 0.0 0.0 {Tags: ["health_bar", "my_marker", "marker_with_uid"], Invisible: 1b, Invulnerable: 1b, Marker: 1b, HandItems: [{Count: 1b, id: "minecraft:stone", tag: {list: []}}]}
 execute as @e[type=minecraft:armor_stand,tag=health_bar,tag=my_marker] run function hh:health/display_health_bar/render_as
