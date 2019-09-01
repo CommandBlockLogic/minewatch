@@ -1,0 +1,4 @@
+# world:tick
+
+execute unless score $ worldID matches 1.. run scoreboard players set $ worldID 1
+function world:scheduler/tick

@@ -20,6 +20,9 @@ tag @e[tag=player,tag=!same_team] add enemy
 execute as @e[tag=marker_with_uid] if score @s uid = @e[tag=self,limit=1] uid run tag @s add my_marker
 # Tag my_char.
 execute as @e[type=minecraft:armor_stand,tag=char_sample] if score @s charID = @e[tag=self,limit=1] charID run tag @s add my_char
+# Tag need_healing
+tag @s remove need_healing
+execute if score @s hhInnateTotal < @s hhInnateMax run tag @s add need_healing
 
 function uid:tick
 function char:player_tick

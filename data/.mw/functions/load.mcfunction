@@ -5,6 +5,7 @@ function hh:load
 function gc:load
 function pah:load
 function uid:load
+function world:load
 
 # 记分板
 scoreboard objectives add const dummy "常数"
@@ -16,6 +17,9 @@ scoreboard objectives add tmp dummy "临时"
 ## 不应跨刻使用
 scoreboard objectives add params dummy "参数"
 scoreboard objectives add result dummy "返回值"
+
+## 不应跨实体使用
+scoreboard objectives add custom1 dummy "自定义"
 
 # 队伍
 team add red {"text": "红队", "color": "red"}

@@ -18,6 +18,7 @@
 | pah | Player Action Handler | 处理玩家按键行为 |
 | player | Player | 处理玩家行为 |
 | uid | Unique Identity Deliver | 分配玩家独一标识符 |
+| world | World | 处理地图相关行为 |
 
 ## 角色列表
 
@@ -58,6 +59,7 @@
 | marker_with_uid | 有 UID 的 marker |
 | my_marker | 玩家对应的 marker |
 | my_char | 玩家对应的角色样本 |
+| need_healing | 该玩家需要治疗 |
 | player | 游戏玩家 |
 | protected | 被保护的实体，不会被 GC 收集 |
 | same_team | 玩家的同队玩家（包括自己） |
