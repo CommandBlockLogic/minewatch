@@ -45,5 +45,14 @@ scoreboard players operation lost tmp -= @s hhReducing
 scoreboard players operation lost tmp *= 50 const
 scoreboard players operation lost tmp /= max tmp
 
+scoreboard players operation total tmp = innateHealth tmp
+scoreboard players operation total tmp += innateArmor tmp
+scoreboard players operation total tmp += innateShield tmp
+scoreboard players operation total tmp += tempArmor tmp
+scoreboard players operation total tmp += tempShield tmp
+scoreboard players operation total tmp += reducing tmp
+scoreboard players operation total tmp += lost tmp
+execute if score total tmp matches 49 run scoreboard players add innateHealth tmp 1
+
 execute unless entity @e[type=minecraft:armor_stand,tag=health_bar,tag=my_marker] run summon minecraft:armor_stand 0.0 0.0 0.0 {Tags: ["health_bar", "my_marker", "marker_with_uid"], CustomName: '"Health Bar"', HandItems: [{Count: 1b, id: "minecraft:stone", tag: {list: []}}], Invisible: 1b, Invulnerable: 1b, Marker: 1b, NoGravity: 1b}
 execute as @e[type=minecraft:armor_stand,tag=health_bar,tag=my_marker] run function hh:health/display_health_bar/render_as
