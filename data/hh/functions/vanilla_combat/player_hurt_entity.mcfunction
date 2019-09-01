@@ -1,4 +1,4 @@
-# hh:vanilla_combat/entity_hurt_player
+# hh:vanilla_combat/player_hurt_entity
 
-say entity_hurt_player
-advancement revoke @s only hh:entity_hurt_player
+say player_hurt_entity
+advancement revoke @s only hh:player_hurt_entity
