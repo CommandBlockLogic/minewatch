@@ -50,7 +50,9 @@
 | 标签 | 描述 |
 | - | - |
 | char_sample | 角色样本 |
+| died | 死了的玩家 |
 | enemy | 玩家的敌人 |
+| force_player | 强制该实体为一名玩家 |
 | fucking_cbl | 调试 tag，拥有此 tag 的玩家不会被加入游戏 |
 | health_bar | 储存玩家血条 |
 | marker_with_uid | 有 UID 的 marker |

@@ -1,4 +1,4 @@
-# char:common/select
+# char:common/init
 # @as player
 
 function player:equip
