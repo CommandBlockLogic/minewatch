@@ -11,5 +11,5 @@ execute unless entity @e[tag=hh_killer] run tellraw @a ["\ue001 ", {"selector": 
 # Murder!
 execute if entity @e[tag=hh_killer] run function hh:death/show_death_message
 
-scoreboard players set @s reviveTime 200
+scoreboard players set @s hhReviveTime 200
 tag @e remove hh_killer

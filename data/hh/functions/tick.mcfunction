@@ -9,7 +9,8 @@ function hh:health/calculate_total
 
 # Healed.
 execute if score @s hhTotal matches ..0 unless score @s hhReviveTime matches 0.. run function hh:death/die
-execute if score @s hhHealed matches 1.. run function hh:health/healed
+execute if score @s hhReviveTime matches 0.. run function hh:death/died
+execute if score @s hhHealed matches 1.. unless score @s hhReviveTime matches 0.. run function hh:health/healed
 function hh:health/calculate_total
 
 # Recuding animation.
@@ -18,7 +19,7 @@ scoreboard players operation @s hhReducing *= 2 const
 scoreboard players operation @s hhReducing /= 3 const
 
 # Restore innate shield.
-execute if score @s hhLastDamageTime matches 60.. if score @s hhInnateShield < @e[type=minecraft:armor_stand,tag=my_char,limit=1] hhInnateShield run scoreboard players add @s hhInnateShield 1
+execute unless score @s hhReviveTime matches 0.. if score @s hhLastDamageTime matches 60.. if score @s hhInnateShield < @e[type=minecraft:armor_stand,tag=my_char,limit=1] hhInnateShield run scoreboard players add @s hhInnateShield 1
 
 # Rerender health bar.
 execute unless score @s hhLastTotal = @s hhTotal run scoreboard players set @s hhShouldRerender 1
