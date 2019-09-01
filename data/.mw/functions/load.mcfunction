@@ -60,4 +60,4 @@ forceload add -1 -1 1 1
 # 方块
 setblock 0 0 0 minecraft:jukebox{RecordItem: {Count: 1b, id: "minecraft:stone", tag: { tmp: {} }}}
 
-tellraw @a "\u00a72Bingo!"
+tellraw @a "§2Bingo!"

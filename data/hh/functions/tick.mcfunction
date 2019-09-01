@@ -17,6 +17,9 @@ execute if score @s hhReducing matches 1.. run scoreboard players set @s hhShoul
 scoreboard players operation @s hhReducing *= 2 const
 scoreboard players operation @s hhReducing /= 3 const
 
+# Restore innate shield.
+execute if score @s hhLastDamageTime matches 60.. if score @s hhInnateShield < @e[type=minecraft:armor_stand,tag=my_char] hhInnateShield run scoreboard players add @s hhInnateShield 1
+
 # Rerender health bar.
 execute unless score @s hhLastTotal = @s hhTotal run scoreboard players set @s hhShouldRerender 1
 execute if score @s hhShouldRerender matches 1.. run function hh:health/display_health_bar/render

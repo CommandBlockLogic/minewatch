@@ -11,14 +11,7 @@ scoreboard players operation @s hhReducing = totalDamage tmp
 scoreboard players operation @s hhReducing < @s hhTotal
 execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhLastDamageTime 0
 execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhShouldRerender 1
-
-# Deal with all kinds of armor.
-scoreboard players operation armorTotal tmp = @s hhTempArmor
-scoreboard players operation armorTotal tmp += @s hhInnateArmor
-execute if score armorTotal tmp matches 1.. run scoreboard players operation reduction tmp = totalDamage tmp
-execute if score armorTotal tmp matches 1.. run scoreboard players operation reduction tmp /= 2 const
-execute if score armorTotal tmp matches 1.. run scoreboard players operation reduction tmp < 5 const
-execute if score armorTotal tmp matches 1.. run scoreboard players operation totalDamage tmp -= reduction tmp
+execute if score totalDamage tmp matches 1.. run function char:scheduler/hurt
 
 # Deal with temp shield.
 scoreboard players operation absorbedByTempShield tmp = totalDamage tmp
@@ -27,6 +20,10 @@ scoreboard players operation @s hhTempShield -= absorbedByTempShield tmp
 scoreboard players operation totalDamage tmp -= absorbedByTempShield tmp
 
 # Deal with temp armor.
+execute if score @s hhTempArmor matches 1.. run scoreboard players operation reduction tmp = totalDamage tmp
+execute if score @s hhTempArmor matches 1.. run scoreboard players operation reduction tmp /= 2 const
+execute if score @s hhTempArmor matches 1.. run scoreboard players operation reduction tmp < 5 const
+execute if score @s hhTempArmor matches 1.. run scoreboard players operation totalDamage tmp -= reduction tmp
 scoreboard players operation absorbedByTempArmor tmp = totalDamage tmp
 scoreboard players operation absorbedByTempArmor tmp < @s hhTempArmor
 scoreboard players operation @s hhTempArmor -= absorbedByTempArmor tmp
@@ -39,6 +36,10 @@ scoreboard players operation @s hhInnateShield -= absorbedByInnateShield tmp
 scoreboard players operation totalDamage tmp -= absorbedByInnateShield tmp
 
 # Deal with innate armor.
+execute if score @s hhInnateArmor matches 1.. run scoreboard players operation reduction tmp = totalDamage tmp
+execute if score @s hhInnateArmor matches 1.. run scoreboard players operation reduction tmp /= 2 const
+execute if score @s hhInnateArmor matches 1.. run scoreboard players operation reduction tmp < 5 const
+execute if score @s hhInnateArmor matches 1.. run scoreboard players operation totalDamage tmp -= reduction tmp
 scoreboard players operation absorbedByInnateArmor tmp = totalDamage tmp
 scoreboard players operation absorbedByInnateArmor tmp < @s hhInnateArmor
 scoreboard players operation @s hhInnateArmor -= absorbedByInnateArmor tmp
