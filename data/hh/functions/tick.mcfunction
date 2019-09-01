@@ -31,4 +31,9 @@ scoreboard players operation @s hhLastTotal = @s hhTotal
 
 function hh:health/display_health_bar/tick
 
+# Clear last damage info.
+execute if score @s hhLastDamageTime matches 100.. run scoreboard players reset @s hhLastDamageWay
+execute if score @s hhLastDamageTime matches 100.. run scoreboard players reset @s hhLastDamageUid
+
+# Clear vanilla combat victim.
 tag @a remove hh.vanilla_combat.victim
