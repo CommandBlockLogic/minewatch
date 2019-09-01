@@ -46,10 +46,10 @@ scoreboard players operation count tmp = tempShield tmp
 scoreboard players operation total tmp += tempShield tmp
 execute if score total tmp matches 51.. run scoreboard players remove count tmp 1
 execute if score total tmp matches 51.. run scoreboard players remove total tmp 1
-execute if score total tmp matches ..49 run scoreboard players add count tmp 1
-execute if score total tmp matches ..49 run scoreboard players add total tmp 1
-execute if score total tmp matches ..49 run scoreboard players add count tmp 1
-execute if score total tmp matches ..49 run scoreboard players add total tmp 1
+execute if score total tmp matches ..49 if score tempShield tmp matches 1.. run scoreboard players add count tmp 1
+execute if score total tmp matches ..49 if score tempShield tmp matches 1.. run scoreboard players add total tmp 1
+execute if score total tmp matches ..49 if score tempShield tmp matches 1.. run scoreboard players add count tmp 1
+execute if score total tmp matches ..49 if score tempShield tmp matches 1.. run scoreboard players add total tmp 1
 function hh:health/display_health_bar/render_as_recursive
 
 data modify entity @s HandItems[0].tag.list append value "§4"
@@ -64,6 +64,10 @@ scoreboard players operation count tmp = lost tmp
 scoreboard players operation total tmp += lost tmp
 execute if score total tmp matches 51.. run scoreboard players remove count tmp 1
 execute if score total tmp matches 51.. run scoreboard players remove total tmp 1
+execute if score total tmp matches ..49 if score lost tmp matches 1.. run scoreboard players add count tmp 1
+execute if score total tmp matches ..49 if score lost tmp matches 1.. run scoreboard players add total tmp 1
+execute if score total tmp matches ..49 if score lost tmp matches 1.. run scoreboard players add count tmp 1
+execute if score total tmp matches ..49 if score lost tmp matches 1.. run scoreboard players add total tmp 1
 function hh:health/display_health_bar/render_as_recursive
 
 data modify entity @s HandItems[0].tag.list append value "§r"
