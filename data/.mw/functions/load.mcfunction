@@ -63,6 +63,6 @@ forceload add -1 -1 1 1
 
 # 方块
 setblock 0 0 0 minecraft:jukebox{RecordItem: {Count: 1b, id: "minecraft:stone", tag: { tmp: {} }}}
-setblock 0 1 0 minecraft:birch_sign{Text4: '"§cCommand Block Logic Presents"'}
+setblock 0 1 0 minecraft:birch_sign{Text3: '"§bCBL Presents"'}
 
 tellraw @a "§2Bingo!"
