@@ -7,4 +7,4 @@
     "rewards": {
         "function": "hh:vanilla_combat/entity_hurt_player"
     }
-}
+} 
