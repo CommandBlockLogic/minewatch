@@ -28,6 +28,7 @@ function uid:tick
 function char:player_tick
 function hh:tick
 
+execute if block ~ ~ ~ minecraft:water run scoreboard players set @s hhLastDamageWay 6
 execute if block ~ ~ ~ minecraft:water run scoreboard players set @s hhDamagedM 8192
 
 # Set uid for all my markers.
