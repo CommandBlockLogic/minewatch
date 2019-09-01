@@ -22,7 +22,7 @@ scoreboard objectives add hhShouldRerender dummy "是否应当重绘血量条"
 # 3：主动技能
 # 4：被动技能
 # 5：终极技能
-# 6：地形
+# 6 / 未设置：地形
 # 7：普通攻击（爆头）
 # 8：主动技能（爆头）
 # 9：被动技能（爆头）
