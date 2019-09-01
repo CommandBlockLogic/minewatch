@@ -25,7 +25,7 @@ function uid:tick
 function char:player_tick
 function hh:tick
 
-execute if block ~ ~ ~ minecraft:water run function hh:health/clear
+execute if block ~ ~ ~ minecraft:water run scoreboard players set @s hhDamagedM 8192
 
 # Set uid for all my markers.
 scoreboard players operation @e[tag=my_marker] uid = @e[tag=self,limit=1] uid
