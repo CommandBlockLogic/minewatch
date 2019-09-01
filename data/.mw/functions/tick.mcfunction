@@ -4,7 +4,7 @@ function .mw:tag_player
 
 function pah:before_tick
 function char:tick
-function char:tick
+function world:tick
 execute as @e[tag=player] at @s run function player:tick
 function pah:after_tick
 
