@@ -4,13 +4,13 @@
 # Damaged.
 scoreboard players operation totalDamage tmp = @s hhDamagedR
 scoreboard players operation totalDamage tmp += @s hhDamagedM
-execute if score totalDamage tmp matches 1.. run function hh:health/damaged
+execute if entity @s[tag=died] if score totalDamage tmp matches 1.. run function hh:health/damaged
 function hh:health/calculate_total
 
 # Healed.
-execute if score @s hhTotal matches ..0 if entity @s[tag=!died] run function hh:death/die
+execute if entity @s[tag=died] if score @s hhTotal matches ..0 run function hh:death/die
 execute if entity @s[tag=died] run function hh:death/died
-execute if score @s hhHealed matches 1.. if entity @s[tag=!died] run function hh:health/healed
+execute if entity @s[tag=died] if score @s hhHealed matches 1.. run function hh:health/healed
 function hh:health/calculate_total
 
 # Recuding animation.
