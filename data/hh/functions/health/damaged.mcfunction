@@ -13,8 +13,8 @@ scoreboard players operation @s hhReducing < @s hhTotal
 execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhLastDamageTime 0
 execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhShouldRerender 1
 # Sounds
-execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 5.. run function char:scheduler/hurt
-execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 5.. run scoreboard players reset @s hhLastHurtTime
+execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 9.. run function char:scheduler/hurt
+execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 9.. run scoreboard players reset @s hhLastHurtTime
 
 # Deal with temp shield.
 scoreboard players operation absorbedByTempShield tmp = totalDamage tmp
