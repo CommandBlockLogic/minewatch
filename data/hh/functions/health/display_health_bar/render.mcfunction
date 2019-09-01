@@ -80,7 +80,7 @@ scoreboard players operation total tmp += tempArmor tmp
 scoreboard players operation total tmp += tempShield tmp
 scoreboard players operation total tmp += reducing tmp
 scoreboard players operation total tmp += lost tmp
-tellraw @a {"score": {"objective": "tmp", "name": "total"}}
+tellraw @a [{"score": {"objective": "tmp", "name": "total"}}, " ", {"score": {"objective": "hhInnateHealth", "name": "@s"}}, " ", {"score": {"objective": "hhInnateArmor", "name": "@s"}}, " ", {"score": {"objective": "hhInnateShield", "name": "@s"}}, " ", {"score": {"objective": "hhReducing", "name": "@s"}}]
 
 execute unless entity @e[type=minecraft:armor_stand,tag=health_bar,tag=my_marker] run summon minecraft:armor_stand 0.0 0.0 0.0 {Tags: ["health_bar", "my_marker", "marker_with_uid"], CustomName: '"Health Bar"', HandItems: [{Count: 1b, id: "minecraft:stone", tag: {list: []}}], Invisible: 1b, Invulnerable: 1b, Marker: 1b, NoGravity: 1b}
 execute as @e[type=minecraft:armor_stand,tag=health_bar,tag=my_marker] run function hh:health/display_health_bar/render_as
