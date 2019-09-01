@@ -13,13 +13,20 @@ execute if entity @s[tag=died] run function hh:death/died
 execute if entity @s[tag=!died] if score @s hhHealed matches 1.. run function hh:health/healed
 function hh:health/calculate_total
 
-# Recuding animation.
+# Reducing animation.
 execute if score @s hhReducing matches 1.. run scoreboard players set @s hhShouldRerender 1
 scoreboard players operation @s hhReducing *= 2 const
 scoreboard players operation @s hhReducing /= 3 const
 
 # Restore innate shield.
 execute if entity @s[tag=!died] if score @s hhLastDamageTime matches 60.. if score @s hhInnateShield < @e[type=minecraft:armor_stand,tag=my_char,limit=1] hhInnateShield run scoreboard players add @s hhInnateShield 1
+
+# Reduce temp shield.
+execute if score @s hhTempShield matches 1.. run scoreboard players set @s hhShouldRerender 1
+scoreboard players operation reduced tmp = @s hhTempShield
+scoreboard players operation reduced tmp /= @s hhTempShieldTime
+scoreboard players operation @s hhTempShield -= reduced tmp
+scoreboard players remove @s hhTempShieldTime 1
 
 # Rerender health bar.
 execute unless score @s hhLastTotal = @s hhTotal run scoreboard players set @s hhShouldRerender 1
