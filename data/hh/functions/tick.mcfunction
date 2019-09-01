@@ -31,4 +31,4 @@ scoreboard players operation @s hhLastTotal = @s hhTotal
 
 function hh:health/display_health_bar/tick
 
-tag @a remove hh:vanilla_combat/victim
+tag @a remove hh.vanilla_combat.victim
