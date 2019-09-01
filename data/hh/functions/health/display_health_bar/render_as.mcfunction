@@ -55,4 +55,6 @@ scoreboard players operation total tmp += lost tmp
 execute if score total tmp matches 51.. run scoreboard players remove count tmp 1
 function hh:health/display_health_bar/render_as_recursive
 
+tellraw @a {"score":{"objective":"tmp","name":"total"}}
+
 data modify entity @s HandItems[0].tag.list append value "§r"
