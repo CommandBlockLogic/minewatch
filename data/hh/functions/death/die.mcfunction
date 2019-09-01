@@ -8,6 +8,9 @@ execute as @e[tag=enemy] if score @s uid = killerUid tmp run tag @s add hh_kille
 function hh:death/show_death_message
 
 scoreboard players set @s hhReviveTime 200
+scoreboard players reset @s hhDamagedM
+scoreboard players reset @s hhDamagedR
+scoreboard players reset @s hhHealed
 scoreboard players reset @s hhLastDamageWay
 scoreboard players reset @s hhLastDamageUid
 scoreboard players reset @s hhLastDamageTime

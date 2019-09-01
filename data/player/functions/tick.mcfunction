@@ -25,11 +25,11 @@ tag @s remove need_healing
 execute if score @s hhInnateTotal < @s hhInnateMax run tag @s add need_healing
 
 function uid:tick
-function char:player_tick
+execute if entity @s[tag=!died] run function char:player_tick
 function hh:tick
 
-execute if block ~ ~ ~ minecraft:water run scoreboard players set @s hhLastDamageWay 6
-execute if block ~ ~ ~ minecraft:water run scoreboard players set @s hhDamagedM 8192
+execute if block ~ ~ ~ minecraft:water run scoreboard players set @s[tag=!died] hhLastDamageWay 6
+execute if block ~ ~ ~ minecraft:water run scoreboard players set @s[tag=!died] hhDamagedM 8192
 
 # Set uid for all my markers.
 scoreboard players operation @e[tag=my_marker] uid = @e[tag=self,limit=1] uid
