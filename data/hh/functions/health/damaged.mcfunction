@@ -13,7 +13,6 @@ scoreboard players operation @s hhReducing < @s hhTotal
 execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhLastDamageTime 0
 execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhShouldRerender 1
 # Sounds
-scoreboard players add @s hhLastHurtTime 1
 execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 30.. run function char:scheduler/hurt
 execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 30.. run scoreboard players reset @s hhLastHurtTime
 

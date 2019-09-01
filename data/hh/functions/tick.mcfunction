@@ -27,6 +27,7 @@ execute if score @s hhShouldRerender matches 1.. run function hh:health/display_
 scoreboard players reset @s hhShouldRerender
 
 scoreboard players add @s hhLastDamageTime 1
+scoreboard players add @s hhLastHurtTime 1
 scoreboard players operation @s hhLastTotal = @s hhTotal
 
 function hh:health/display_health_bar/tick
