@@ -5,7 +5,8 @@ execute if score @s custom1 matches 0 if entity @e[tag=player,distance=..1,tag=n
 execute if score @s custom1 matches 0 run scoreboard players add @e[tag=player,distance=..1,tag=need_healing] hhHealed 125
 execute if score @s custom1 matches 0 if entity @e[tag=player,distance=..1,tag=need_healing] run scoreboard players set @s custom1 560
 
-scoreboard players operation percents tmp = @s custom1
+scoreboard players set percents tmp 560
+scoreboard players operation percents tmp -= @s custom1
 scoreboard players operation percents tmp *= 100 const
 scoreboard players operation percents tmp /= 560 const
 data modify block 0 1 0 Text1 set value '[{"score": {"objective": "tmp", "name": "percents"}}, "%"]'
