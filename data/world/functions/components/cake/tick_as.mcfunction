@@ -9,9 +9,12 @@ scoreboard players set percents tmp 560
 scoreboard players operation percents tmp -= @s custom1
 scoreboard players operation percents tmp *= 100 const
 scoreboard players operation percents tmp /= 560 const
-data modify entity @s CustomName set value '""'
+
+execute if score percents tmp matches ..99 run data modify entity @s CustomName set value '""'
+execute if score percents tmp matches ..99 run data modify entity @s CustomNameVisible set value 1b
 execute if score percents tmp matches ..99 run data modify block 0 1 0 Text1 set value '[{"score": {"objective": "tmp", "name": "percents"}}, "%"]'
 execute if score percents tmp matches ..99 run data modify entity @s CustomName set from block 0 1 0 Text1
+execute if score percents tmp matches 100 run data modify entity @s CustomNameVisible set value 0b
 
 execute if score @s custom1 matches 481..560 run setblock ~ ~ ~ minecraft:air
 execute if score @s custom1 matches 401..480 run setblock ~ ~ ~ minecraft:cake[bites=6]
