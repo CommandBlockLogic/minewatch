@@ -1,5 +1,5 @@
 # hh:health/display_health_bar/render_as_limit
-# @tmp @in
+# @tmp @in @out
 # - count
 # - total
 
