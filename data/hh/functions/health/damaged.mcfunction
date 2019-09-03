@@ -35,7 +35,7 @@ scoreboard players operation totalDamage tmp -= absorbedByTempArmor tmp
 # Deal with innate shield.
 scoreboard players operation absorbedByInnateShield tmp = totalDamage tmp
 scoreboard players operation absorbedByInnateShield tmp < @s hhInnateShield
-scoreboard players operation @s hhInnateShield -= absorbedByInnateShield tmp 
+scoreboard players operation @s hhInnateShield -= absorbedByInnateShield tmp
 scoreboard players operation totalDamage tmp -= absorbedByInnateShield tmp
 
 # Deal with innate armor.

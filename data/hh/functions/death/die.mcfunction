@@ -3,7 +3,7 @@
 
 # Find killer.
 scoreboard players operation killerUid tmp = @s hhLastDamageUid
-execute as @e[tag=enemy] if score @s uid = killerUid tmp run tag @s add hh_killer
+execute as @e[tag=player,tag=!self] if score @s uid = killerUid tmp run tag @s add hh_killer
 
 function hh:death/show_death_message
 
