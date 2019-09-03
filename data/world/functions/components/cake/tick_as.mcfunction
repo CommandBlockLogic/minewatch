@@ -24,3 +24,5 @@ execute if score @s custom1 matches 161..240 run setblock ~ ~ ~ minecraft:cake[b
 execute if score @s custom1 matches 81..160 run setblock ~ ~ ~ minecraft:cake[bites=2]
 execute if score @s custom1 matches 1..80 run setblock ~ ~ ~ minecraft:cake[bites=1]
 execute if score @s custom1 matches 0 run setblock ~ ~ ~ minecraft:cake[bites=0]
+execute if score @s custom1 matches 1..560 run fill ~-3 ~-3 ~-3 ~3 ~10 ~3 minecraft:gray_concrete replace minecraft:lime_concrete
+execute if score @s custom1 matches 0 run fill ~-3 ~-3 ~-3 ~3 ~10 ~3 minecraft:lime_concrete replace minecraft:gray_concrete
