@@ -59,7 +59,6 @@ function hh:health/display_health_bar/render_as_recursive
 data modify entity @s HandItems[0].tag.list append value "§8"
 scoreboard players operation count tmp = lost tmp
 scoreboard players operation total tmp += lost tmp
-execute if score lost tmp matches 1.. run say 1.. lost
 execute if score total tmp matches 51.. run function hh:health/display_health_bar/render_as_limit
 execute if score total tmp matches ..49 if score lost tmp matches 1.. run function hh:health/display_health_bar/render_as_complete
 function hh:health/display_health_bar/render_as_recursive

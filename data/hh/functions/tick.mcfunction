@@ -2,16 +2,15 @@
 # @as player
 
 # Damaged.
-scoreboard players operation totalDamage tmp = @s hhDamagedR
-scoreboard players operation totalDamage tmp += @s hhDamagedM
-execute if entity @s[tag=!died] if score totalDamage tmp matches 1.. run function hh:health/damaged
-function hh:health/calculate_total
+scoreboard players operation hh:tick$totalDamage tmp = @s hhDamagedR
+scoreboard players operation hh:tick$totalDamage tmp += @s hhDamagedM
+execute if entity @s[tag=!died] if score hh:tick$totalDamage tmp matches 1.. run function hh:health/damaged
+execute if entity @s[tag=!died] if score hh:tick$totalDamage tmp matches 1.. run function hh:health/calculate_total
 
 # Healed.
 execute if entity @s[tag=!died] if score @s hhTotal matches ..0 run function hh:death/die
 execute if entity @s[tag=died] run function hh:death/died
 execute if entity @s[tag=!died] if score @s hhHealed matches 1.. run function hh:health/healed
-function hh:health/calculate_total
 
 # Reducing animation.
 execute if score @s hhReducing matches 1.. run scoreboard players set @s hhShouldRerender 1
@@ -29,6 +28,7 @@ scoreboard players operation @s hhTempShield -= reduced tmp
 scoreboard players remove @s hhTempShieldTime 1
 
 # Rerender health bar.
+function hh:health/calculate_total
 execute unless score @s hhLastTotal = @s hhTotal run scoreboard players set @s hhShouldRerender 1
 execute if score @s hhShouldRerender matches 1.. run function hh:health/display_health_bar/render
 scoreboard players reset @s hhShouldRerender
