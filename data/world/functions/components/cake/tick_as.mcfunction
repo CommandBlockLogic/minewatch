@@ -2,7 +2,7 @@
 
 execute if score @s custom1 matches 1.. run scoreboard players remove @s custom1 1
 execute if score @s custom1 matches 0 if entity @e[tag=player,tag=!died,distance=..1,tag=need_healing] run particle minecraft:heart ~ ~ ~ 0.2 0.6 0.2 1 30 force
-execute if score @s custom1 matches 0 run scoreboard players add @e[tag=player,tag=!died,distance=..1,tag=need_healing] hhHealed 125
+execute if score @s custom1 matches 0 run scoreboard players add @e[tag=player,tag=!died,distance=..1,tag=need_healing] hhHealed 200
 execute if score @s custom1 matches 0 if entity @e[tag=player,tag=!died,distance=..1,tag=need_healing] run scoreboard players set @s custom1 560
 
 scoreboard players set percents tmp 560
@@ -24,5 +24,5 @@ execute if score @s custom1 matches 161..240 run setblock ~ ~ ~ minecraft:cake[b
 execute if score @s custom1 matches 81..160 run setblock ~ ~ ~ minecraft:cake[bites=2]
 execute if score @s custom1 matches 1..80 run setblock ~ ~ ~ minecraft:cake[bites=1]
 execute if score @s custom1 matches 0 run setblock ~ ~ ~ minecraft:cake[bites=0]
-execute if score @s custom1 matches 1..560 run fill ~-3 ~-3 ~-3 ~3 ~10 ~3 minecraft:gray_concrete replace minecraft:lime_concrete
-execute if score @s custom1 matches 0 run fill ~-3 ~-3 ~-3 ~3 ~10 ~3 minecraft:lime_concrete replace minecraft:gray_concrete
+execute if score @s custom1 matches 1..560 run fill ~-3 ~-3 ~-3 ~3 ~10 ~3 minecraft:light_gray_concrete replace minecraft:lime_concrete
+execute if score @s custom1 matches 0 run fill ~-3 ~-3 ~-3 ~3 ~10 ~3 minecraft:lime_concrete replace minecraft:light_gray_concrete
