@@ -6,4 +6,3 @@
 scoreboard players add count tmp 1
 scoreboard players add total tmp 1
 execute if score total tmp matches ..49 run function hh:health/display_health_bar/render_as_complete
-say Complete
