@@ -29,7 +29,7 @@ execute if entity @s[tag=!died] run function char:player_tick
 function hh:tick
 
 execute if block ~ ~ ~ minecraft:water run scoreboard players set @s[tag=!died] hhLastDamageWay 6
-execute if block ~ ~ ~ minecraft:water run scoreboard players set @s[tag=!died] hhDamagedM 2147483647
+execute if block ~ ~ ~ minecraft:water run scoreboard players set @s[tag=!died] hhDamagedM 1073741824
 
 # Set uid for all my markers.
 scoreboard players operation @e[tag=my_marker] uid = @e[tag=self,limit=1] uid
