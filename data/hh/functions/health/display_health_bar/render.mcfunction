@@ -18,6 +18,7 @@ scoreboard players operation unit tmp = innateHealth tmp
 scoreboard players operation innateHealth tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
 execute if score unit tmp matches 5.. run scoreboard players add innateHealth tmp 1
+execute if score @s hhInnateHealth matches 1.. run scoreboard players operation innateHealth tmp > 1 const
 
 scoreboard players operation innateArmor tmp = @s hhInnateArmor
 scoreboard players operation innateArmor tmp *= 500 const
@@ -26,6 +27,7 @@ scoreboard players operation unit tmp = innateArmor tmp
 scoreboard players operation innateArmor tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
 execute if score unit tmp matches 5.. run scoreboard players add innateArmor tmp 1
+execute if score @s hhInnateArmor matches 1.. run scoreboard players operation innateArmor tmp > 1 const
 
 scoreboard players operation innateShield tmp = @s hhInnateShield
 scoreboard players operation innateShield tmp *= 500 const
@@ -34,6 +36,7 @@ scoreboard players operation unit tmp = innateShield tmp
 scoreboard players operation innateShield tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
 execute if score unit tmp matches 5.. run scoreboard players add innateShield tmp 1
+execute if score @s hhInnateShield matches 1.. run scoreboard players operation innateShield tmp > 1 const
 
 scoreboard players operation tempArmor tmp = @s hhTempArmor
 scoreboard players operation tempArmor tmp *= 500 const
@@ -42,6 +45,7 @@ scoreboard players operation unit tmp = tempArmor tmp
 scoreboard players operation tempArmor tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
 execute if score unit tmp matches 5.. run scoreboard players add tempArmor tmp 1
+execute if score @s hhTempArmor matches 1.. run scoreboard players operation tempArmor tmp > 1 const
 
 scoreboard players operation tempShield tmp = @s hhTempShield
 scoreboard players operation tempShield tmp *= 500 const
@@ -50,6 +54,7 @@ scoreboard players operation unit tmp = tempShield tmp
 scoreboard players operation tempShield tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
 execute if score unit tmp matches 5.. run scoreboard players add tempShield tmp 1
+execute if score @s hhTempShield matches 1.. run scoreboard players operation tempShield tmp > 1 const
 
 scoreboard players operation reducing tmp = @s hhReducing
 scoreboard players operation reducing tmp *= 500 const
@@ -58,6 +63,7 @@ scoreboard players operation unit tmp = reducing tmp
 scoreboard players operation reducing tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
 execute if score unit tmp matches 5.. run scoreboard players add reducing tmp 1
+execute if score @s hhReducing matches 1.. run scoreboard players operation reducing tmp > 1 const
 
 scoreboard players operation lost tmp = max tmp
 scoreboard players operation lost tmp -= @s hhInnateHealth
@@ -72,6 +78,7 @@ scoreboard players operation unit tmp = lost tmp
 scoreboard players operation lost tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
 execute if score unit tmp matches 5.. run scoreboard players add lost tmp 1
+execute if score max tmp matches 1.. run scoreboard players operation lost tmp > 1 const
 
 scoreboard players operation total tmp = innateHealth tmp
 scoreboard players operation total tmp += innateArmor tmp
