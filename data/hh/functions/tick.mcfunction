@@ -28,7 +28,7 @@ scoreboard players operation @s hhTempShield -= reduced tmp
 execute if score @s hhTempShieldTime matches 1.. run scoreboard players remove @s hhTempShieldTime 1
 
 # Rerender health bar.
-functio n hh:health/calculate_total
+function hh:health/calculate_total
 execute unless score @s hhLastTotal = @s hhTotal run scoreboard players set @s hhShouldRerender 1
 execute if score @s hhShouldRerender matches 1.. run function hh:health/display_health_bar/render
 scoreboard players reset @s hhShouldRerender
