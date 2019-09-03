@@ -14,7 +14,7 @@ execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhLas
 execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhShouldRerender 1
 # Sounds
 execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 10.. run function char:scheduler/hurt
-execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 10.. run effect give @s minecraft:instant_health 1 0 true
+execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 10.. run effect give @s minecraft:instant_damage 1 0 true
 execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 10.. run scoreboard players reset @s hhLastHurtTime
 
 # Deal with temp shield.
