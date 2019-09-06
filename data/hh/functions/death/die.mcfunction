@@ -11,6 +11,8 @@ function hh:death/show_death_message
 scoreboard players set @s hhReviveTime 200
 scoreboard players reset @s hhDamagedM
 scoreboard players reset @s hhDamagedR
+scoreboard players reset @s hhDamagedB
+scoreboard players reset @s hhDamagedBTime
 scoreboard players reset @s hhHealed
 scoreboard players reset @s hhLastDamageWay
 scoreboard players reset @s hhLastDamageUid
