@@ -3,8 +3,6 @@
 
 function player:add_tags
 
-say 我三叉戟打到了 @e[sort=nearest,limit=1,tag=enemy,tag=be_attacked]
-
 scoreboard players add @e[sort=nearest,limit=1,tag=enemy,tag=be_attacked] hhDamagedR 30
 scoreboard players add @e[sort=nearest,limit=1,tag=enemy,tag=be_attacked] hhDamagedB 50
 scoreboard players add @e[sort=nearest,limit=1,tag=enemy,tag=be_attacked] hhDamagedBTime 25
