@@ -63,7 +63,8 @@ scoreboard players operation absorbedByInnateHealth tmp = bleedingCopy tmp
 scoreboard players operation absorbedByInnateHealth tmp < innateHealthBak tmp
 scoreboard players operation innateHealthBak tmp -= absorbedByInnateHealth tmp
 scoreboard players operation bleedingCopy tmp -= absorbedByInnateHealth tmp
-scoreboard players operation bleedingBak tmp -= @s hhDamagedB
+### Remove extra damage.
+scoreboard players operation bleedingBak tmp -= bleedingCopy tmp
 
 # Calculate percents.
 scoreboard players operation innateHealth tmp = innateHealthBak tmp
