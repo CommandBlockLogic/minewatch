@@ -2,7 +2,11 @@
 
 execute if score @s custom1 matches 1.. run scoreboard players remove @s custom1 1
 execute if score @s custom1 matches 0 if entity @e[tag=player,tag=!died,distance=..1,tag=need_healing] run particle minecraft:heart ~ ~ ~ 0.2 0.6 0.2 1 30 force
-execute if score @s custom1 matches 0 run scoreboard players add @e[tag=player,tag=!died,distance=..1,tag=need_healing] hhHealed 200
+execute if score @s custom1 matches 0 if entity @e[tag=player,tag=!died,distance=..1,tag=need_healing] run scoreboard players set remainingHealed tmp 200
+execute if score @s custom1 matches 0 run scoreboard players operation remainingHealed tmp -= @e[tag=player,tag=!died,distance=..1,tag=need_healing] hhDamagedB
+execute if score @s custom1 matches 0 run scoreboard players reset @e[tag=player,tag=!died,distance=..1,tag=need_healing] hhDamagedB
+execute if score @s custom1 matches 0 run scoreboard players reset @e[tag=player,tag=!died,distance=..1,tag=need_healing] hhDamagedBTime
+execute if score @s custom1 matches 0 run scoreboard players operation @e[tag=player,tag=!died,distance=..1,tag=need_healing] hhHealed += remainingHealed tmp
 execute if score @s custom1 matches 0 if entity @e[tag=player,tag=!died,distance=..1,tag=need_healing] run scoreboard players set @s custom1 560
 
 scoreboard players set percents tmp 560
