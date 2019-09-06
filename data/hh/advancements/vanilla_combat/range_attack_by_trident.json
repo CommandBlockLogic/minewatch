@@ -12,5 +12,8 @@
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "hh:vanilla_combat/range_attack_by_trident"
     }
 }

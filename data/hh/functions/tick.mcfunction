@@ -1,9 +1,6 @@
 # hh:tick
 # @as player
 
-# Vanilla combat with others.
-function hh:vanilla_combat/tick
-
 # Damaged.
 scoreboard players operation hh:tick$totalDamage tmp = @s hhDamagedR
 scoreboard players operation hh:tick$totalDamage tmp += @s hhDamagedM
