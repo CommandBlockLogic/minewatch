@@ -1,6 +1,13 @@
 # hh:health/damaged
 # @as players
 
+# Set bleed damage to melee damage.
+execute if score @s hhDamagedBTime matches 1.. run scoreboard players operation damagedBPT tmp = @s hhDamagedB
+execute if score @s hhDamagedBTime matches 1.. run scoreboard players operation damagedBPT tmp /= @s hhDamagedBTime
+execute if score @s hhDamagedBTime matches 1.. run scoreboard players operation @s hhDamagedM += damagedBPT tmp
+execute if score @s hhDamagedBTime matches 1.. run scoreboard players operation @s hhDamagedB -= damagedBPT tmp
+execute if score @s hhDamagedBTime matches 1.. run scoreboard players remove @s hhDamagedBTime 1
+
 # Calculate totalDamage.
 scoreboard players operation totalDamage tmp = @s hhDamagedR
 scoreboard players operation totalDamage tmp += @s hhDamagedM
