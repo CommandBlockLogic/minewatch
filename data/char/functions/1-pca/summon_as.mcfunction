@@ -3,6 +3,6 @@
 
 scoreboard players set @s charID 1
 scoreboard players set @s hhInnateHealth 200
-scoreboard players set @s hhInnateArmor 100
-scoreboard players set @s hhInnateShield 100
-scoreboard players set @s hhInnateMax 400
+scoreboard players set @s hhInnateArmor 0
+scoreboard players set @s hhInnateShield 0
+scoreboard players set @s hhInnateMax 200
