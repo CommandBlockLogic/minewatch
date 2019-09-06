@@ -1,5 +1,5 @@
 # hh:vanilla_combat/melee_attack
-# @as adv reward
+# @as player
 
 scoreboard players add @e[tag=enemy,nbt={HurtTime: 10s}] hhDamagedM 30
 scoreboard players set @e[tag=enemy,nbt={HurtTime: 10s}] hhLastDamageWay 1
