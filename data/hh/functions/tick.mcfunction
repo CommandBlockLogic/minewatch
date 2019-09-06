@@ -2,6 +2,12 @@
 # @as player
 
 # Damaged.
+# Set bleeding damage to melee damage.
+execute if score @s hhDamagedBTime matches 1.. run scoreboard players operation damagedBPT tmp = @s hhDamagedB
+execute if score @s hhDamagedBTime matches 1.. run scoreboard players operation damagedBPT tmp /= @s hhDamagedBTime
+execute if score @s hhDamagedBTime matches 1.. run scoreboard players operation @s hhDamagedM += damagedBPT tmp
+execute if score @s hhDamagedBTime matches 1.. run scoreboard players operation @s hhDamagedB -= damagedBPT tmp
+execute if score @s hhDamagedBTime matches 1.. run scoreboard players remove @s hhDamagedBTime 1
 scoreboard players operation hh:tick$totalDamage tmp = @s hhDamagedR
 scoreboard players operation hh:tick$totalDamage tmp += @s hhDamagedM
 execute if entity @s[tag=!died] if score hh:tick$totalDamage tmp matches 1.. run function hh:health/damaged
