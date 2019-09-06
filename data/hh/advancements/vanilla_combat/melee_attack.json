@@ -12,8 +12,5 @@
                 }
             }
         }
-    },
-    "rewards": {
-        "function": "hh:vanilla_combat/melee_attack"
     }
 }
