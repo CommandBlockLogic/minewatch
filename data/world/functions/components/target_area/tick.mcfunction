@@ -126,8 +126,8 @@ execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 3.
 execute if score $blueTeam custom1 matches 6000.. run scoreboard players set $targetArea custom1 0
 execute if score $blueTeam custom1 matches 6000.. run scoreboard players set $targetArea custom2 0
 execute if score $blueTeam custom1 matches 6000.. run scoreboard players set $targetArea custom3 0
-execute if score $blueTeam custom1 matches 6000.. run fucntion game:over
+execute if score $blueTeam custom1 matches 6000.. run function game:over
 execute if score $redTeam custom1 matches 6000.. run scoreboard players set $targetArea custom1 0
 execute if score $redTeam custom1 matches 6000.. run scoreboard players set $targetArea custom2 0
 execute if score $redTeam custom1 matches 6000.. run scoreboard players set $targetArea custom3 0
-execute if score $redTeam custom1 matches 6000.. run fucntion game:over
+execute if score $redTeam custom1 matches 6000.. run function game:over
