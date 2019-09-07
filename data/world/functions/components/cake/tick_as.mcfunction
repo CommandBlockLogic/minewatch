@@ -20,12 +20,12 @@ execute if score percents tmp matches ..99 run data modify block 0 1 0 Text1 set
 execute if score percents tmp matches ..99 run data modify entity @s CustomName set from block 0 1 0 Text1
 execute if score percents tmp matches 100 run data modify entity @s CustomNameVisible set value 0b
 
-execute if score @s custom1 matches 401..480 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "6"}}, Time: 600}
-execute if score @s custom1 matches 321..400 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "5"}}, Time: 600}
-execute if score @s custom1 matches 241..320 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "4"}}, Time: 600}
-execute if score @s custom1 matches 161..240 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "3"}}, Time: 600}
-execute if score @s custom1 matches 81..160 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "2"}}, Time: 600}
-execute if score @s custom1 matches 1..80 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "1"}}, Time: 600}
-execute if score @s custom1 matches 0 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "0"}}, Time: 600}
+execute if score @s custom1 matches 401..480 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "6"}}, NoGravity: 1b, Time: 600}
+execute if score @s custom1 matches 321..400 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "5"}}, NoGravity: 1b, Time: 600}
+execute if score @s custom1 matches 241..320 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "4"}}, NoGravity: 1b, Time: 600}
+execute if score @s custom1 matches 161..240 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "3"}}, NoGravity: 1b, Time: 600}
+execute if score @s custom1 matches 81..160 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "2"}}, NoGravity: 1b, Time: 600}
+execute if score @s custom1 matches 1..80 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "1"}}, NoGravity: 1b, Time: 600}
+execute if score @s custom1 matches 0 run summon minecraft:falling_block ~ ~ ~ {BlockState: {Name: "minecraft:cake", Properties: {bites: "0"}}, NoGravity: 1b, Time: 600}
 execute if score @s custom1 matches 1..560 run fill ~-3 ~-3 ~-3 ~3 ~10 ~3 minecraft:light_gray_concrete replace minecraft:lime_concrete
 execute if score @s custom1 matches 0 run fill ~-3 ~-3 ~-3 ~3 ~10 ~3 minecraft:lime_concrete replace minecraft:light_gray_concrete
