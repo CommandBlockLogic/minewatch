@@ -4,8 +4,6 @@ scoreboard players set $targetArea custom1 0
 scoreboard players set $targetArea custom2 0
 scoreboard players set $targetArea custom3 0
 
-execute as @e[tag=died] run function hh:death/respawn
-
 title @a times 10 60 10
 title @a subtitle ""
 execute if score $blueTeam custom1 matches 2600.. run title @a[tag=blue_team] title {"color": "blue", "translate": "game.won"}
@@ -18,5 +16,3 @@ scoreboard players reset $redTeam custom1
 scoreboard players set $game custom1 0
 
 bossbar set .mw:process visible false
-
-kill @e[tag=world_attachment]
