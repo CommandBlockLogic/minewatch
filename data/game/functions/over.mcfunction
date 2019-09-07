@@ -10,3 +10,5 @@ scoreboard players reset $blueTeam custom1
 scoreboard players reset $redTeam custom1
 
 scoreboard players set $game custom1 0
+
+bossbar set .mw:process visible false
