@@ -4,8 +4,12 @@
 execute positioned -830 6 25 run function world:components/cake/summon
 execute positioned -900 7 38 run function world:components/cake/summon
 execute positioned -970 6 25 run function world:components/cake/summon
+execute positioned -905 5 3 run function world:components/target_area/summon_negative_point
+execute positioned -895 10 9 run function world:components/target_area/summon_positive_point
+
 scoreboard players set rotation params 90
 execute positioned -805 5 25 run function world:components/spawn_point/summon_blue
+
 scoreboard players set rotation params 270
 execute positioned -995 5 25 run function world:components/spawn_point/summon_red
 

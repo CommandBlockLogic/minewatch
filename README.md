@@ -59,6 +59,7 @@
 | force_player | 强制该实体为一名玩家 |
 | fucking_cbl | 调试 tag，拥有此 tag 的玩家不会被加入游戏 |
 | health_bar | 储存玩家血条 |
+| in_target_area | 处在目标区域中的玩家 |
 | marker_with_uid | 有 UID 的 marker |
 | my_marker | 玩家对应的 marker |
 | my_char | 玩家对应的角色样本 |
