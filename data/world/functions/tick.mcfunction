@@ -4,3 +4,4 @@ execute unless score $ worldID matches 1.. run scoreboard players set $ worldID 
 function world:scheduler/tick
 
 function world:components/cake/tick
+function world:components/target_area/tick
