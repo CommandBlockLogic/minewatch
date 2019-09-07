@@ -73,7 +73,7 @@ execute if score $targetArea custom3 matches 6 if score $targetArea custom1 matc
 ## Set bossbar... 
 ### ...according to the state.
 execute if score $targetArea custom3 matches 0 run bossbar set .mw:process color yellow
-execute if score $targetArea custom3 matches 1 run bossbar set .mw:process color aqua
+execute if score $targetArea custom3 matches 1 run bossbar set .mw:process color blue
 execute if score $targetArea custom3 matches 2 run bossbar set .mw:process color red
 execute if score $targetArea custom3 matches 3 run bossbar set .mw:process color blue
 execute if score $targetArea custom3 matches 4 run bossbar set .mw:process color red
