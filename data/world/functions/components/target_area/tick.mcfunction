@@ -16,7 +16,7 @@ scoreboard players remove yMax params 18
 scoreboard players remove zMin params 8
 scoreboard players add zMax params 8
 
-execute as @e[tag=player] run function world:components/target_area/tick_as
+execute as @e[tag=player,tag=!died] run function world:components/target_area/tick_as
 
 # Handle process.
 # $blueTeam custom1 The process of blue team.
