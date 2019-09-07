@@ -70,10 +70,12 @@ execute if score $targetArea custom3 matches 4 if score blueCount tmp matches 0 
 ### 5 -> 4
 execute if score $targetArea custom3 matches 5 if score $targetArea custom1 matches ..0 if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 4
 ### 5 -> 6
+execute if score $targetArea custom3 matches 5 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom2 0
 execute if score $targetArea custom3 matches 5 if score $targetArea custom1 matches 600.. run function world:components/target_area/switch_to_state_6
 ### 6 -> 7
 execute if score $targetArea custom3 matches 6 if score blueCount tmp matches 1.. if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 7
 ### 7 -> 4
+execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom2 0
 execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matches 600.. run function world:components/target_area/switch_to_state_4
 ### 7 -> 6
 execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matches ..0 if score blueCount tmp matches 0 run scoreboard players set $targetArea custom3 6
