@@ -1042,4 +1042,5 @@ scoreboard players set 1022 const 1022
 scoreboard players set 1023 const 1023
 scoreboard players set 1024 const 1024
 scoreboard players set 1500 const 1500
+scoreboard players set 3000 const 3000
 scoreboard players set 6000 const 6000
