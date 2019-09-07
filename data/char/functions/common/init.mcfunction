@@ -6,3 +6,4 @@ scoreboard players operation @s hhInnateHealth = @e[type=minecraft:armor_stand,t
 scoreboard players operation @s hhInnateArmor = @e[type=minecraft:armor_stand,tag=my_char] hhInnateArmor
 scoreboard players operation @s hhInnateShield = @e[type=minecraft:armor_stand,tag=my_char] hhInnateShield
 scoreboard players operation @s hhInnateMax = @e[type=minecraft:armor_stand,tag=my_char] hhInnateMax
+function hh:health/calculate_total
