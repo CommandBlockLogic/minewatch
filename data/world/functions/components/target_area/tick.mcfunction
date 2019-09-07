@@ -78,8 +78,8 @@ execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matc
 execute if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
 ### 7 -> 6
 execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matches ..0 if score blueCount tmp matches 0 run scoreboard players set $targetArea custom3 6
-## Set bossbar... 
-### ...according to the state.
+## Set bossbar's... 
+### ...color according to the state.
 execute if score $targetArea custom3 matches 0 run bossbar set .mw:process name {"translate": "world.target_area.locked", "color": "yellow"}
 execute if score $targetArea custom3 matches 0..1 run bossbar set .mw:process color yellow
 execute if score $targetArea custom3 matches 2 run bossbar set .mw:process color blue
@@ -87,7 +87,7 @@ execute if score $targetArea custom3 matches 3 run bossbar set .mw:process color
 execute if score $targetArea custom3 matches 4 run bossbar set .mw:process color blue
 execute if score $targetArea custom3 matches 5..6 run bossbar set .mw:process color red
 execute if score $targetArea custom3 matches 7 run bossbar set .mw:process color blue
-### ...according to the team process.
+### ...name according to the team process.
 execute if score $targetArea custom3 matches 1.. run scoreboard players operation blueTeamPercents tmp = $blueTeam custom1
 execute if score $targetArea custom3 matches 1.. run scoreboard players operation blueTeamPercents tmp *= 100 const
 execute if score $targetArea custom3 matches 1.. run scoreboard players operation blueTeamPercents tmp /= 2600 const
@@ -99,17 +99,17 @@ execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 ma
 execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 11..20 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], {"color": "yellow", "text": " ||加时|| "}, [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
 execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 21..30 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], {"color": "yellow", "text": " |||加时||| "}, [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
 execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 31..40 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], {"color": "yellow", "text": " ||||加时|||| "}, [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
-### ...according to the area process.
+### ...value according to the area process.
 execute store result bossbar .mw:process value run scoreboard players get $targetArea custom1
 ## Overtime.
 execute if score $targetArea custom2 matches 1.. run scoreboard players remove $targetArea custom2 1
 execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 matches 2599 if score redCount tmp matches 1.. run scoreboard players set $targetArea custom2 40
 execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 matches 2599 if score blueCount tmp matches 1.. run scoreboard players set $targetArea custom2 40
 ## Add team process.
-execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 matches ..2598 run scoreboard players add $blueTeam custom1 1
 execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 matches 2599 if score $targetArea custom2 matches 0 run scoreboard players add $blueTeam custom1 1
-execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 matches ..2598 run scoreboard players add $redTeam custom1 1
+execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 matches ..2598 run scoreboard players add $blueTeam custom1 1
 execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 matches 2599 if score $targetArea custom2 matches 0 run scoreboard players add $redTeam custom1 1
+execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 matches ..2598 run scoreboard players add $redTeam custom1 1
 ## Add area process.
 execute if score $targetArea custom3 matches 2 if score blueCount tmp matches 0 run scoreboard players remove $targetArea custom1 5
 execute if score $targetArea custom3 matches 2 if score blueCount tmp matches 1 if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 3
