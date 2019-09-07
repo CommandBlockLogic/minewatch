@@ -46,8 +46,8 @@ execute store result score blueCount tmp if entity @e[tag=in_target_area,tag=blu
 execute store result score redCount tmp if entity @e[tag=in_target_area,tag=red_team]
 ## Switch states.
 ### 0 -> 1
-execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches ..599 run scoreboard players add $targetArea custom1 2
-execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches 600.. run scoreboard players add $targetArea custom3 1
+execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches ..599 run scoreboard players add $targetArea custom1 1
+execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 1
 ### 1 -> 2
 execute if score $targetArea custom3 matches 1 if score blueCount tmp matches 1.. if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 2
 ### 1 -> 3
@@ -76,6 +76,7 @@ execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matc
 execute if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
 ## Set bossbar... 
 ### ...according to the state.
+execute if score $targetArea custom3 matches 0 run bossbar set .mw:process name {"translate": "world.target_area.locked", "color": "yellow"}
 execute if score $targetArea custom3 matches 0..1 run bossbar set .mw:process color yellow
 execute if score $targetArea custom3 matches 2 run bossbar set .mw:process color blue
 execute if score $targetArea custom3 matches 3 run bossbar set .mw:process color red
@@ -83,13 +84,13 @@ execute if score $targetArea custom3 matches 4 run bossbar set .mw:process color
 execute if score $targetArea custom3 matches 5..6 run bossbar set .mw:process color red
 execute if score $targetArea custom3 matches 7 run bossbar set .mw:process color blue
 ### ...according to the team process.
-scoreboard players operation blueTeamPercents tmp = $blueTeam custom1
-scoreboard players operation blueTeamPercents tmp *= 100 const
-scoreboard players operation blueTeamPercents tmp /= 2600 const
-scoreboard players operation redTeamPercents tmp = $redTeam custom1
-scoreboard players operation redTeamPercents tmp *= 100 const
-scoreboard players operation redTeamPercents tmp /= 2600 const
-bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], {"color": "yellow", "text": " | "}, [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
+execute if score $targetArea custom3 matches 1.. run scoreboard players operation blueTeamPercents tmp = $blueTeam custom1
+execute if score $targetArea custom3 matches 1.. run scoreboard players operation blueTeamPercents tmp *= 100 const
+execute if score $targetArea custom3 matches 1.. run scoreboard players operation blueTeamPercents tmp /= 2600 const
+execute if score $targetArea custom3 matches 1.. run scoreboard players operation redTeamPercents tmp = $redTeam custom1
+execute if score $targetArea custom3 matches 1.. run scoreboard players operation redTeamPercents tmp *= 100 const
+execute if score $targetArea custom3 matches 1.. run scoreboard players operation redTeamPercents tmp /= 2600 const
+execute if score $targetArea custom3 matches 1.. run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], {"color": "yellow", "text": " | "}, [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
 ### ...according to the area process.
 execute store result bossbar .mw:process value run scoreboard players get $targetArea custom1
 ## Add team process.
