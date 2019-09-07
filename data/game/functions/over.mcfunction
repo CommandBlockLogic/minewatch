@@ -8,3 +8,5 @@ execute if score $redTeam custom1 matches 2600.. run title @a[tag=blue_team] tit
 execute if score $redTeam custom1 matches 2600.. run title @a[tag=red_team] title {"color": "red", "translate": "game.won"}
 scoreboard players reset $blueTeam custom1
 scoreboard players reset $redTeam custom1
+
+scoreboard players set $game custom1 0
