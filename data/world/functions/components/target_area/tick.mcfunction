@@ -20,9 +20,9 @@ execute as @e[tag=player] run function world:components/target_area/tick_as
 
 # Handle process.
 # $blueTeam custom1 The process of blue team.
-## max: 3000
+## max: 2600
 # $redTeam custom1 The process of red team.
-## max: 3000
+## max: 2600
 # $targetArea custom1 The area process.
 ## max: 600
 # $targetArea custom2 Additional time.
@@ -80,10 +80,10 @@ execute if score $targetArea custom3 matches 6 run bossbar set .mw:process color
 ### ...according to the team process.
 scoreboard players operation blueTeamPercents tmp = $blueTeam custom1
 scoreboard players operation blueTeamPercents tmp *= 100 const
-scoreboard players operation blueTeamPercents tmp /= 3000 const
+scoreboard players operation blueTeamPercents tmp /= 2600 const
 scoreboard players operation redTeamPercents tmp = $redTeam custom1
 scoreboard players operation redTeamPercents tmp *= 100 const
-scoreboard players operation redTeamPercents tmp /= 3000 const
+scoreboard players operation redTeamPercents tmp /= 2600 const
 bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], {"color": "yellow", "text": " | "}, [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
 ### ...according to the area process.
 execute store result bossbar .mw:process value run scoreboard players get $targetArea custom1
