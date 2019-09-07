@@ -3,10 +3,10 @@
 
 # Damaged.
 ## In self spawn area.
-execute if entity @s[tag=in_self_spawn_area] run scoreboard players reset hhDamagedM
-execute if entity @s[tag=in_self_spawn_area] run scoreboard players reset hhDamagedR
-execute if entity @s[tag=in_self_spawn_area] run scoreboard players reset hhDamagedB
-execute if entity @s[tag=in_self_spawn_area] run scoreboard players reset hhDamagedBTime
+execute if entity @s[tag=in_self_spawn_area] run scoreboard players reset @s hhDamagedM
+execute if entity @s[tag=in_self_spawn_area] run scoreboard players reset @s hhDamagedR
+execute if entity @s[tag=in_self_spawn_area] run scoreboard players reset @s hhDamagedB
+execute if entity @s[tag=in_self_spawn_area] run scoreboard players reset @s hhDamagedBTime
 ## Set bleeding damage to melee damage.
 execute if score @s hhDamagedBTime matches 1.. run scoreboard players operation damagedBPT tmp = @s hhDamagedB
 execute if score @s hhDamagedBTime matches 1.. run scoreboard players operation damagedBPT tmp /= @s hhDamagedBTime
