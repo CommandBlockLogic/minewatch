@@ -52,24 +52,22 @@ execute if score $targetArea custom3 matches 0 if score blueCount tmp matches 0 
 execute if score $targetArea custom3 matches 1 if score $targetArea custom1 matches ..0 if score blueCount tmp matches 0 run scoreboard players set $targetArea custom3 0
 ### 1 -> 3
 execute if score $targetArea custom3 matches 1 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 3
-execute if score $targetArea custom3 matches 1 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
 ### 2 -> 0
 execute if score $targetArea custom3 matches 2 if score $targetArea custom1 matches ..0 if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 0
 ### 2 -> 5
 execute if score $targetArea custom3 matches 2 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 5
-execute if score $targetArea custom3 matches 2 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
 ### 3 -> 4
 execute if score $targetArea custom3 matches 3 if score blueCount tmp matches 0 if score redCount tmp matches 1.. run scoreboard players set $targetArea custom3 4
 ### 4 -> 3
 execute if score $targetArea custom3 matches 4 if score $targetArea custom1 matches ..0 if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 3
 ### 4 -> 5
 execute if score $targetArea custom3 matches 4 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 5
-execute if score $targetArea custom3 matches 4 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
 ### 6 -> 3
 execute if score $targetArea custom3 matches 6 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 3
-execute if score $targetArea custom3 matches 6 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
 ### 6 -> 5
 execute if score $targetArea custom3 matches 6 if score $targetArea custom1 matches ..0 if score blueCount tmp matches 0 run scoreboard players set $targetArea custom3 5
+### Common.
+execute if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
 ## Set bossbar... 
 ### ...according to the state.
 execute if score $targetArea custom3 matches 0 run bossbar set .mw:process color yellow
