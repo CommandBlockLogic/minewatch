@@ -19,7 +19,11 @@ scoreboard objectives add params dummy "参数"
 scoreboard objectives add result dummy "返回值"
 
 ## 不应跨实体使用
-scoreboard objectives add custom1 dummy "自定义"
+scoreboard objectives add custom1 dummy "自定义1"
+scoreboard objectives add custom2 dummy "自定义2"
+scoreboard objectives add custom3 dummy "自定义3"
+scoreboard objectives add custom4 dummy "自定义4"
+scoreboard objectives add custom5 dummy "自定义5"
 
 # 队伍
 team add red {"text": "红队", "color": "red"}
