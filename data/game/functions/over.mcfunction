@@ -4,7 +4,7 @@ scoreboard players set $targetArea custom1 0
 scoreboard players set $targetArea custom2 0
 scoreboard players set $targetArea custom3 0
 
-execute as @e[tag=player] run function game:respawn_all_as
+execute as @e[tag=player,tag=died] run function game:respawn_all_as
 
 title @a times 10 60 10
 title @a subtitle ""
