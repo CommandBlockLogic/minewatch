@@ -48,8 +48,7 @@ execute store result score redCount tmp if entity @e[tag=in_target_area,tag=red_
 ## Switch states.
 ### 0 -> 1
 execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches ..599 run scoreboard players add $targetArea custom1 1
-execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 1
-execute if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
+execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches 600.. run function world:components/target_area/switch_to_state_1
 ### 1 -> 2
 execute if score $targetArea custom3 matches 1 if score blueCount tmp matches 1.. if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 2
 ### 1 -> 3
@@ -57,25 +56,21 @@ execute if score $targetArea custom3 matches 1 if score blueCount tmp matches 0 
 ### 2 -> 1
 execute if score $targetArea custom3 matches 2 if score $targetArea custom1 matches ..0 if score blueCount tmp matches 0 run scoreboard players set $targetArea custom3 1
 ### 2 -> 4
-execute if score $targetArea custom3 matches 2 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 4
-execute if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
+execute if score $targetArea custom3 matches 2 if score $targetArea custom1 matches 600.. run function world:components/target_area/switch_to_state_4
 ### 3 -> 1
 execute if score $targetArea custom3 matches 3 if score $targetArea custom1 matches ..0 if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 1
 ### 3 -> 6
-execute if score $targetArea custom3 matches 3 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 6
-execute if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
+execute if score $targetArea custom3 matches 3 if score $targetArea custom1 matches 600.. run function world:components/target_area/switch_to_state_6
 ### 4 -> 5
 execute if score $targetArea custom3 matches 4 if score blueCount tmp matches 0 if score redCount tmp matches 1.. run scoreboard players set $targetArea custom3 5
 ### 5 -> 4
 execute if score $targetArea custom3 matches 5 if score $targetArea custom1 matches ..0 if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 4
 ### 5 -> 6
-execute if score $targetArea custom3 matches 5 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 6
-execute if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
+execute if score $targetArea custom3 matches 5 if score $targetArea custom1 matches 600.. run function world:components/target_area/switch_to_state_6
 ### 6 -> 7
 execute if score $targetArea custom3 matches 6 if score blueCount tmp matches 1.. if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 7
 ### 7 -> 4
-execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 4
-execute if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
+execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matches 600.. run function world:components/target_area/switch_to_state_4
 ### 7 -> 6
 execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matches ..0 if score blueCount tmp matches 0 run scoreboard players set $targetArea custom3 6
 ## Set bossbar's... 
