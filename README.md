@@ -52,6 +52,7 @@
 | 标签 | 描述 |
 | - | - |
 | be_attacked | 被原版战斗系统攻击的玩家 |
+| char_attachment | 角色附属 marker |
 | char_sample | 角色样本 |
 | died | 死了的玩家 |
 | enemy | 玩家的敌人 |
@@ -67,6 +68,7 @@
 | same_team | 玩家的同队玩家（包括自己） |
 | self | 玩家自己 |
 | teammate | 玩家的队友 |
+| world_attachment | 世界附属 marker |
 
 ## 枪毙名单
 
