@@ -1,3 +1,3 @@
 # gc:load
 
-scoreboard players set gcLimit const 64
+scoreboard players set gcLimit const 256
