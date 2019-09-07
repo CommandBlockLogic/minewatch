@@ -50,7 +50,7 @@ execute if score total tmp matches 51.. run function hh:health/display_health_ba
 execute if score total tmp matches ..49 if score tempShield tmp matches 1.. if score reducing tmp matches 0 if score lost tmp matches 0 run function hh:health/display_health_bar/render_as_complete
 function hh:health/display_health_bar/render_as_recursive
 
-data modify entity @s HandItems[0].tag.list append value "§7"
+data modify entity @s HandItems[0].tag.list append value "§0"
 scoreboard players operation count tmp = bleeding tmp
 scoreboard players operation total tmp += bleeding tmp
 execute if score total tmp matches 51.. run function hh:health/display_health_bar/render_as_limit
