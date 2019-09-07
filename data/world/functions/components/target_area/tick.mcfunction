@@ -112,22 +112,25 @@ execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 < $
 execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 = $maxAreaProcessMinusOne tmp if score $targetArea custom2 matches 0 run scoreboard players add $redTeam custom1 1
 execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 < $maxAreaProcessMinusOne tmp run scoreboard players add $redTeam custom1 1
 ## Add area process.
+### 1p 10s
+### 2p 7.5s
+### 3p 5s
 execute if score $targetArea custom3 matches 2 if score blueCount tmp matches 0 run scoreboard players remove $targetArea custom1 5
 execute if score $targetArea custom3 matches 2 if score blueCount tmp matches 1 if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 3
 execute if score $targetArea custom3 matches 2 if score blueCount tmp matches 2 if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 4
-execute if score $targetArea custom3 matches 2 if score blueCount tmp matches 3.. if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 5
+execute if score $targetArea custom3 matches 2 if score blueCount tmp matches 3.. if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 6
 execute if score $targetArea custom3 matches 3 if score redCount tmp matches 0 run scoreboard players remove $targetArea custom1 5
 execute if score $targetArea custom3 matches 3 if score blueCount tmp matches 0 if score redCount tmp matches 1 run scoreboard players add $targetArea custom1 3
 execute if score $targetArea custom3 matches 3 if score blueCount tmp matches 0 if score redCount tmp matches 2 run scoreboard players add $targetArea custom1 4
-execute if score $targetArea custom3 matches 3 if score blueCount tmp matches 0 if score redCount tmp matches 3.. run scoreboard players add $targetArea custom1 5
+execute if score $targetArea custom3 matches 3 if score blueCount tmp matches 0 if score redCount tmp matches 3.. run scoreboard players add $targetArea custom1 6
 execute if score $targetArea custom3 matches 5 if score redCount tmp matches 0 run scoreboard players remove $targetArea custom1 5
 execute if score $targetArea custom3 matches 5 if score blueCount tmp matches 0 if score redCount tmp matches 1 run scoreboard players add $targetArea custom1 3
 execute if score $targetArea custom3 matches 5 if score blueCount tmp matches 0 if score redCount tmp matches 2 run scoreboard players add $targetArea custom1 4
-execute if score $targetArea custom3 matches 5 if score blueCount tmp matches 0 if score redCount tmp matches 3.. run scoreboard players add $targetArea custom1 5
+execute if score $targetArea custom3 matches 5 if score blueCount tmp matches 0 if score redCount tmp matches 3.. run scoreboard players add $targetArea custom1 6
 execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 0 run scoreboard players remove $targetArea custom1 5
 execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 1 if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 3
 execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 2 if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 4
-execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 3.. if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 5
+execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 3.. if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 6
 ## Handle win / lose.
 execute if score $blueTeam custom1 >= $maxAreaProcess tmp run function game:over
 execute if score $redTeam custom1 >= $maxAreaProcess tmp run function game:over
