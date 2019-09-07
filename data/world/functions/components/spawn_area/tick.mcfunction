@@ -29,7 +29,5 @@ scoreboard players add redZMax params 8
 
 execute as @e[tag=player,tag=!died] run function world:components/spawn_area/tick_as
 
-scoreboard players add @e[tag=player,tag=blue_team,tag=in_blue_spawn_area] hhHealed 10
-scoreboard players add @e[tag=player,tag=red_team,tag=in_blue_spawn_area] hhDamagedM 10
-scoreboard players add @e[tag=player,tag=red_team,tag=in_red_spawn_area] hhHealed 10
-scoreboard players add @e[tag=player,tag=blue_team,tag=in_red_spawn_area] hhDamagedM 10
+scoreboard players add @e[tag=player,tag=in_self_spawn_area] hhHealed 10
+scoreboard players add @e[tag=player,tag=in_enemy_spawn_area] hhDamagedM 10
