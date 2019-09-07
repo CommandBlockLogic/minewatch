@@ -67,7 +67,7 @@ execute if score $targetArea custom3 matches 5 if score $targetArea custom1 matc
 ### 5 -> 6
 execute if score $targetArea custom3 matches 5 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 6
 ### 6 -> 7
-execute if score $targetArea custom3 matches 6 if score blueCount tmp matches 1.. if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 6
+execute if score $targetArea custom3 matches 6 if score blueCount tmp matches 1.. if score redCount tmp matches 0 run scoreboard players set $targetArea custom3 7
 ### 7 -> 4
 execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom3 4
 ### 7 -> 6
