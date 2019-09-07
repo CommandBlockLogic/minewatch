@@ -76,12 +76,11 @@ execute if score $targetArea custom3 matches 7 if score $targetArea custom1 matc
 execute if score $targetArea custom1 matches 600.. run scoreboard players set $targetArea custom1 0
 ## Set bossbar... 
 ### ...according to the state.
-execute if score $targetArea custom3 matches 1 run bossbar set .mw:process color yellow
+execute if score $targetArea custom3 matches 0..1 run bossbar set .mw:process color yellow
 execute if score $targetArea custom3 matches 2 run bossbar set .mw:process color blue
 execute if score $targetArea custom3 matches 3 run bossbar set .mw:process color red
 execute if score $targetArea custom3 matches 4 run bossbar set .mw:process color blue
-execute if score $targetArea custom3 matches 5 run bossbar set .mw:process color red
-execute if score $targetArea custom3 matches 6 run bossbar set .mw:process color red
+execute if score $targetArea custom3 matches 5..6 run bossbar set .mw:process color red
 execute if score $targetArea custom3 matches 7 run bossbar set .mw:process color blue
 ### ...according to the team process.
 scoreboard players operation blueTeamPercents tmp = $blueTeam custom1
