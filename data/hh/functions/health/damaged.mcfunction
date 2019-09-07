@@ -16,7 +16,7 @@ execute if score totalDamage tmp matches 1.. run scoreboard players set @s hhSho
 execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 10.. run function char:scheduler/hurt
 execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 10.. run effect give @s minecraft:instant_damage 1 0 true
 execute if score totalDamage tmp matches 1.. if score @s hhLastHurtTime matches 10.. run scoreboard players reset @s hhLastHurtTime
-execute if score totalDamage tmp matches 1.. as @e[tag=player] if score @s uid = @e[limit=1,tag=self] hhLastDamageUid run playsound minecraft:entity.arrow.hit_player master @s
+execute if score totalDamage tmp matches 1.. as @e[tag=player] if score @s uid = @e[limit=1,tag=self] hhLastDamageUid at @s run playsound minecraft:entity.arrow.hit_player master @s
 
 # Deal with temp shield.
 scoreboard players operation absorbedByTempShield tmp = totalDamage tmp
