@@ -1,4 +1,4 @@
-# him:xxx
+# him:fill_x
 fill ~ ~ ~ ~ ~ ~ minecraft:light_gray_stained_glass replace air
 fill ~ ~ ~ ~ ~ ~ minecraft:light_gray_concrete replace minecraft:black_concrete
 
