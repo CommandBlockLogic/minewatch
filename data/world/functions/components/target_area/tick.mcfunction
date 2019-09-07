@@ -127,11 +127,5 @@ execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 1 
 execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 2 if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 4
 execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 3.. if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 5
 ## Handle win / lose.
-execute if score $blueTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom1 0
-execute if score $blueTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom2 0
-execute if score $blueTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom3 0
 execute if score $blueTeam custom1 >= $maxAreaProcess tmp run function game:over
-execute if score $redTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom1 0
-execute if score $redTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom2 0
-execute if score $redTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom3 0
 execute if score $redTeam custom1 >= $maxAreaProcess tmp run function game:over

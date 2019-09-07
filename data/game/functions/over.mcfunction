@@ -1,5 +1,9 @@
 # game:over
 
+scoreboard players set $targetArea custom1 0
+scoreboard players set $targetArea custom2 0
+scoreboard players set $targetArea custom3 0
+
 title @a times 10 60 10
 title @a subtitle ""
 execute if score $blueTeam custom1 matches 2600.. run title @a[tag=blue_team] title {"color": "blue", "translate": "game.won"}
