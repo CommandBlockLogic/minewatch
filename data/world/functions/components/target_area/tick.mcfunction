@@ -36,6 +36,10 @@ execute as @e[tag=player] run function world:components/target_area/tick_as
 ## 5 - blue to red
 ## 6 - red
 ## 7 - red to blue
+scoreboard players set $maxAreaProcess tmp 2600
+scoreboard players operation $maxAreaProcessMinusOne tmp = $maxAreaProcess tmp
+scoreboard players remove $maxAreaProcessMinusOne tmp 1
+
 bossbar set .mw:process players @a
 scoreboard players add $blueTeam custom1 0
 scoreboard players add $redTeam custom1 0
@@ -98,13 +102,13 @@ execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 ma
 execute store result bossbar .mw:process value run scoreboard players get $targetArea custom1
 ## Overtime.
 execute if score $targetArea custom2 matches 1.. run scoreboard players remove $targetArea custom2 1
-execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 matches 2599 if score redCount tmp matches 1.. run scoreboard players set $targetArea custom2 40
-execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 matches 2599 if score blueCount tmp matches 1.. run scoreboard players set $targetArea custom2 40
+execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 = $maxAreaProcessMinusOne tmp if score redCount tmp matches 1.. run scoreboard players set $targetArea custom2 40
+execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 = $maxAreaProcessMinusOne tmp if score blueCount tmp matches 1.. run scoreboard players set $targetArea custom2 40
 ## Add team process.
-execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 matches 2599 if score $targetArea custom2 matches 0 run scoreboard players add $blueTeam custom1 1
-execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 matches ..2598 run scoreboard players add $blueTeam custom1 1
-execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 matches 2599 if score $targetArea custom2 matches 0 run scoreboard players add $redTeam custom1 1
-execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 matches ..2598 run scoreboard players add $redTeam custom1 1
+execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 = $maxAreaProcessMinusOne tmp if score $targetArea custom2 matches 0 run scoreboard players add $blueTeam custom1 1
+execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 < $maxAreaProcessMinusOne tmp run scoreboard players add $blueTeam custom1 1
+execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 = $maxAreaProcessMinusOne tmp if score $targetArea custom2 matches 0 run scoreboard players add $redTeam custom1 1
+execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 < $maxAreaProcessMinusOne tmp run scoreboard players add $redTeam custom1 1
 ## Add area process.
 execute if score $targetArea custom3 matches 2 if score blueCount tmp matches 0 run scoreboard players remove $targetArea custom1 5
 execute if score $targetArea custom3 matches 2 if score blueCount tmp matches 1 if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 3
@@ -123,11 +127,11 @@ execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 1 
 execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 2 if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 4
 execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 3.. if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 5
 ## Handle win / lose.
-execute if score $blueTeam custom1 matches 2600.. run scoreboard players set $targetArea custom1 0
-execute if score $blueTeam custom1 matches 2600.. run scoreboard players set $targetArea custom2 0
-execute if score $blueTeam custom1 matches 2600.. run scoreboard players set $targetArea custom3 0
-execute if score $blueTeam custom1 matches 2600.. run function game:over
-execute if score $redTeam custom1 matches 2600.. run scoreboard players set $targetArea custom1 0
-execute if score $redTeam custom1 matches 2600.. run scoreboard players set $targetArea custom2 0
-execute if score $redTeam custom1 matches 2600.. run scoreboard players set $targetArea custom3 0
-execute if score $redTeam custom1 matches 2600.. run function game:over
+execute if score $blueTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom1 0
+execute if score $blueTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom2 0
+execute if score $blueTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom3 0
+execute if score $blueTeam custom1 >= $maxAreaProcess tmp run function game:over
+execute if score $redTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom1 0
+execute if score $redTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom2 0
+execute if score $redTeam custom1 >= $maxAreaProcess tmp run scoreboard players set $targetArea custom3 0
+execute if score $redTeam custom1 >= $maxAreaProcess tmp run function game:over
