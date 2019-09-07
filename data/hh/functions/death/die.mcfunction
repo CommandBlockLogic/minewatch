@@ -6,8 +6,8 @@ scoreboard players operation killerUid tmp = @s hhLastDamageUid
 execute as @e[tag=player,tag=!self] if score @s uid = killerUid tmp run tag @s add hh_killer
 
 # Sounds.
-playsound minecraft:entity.arrow.hit_player master @a[tag=hh_killer] ~ ~ ~ 1000000 0.5
-playsound minecraft:entity.arrow.hit_player master @a[tag=hh_killer] ~ ~ ~ 1000000 2
+execute as @a[tag=hh_killer] at @s run playsound minecraft:entity.arrow.hit_player master @s ~ ~ ~ 1 0.5
+execute as @a[tag=hh_killer] at @s run playsound minecraft:entity.arrow.hit_player master @s ~ ~ ~ 1 2.0
 
 function char:scheduler/die
 function hh:death/show_death_message
