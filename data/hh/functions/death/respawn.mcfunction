@@ -1,6 +1,8 @@
 # hh:death/respawn
 # @as player
 
+say 我复活了
+
 tag @s remove force_player
 tag @s remove died
 gamemode adventure
