@@ -1,5 +1,7 @@
 # game:tick
 
+scoreboard players enable @a p
+
 execute if $game custom1 matches 2 run function game:pausing
 execute as @a[scores={p=1..}] run function game:pause
 
