@@ -7,3 +7,4 @@ execute unless score $game custom1 matches 2 run tellraw @a {"color": "yellow", 
 execute unless score $game custom1 matches 2 run scoreboard players reset $game hhReviveTime
 execute unless score $game custom1 matches 2 run scoreboard players set ans tmp 2
 scoreboard players operation $game custom1 = ans tmp
+scoreboard players reset * p
