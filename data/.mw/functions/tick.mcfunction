@@ -18,5 +18,3 @@ execute if score $secTimer custom1 matches 20 run scoreboard players set $secTim
 scoreboard players reset * tmp
 scoreboard players reset * params
 scoreboard players reset * result
-
-kick @a[name=!SPGoding] 维护中
