@@ -25,7 +25,7 @@ execute as @e[tag=player,tag=!died] run function world:components/target_area/ti
 ## max: 2600
 # $targetArea custom1 The area process.
 ## max: 600
-# $targetArea custom2 Overtime.
+# $targetArea custom2 The current overtime.
 ## max: 40
 # $targetArea custom3 The state of the target area.
 ## 0 - locked to open
@@ -96,10 +96,10 @@ execute if score $targetArea custom3 matches 1.. run scoreboard players operatio
 execute if score $targetArea custom3 matches 1.. run scoreboard players operation redTeamPercents tmp *= 100 const
 execute if score $targetArea custom3 matches 1.. run scoreboard players operation redTeamPercents tmp /= 2600 const
 execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 0 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], {"color": "yellow", "text": " | "}, [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
-execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 1..10 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], [{"color": "yellow", "text": " |"}, {"translate": "world.target_area.overtime"}, "| "], [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
-execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 11..20 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], [{"color": "yellow", "text": " ||"}, {"translate": "world.target_area.overtime"}, "|| "], [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
-execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 21..30 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], [{"color": "yellow", "text": " |||"}, {"translate": "world.target_area.overtime"}, "||| "], [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
-execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 31..40 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], [{"color": "yellow", "text": " ||||"}, {"translate": "world.target_area.overtime"}, "|||| "], [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
+execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 1..20 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], [{"color": "yellow", "text": " |"}, {"translate": "world.target_area.overtime"}, "| "], [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
+execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 21..40 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], [{"color": "yellow", "text": " ||"}, {"translate": "world.target_area.overtime"}, "|| "], [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
+execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 41..60 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], [{"color": "yellow", "text": " |||"}, {"translate": "world.target_area.overtime"}, "||| "], [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
+execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 matches 61..80 run bossbar set .mw:process name ["", [{"color": "aqua", "score": {"objective": "tmp", "name": "blueTeamPercents"}}, "%"], [{"color": "yellow", "text": " ||||"}, {"translate": "world.target_area.overtime"}, "|||| "], [{"color": "red", "score": {"objective": "tmp", "name": "redTeamPercents"}}, "%"]]
 ### ...value according to the area process.
 execute store result bossbar .mw:process value run scoreboard players get $targetArea custom1
 ## Overtime.
