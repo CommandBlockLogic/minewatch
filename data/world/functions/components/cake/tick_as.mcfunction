@@ -28,5 +28,7 @@ execute if score @s custom1 matches 161..240 run setblock ~ ~ ~ minecraft:cake[b
 execute if score @s custom1 matches 81..160 run setblock ~ ~ ~ minecraft:cake[bites=2]
 execute if score @s custom1 matches 1..80 run setblock ~ ~ ~ minecraft:cake[bites=1]
 execute if score @s custom1 matches 0 run setblock ~ ~ ~ minecraft:cake[bites=0]
-execute if score @s custom1 matches 1..560 run fill ~-3 ~-3 ~-3 ~3 ~10 ~3 minecraft:light_gray_concrete replace minecraft:lime_concrete
-execute if score @s custom1 matches 0 run fill ~-3 ~-3 ~-3 ~3 ~10 ~3 minecraft:lime_concrete replace minecraft:light_gray_concrete
+execute if score @s custom1 matches 1..560 run fill ~-8 ~-3 ~-8 ~3 ~10 ~8 minecraft:light_gray_concrete replace minecraft:lime_concrete
+execute if score @s custom1 matches 0 run fill ~-8 ~-3 ~-3 ~8 ~10 ~8 minecraft:lime_concrete replace minecraft:light_gray_concrete
+execute if score @s custom1 matches 1..560 run fill ~-8 ~-3 ~-8 ~3 ~10 ~8 minecraft:light_gray_stained_glass replace minecraft:lime_stained_glass
+execute if score @s custom1 matches 0 run fill ~-8 ~-3 ~-3 ~8 ~10 ~8 minecraft:lime_stained_glass replace minecraft:light_gray_stained_glass
