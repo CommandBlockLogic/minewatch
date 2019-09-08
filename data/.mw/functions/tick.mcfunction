@@ -4,8 +4,8 @@ function .mw:tag_player
 
 function pah:before_tick
 function game:tick
-execute unless $game custom1 matches 2 run function char:tick
-execute unless $game custom1 matches 2 run function world:tick
+execute unless score $game custom1 matches 2 run function char:tick
+execute unless score $game custom1 matches 2 run function world:tick
 execute as @e[tag=player] at @s run function player:tick
 function pah:after_tick
 
