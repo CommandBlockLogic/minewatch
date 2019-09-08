@@ -2,3 +2,4 @@
 # @as [tag=world_spring_component]
 
 particle dolphin ~ ~1 ~ 0.5 1.5 0.5 5 20
+scorebaord players add @e[tag=player,distance=..1.8] buffLevitation20 1
