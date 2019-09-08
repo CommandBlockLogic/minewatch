@@ -1,9 +1,13 @@
-# world:1-machinery_city/tick
+# world:1-bells/tick
 
 # Bells
 execute positioned -830 6 25 run function world:components/cake/summon
 execute positioned -900 7 38 run function world:components/cake/summon
 execute positioned -970 6 25 run function world:components/cake/summon
+execute positioned -932 5 8 run function world:1-bells/components/spring/summon
+execute positioned -932 5 42 run function world:1-bells/components/spring/summon
+execute positioned -868 5 42 run function world:1-bells/components/spring/summon
+execute positioned -868 5 8 run function world:1-bells/components/spring/summon
 execute positioned -905 5 3 run function world:components/target_area/summon_negative_point
 execute positioned -895 10 9 run function world:components/target_area/summon_positive_point
 execute positioned -807 5 17 run function world:components/spawn_area/summon_blue_negative_point
