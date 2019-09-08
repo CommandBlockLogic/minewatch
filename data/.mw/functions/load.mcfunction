@@ -2,6 +2,7 @@
 
 function char:load
 function hh:load
+function game:load
 function gc:load
 function pah:load
 function uid:load
