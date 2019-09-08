@@ -3,4 +3,4 @@
 
 particle dolphin ~ ~1 ~ 0.5 1.5 0.5 5 20
 execute as @a[tag=player,tag=!died,distance=..1.8] unless score @s buffLevitation20 matches 1.. run playsound minecraft:block.bubble_column.upwards_inside master @s
-execute as @e[tag=player,tag=!died,distance=..1.8] unless score @s buffLevitation20 matches 1.. run scoreboard players set @s buffLevitation20 8
+execute as @e[tag=player,tag=!died,distance=..1.8] unless score @s buffLevitation20 matches 1.. run scoreboard players set @s buffLevitation20 10
