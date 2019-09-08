@@ -104,8 +104,8 @@ execute if score $targetArea custom3 matches 1.. if score $targetArea custom2 ma
 execute store result bossbar .mw:process value run scoreboard players get $targetArea custom1
 ## Overtime.
 execute if score $targetArea custom2 matches 1.. run scoreboard players remove $targetArea custom2 1
-execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 = $maxAreaProcessMinusOne tmp if score redCount tmp matches 1.. run scoreboard players set $targetArea custom2 40
-execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 = $maxAreaProcessMinusOne tmp if score blueCount tmp matches 1.. run scoreboard players set $targetArea custom2 40
+execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 = $maxAreaProcessMinusOne tmp if score redCount tmp matches 1.. run scoreboard players set $targetArea custom2 80
+execute if score $targetArea custom3 matches 6..7 if score $redTeam custom1 = $maxAreaProcessMinusOne tmp if score blueCount tmp matches 1.. run scoreboard players set $targetArea custom2 80
 ## Add team process.
 execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 = $maxAreaProcessMinusOne tmp if score $targetArea custom2 matches 0 run scoreboard players add $blueTeam custom1 1
 execute if score $targetArea custom3 matches 4..5 if score $blueTeam custom1 < $maxAreaProcessMinusOne tmp run scoreboard players add $blueTeam custom1 1

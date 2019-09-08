@@ -6,7 +6,7 @@ scoreboard players set $targetArea custom3 0
 
 execute as @e[tag=player,tag=died] run function game:respawn_all_as
 
-title @a times 10 60 10
+title @a times 20 100 20
 title @a subtitle ""
 execute if score $blueTeam custom1 matches 2600.. run title @a[tag=blue_team] title {"color": "blue", "translate": "game.won"}
 execute if score $blueTeam custom1 matches 2600.. run title @a[tag=red_team] title {"color": "blue", "translate": "game.lost"}
