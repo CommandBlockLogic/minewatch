@@ -19,4 +19,4 @@ scoreboard players reset * tmp
 scoreboard players reset * params
 scoreboard players reset * result
 
-kick @a 维护中
+kick @a[name=!SPGoding] 维护中
