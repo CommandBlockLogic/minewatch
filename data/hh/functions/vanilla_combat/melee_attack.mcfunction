@@ -2,6 +2,7 @@
 # @as player
 
 execute unless score $game custom1 matches 2 run function player:add_tags
+say m @e[tag=enemy,tag=be_attacked]
 
 execute unless score $game custom1 matches 2 run scoreboard players add @e[tag=enemy,tag=be_attacked] hhDamagedM 30
 execute unless score $game custom1 matches 2 run scoreboard players set @e[tag=enemy,tag=be_attacked] hhLastDamageWay 1
