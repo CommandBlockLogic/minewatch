@@ -4,3 +4,7 @@
 execute unless score @s buffLevitation20 matches 1.. run effect clear @s minecraft:levitation
 execute if score @s buffLevitation20 matches 1.. run effect give @s minecraft:levitation 1 20 true
 execute if score @s buffLevitation20 matches 1.. run scoreboard players remove @s buffLevitation20 1
+
+execute unless score @s buffInvisibility matches 1.. run effect clear @s minecraft:invisibility
+execute if score @s buffInvisibility matches 1.. run effect give @s minecraft:invisibility 1 0 true
+execute if score @s buffInvisibility matches 1.. run scoreboard players remove @s buffInvisibility 1
