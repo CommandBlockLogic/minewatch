@@ -21,9 +21,3 @@ scoreboard players set rotation params 270
 execute positioned -995 5 25 run function world:components/spawn_point/summon_red
 ## Tick.
 function world:1-bells/components/spring/tick
-
-# Machinery City.
-execute positioned 984 4 984 run function world:components/cake/summon
-execute positioned 984 4 1016 run function world:components/cake/summon
-execute positioned 1016 4 984 run function world:components/cake/summon
-execute positioned 1016 4 1016 run function world:components/cake/summon
