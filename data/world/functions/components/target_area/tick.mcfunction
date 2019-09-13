@@ -51,6 +51,7 @@ execute store result score blueCount tmp if entity @e[tag=in_target_area,tag=blu
 execute store result score redCount tmp if entity @e[tag=in_target_area,tag=red_team,tag=!died]
 ## Switch states.
 ### 0 -> 1
+execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches 1 run function world:components/target_area/switch_to_state_1
 execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches ..599 run scoreboard players add $targetArea custom1 1
 execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches 600.. run function world:components/target_area/switch_to_state_1
 ### 1 -> 2
@@ -132,5 +133,7 @@ execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 1 
 execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 2 if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 4
 execute if score $targetArea custom3 matches 7 if score blueCount tmp matches 3.. if score redCount tmp matches 0 run scoreboard players add $targetArea custom1 6
 ## Handle win / lose.
+execute if score $blueTeam custom1 >= $maxAreaProcess tmp run function world:components/target_area/switch_to_state_1
 execute if score $blueTeam custom1 >= $maxAreaProcess tmp run function game:over
+execute if score $redTeam custom1 >= $maxAreaProcess tmp run function world:components/target_area/switch_to_state_1
 execute if score $redTeam custom1 >= $maxAreaProcess tmp run function game:over
