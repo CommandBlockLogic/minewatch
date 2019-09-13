@@ -16,9 +16,13 @@ execute positioned 919 9 1003 run function world:components/spawn_area/summon_re
 execute positioned 1081 4 997 run function world:components/spawn_area/summon_red_negative_point
 execute positioned 1087 9 1003 run function world:components/spawn_area/summon_red_positive_point
 
+scoreboard players set rotation params 0
+execute positioned 1000 4 916 run function world:components/spawn_point/summon_blue
 scoreboard players set rotation params 180
 execute positioned 1000 4 1084 run function world:components/spawn_point/summon_blue
 scoreboard players set rotation params 90
 execute positioned 1084 4 1000 run function world:components/spawn_point/summon_red
+scoreboard players set rotation params 270
+execute positioned 916 4 1000 run function world:components/spawn_point/summon_red
 ## Tick.
 function world:1-bells/components/spring/tick
