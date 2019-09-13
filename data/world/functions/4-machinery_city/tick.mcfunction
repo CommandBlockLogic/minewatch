@@ -5,8 +5,8 @@ execute positioned 984 4 984 run function world:components/cake/summon
 execute positioned 984 4 1016 run function world:components/cake/summon
 execute positioned 1016 4 984 run function world:components/cake/summon
 execute positioned 1016 4 1016 run function world:components/cake/summon
-execute positioned 998 4 998 run function world:components/target_area/summon_negative_point
-execute positioned 1002 10 1002 run function world:components/target_area/summon_positive_point
+execute positioned 996 4 996 run function world:components/target_area/summon_negative_point
+execute positioned 1004 8 1004 run function world:components/target_area/summon_positive_point
 execute positioned 997 4 913 run function world:components/spawn_area/summon_blue_negative_point
 execute positioned 1003 9 919 run function world:components/spawn_area/summon_blue_positive_point
 execute positioned 997 4 1081 run function world:components/spawn_area/summon_blue_negative_point
