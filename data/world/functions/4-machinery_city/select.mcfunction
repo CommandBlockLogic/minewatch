@@ -1,5 +1,5 @@
-# world:1-bells/select
+# world:4-machinery_city/select
 
-scoreboard players set $ worldID 1
+scoreboard players set $ worldID 4
 
-function world:1-bells/init
+function world:4-machinery_city/init
