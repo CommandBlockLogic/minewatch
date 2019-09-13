@@ -51,7 +51,6 @@ execute store result score blueCount tmp if entity @e[tag=in_target_area,tag=blu
 execute store result score redCount tmp if entity @e[tag=in_target_area,tag=red_team,tag=!died]
 ## Switch states.
 ### 0 -> 1
-execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches 1 run function world:components/target_area/switch_to_state_1
 execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches ..599 run scoreboard players add $targetArea custom1 1
 execute if score $targetArea custom3 matches 0 if score $targetArea custom1 matches 600.. run function world:components/target_area/switch_to_state_1
 ### 1 -> 2
