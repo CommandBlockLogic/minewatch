@@ -22,7 +22,7 @@ execute if entity @s[tag=!died] if score @s charSkillPCool matches 0 if score @s
 execute if entity @s[tag=!died] if score @s charSkillPCool matches 0 if score @s charSkillPChosen matches 2 run function char:scheduler/skill_passive_b
 execute if entity @s[tag=!died] if score @s pahPressQ matches 1.. if score @s charSkillUCool matches 0 if score @s charSkillUChosen matches 1 run function char:scheduler/skill_ultimate_a
 execute if entity @s[tag=!died] if score @s pahPressQ matches 1.. if score @s charSkillUCool matches 0 if score @s charSkillUChosen matches 2 run function char:scheduler/skill_ultimate_b
-execute if entity @s[tag=!died] if score @s pahPressShift matches 1.. run say F
+# execute if entity @s[tag=!died] if score @s pahPressShift matches 1.. run say F
 
 # Do.
 function char:scheduler/do
