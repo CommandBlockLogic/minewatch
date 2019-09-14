@@ -9,8 +9,8 @@ execute if score count tmp > gcLimit const run function gc:collect
 
 # Calculate tps.
 execute store result score bolderSize test run worldborder get
-execute if score bolderSize test matches 3000 run worldborder set 3010 1
-execute if score bolderSize test matches 3000..3010 run scoreboard players add #counter tps 1
-execute if score bolderSize test matches 3010 run scoreboard players operation $ tps = #counter tps
-execute if score bolderSize test matches 3010 run scoreboard players reset #counter tps
-execute if score bolderSize test matches 3010 run worldborder set 3000
+execute if score bolderSize test matches 3000 run worldborder set 3020 1
+execute if score bolderSize test matches 3000..3019 run scoreboard players add #counter tps 1
+execute if score bolderSize test matches 3020 run scoreboard players operation $ tps = #counter tps
+execute if score bolderSize test matches 3020 run scoreboard players reset #counter tps
+execute if score bolderSize test matches 3020 run worldborder set 3000
