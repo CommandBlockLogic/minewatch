@@ -19,6 +19,7 @@ scoreboard objectives add hhDamagedBTime dummy "当前剩余的流血伤害时�
 scoreboard objectives add hhLastTotal dummy "上一刻总生命"
 scoreboard objectives add hhLastHurtTime dummy "上一次娇喘到现在的时间"
 scoreboard objectives add hhShouldRerender dummy "是否应当重绘血量条"
+scoreboard objectives add hhMeleeDamage dummy "本人对他人近战攻击所造成的伤害"
 
 # 1：近战攻击
 # 2：普通攻击
