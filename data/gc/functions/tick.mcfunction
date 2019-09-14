@@ -6,3 +6,7 @@ kill @e[type=minecraft:tnt_minecart]
 
 execute store result score count tmp if entity @e
 execute if score count tmp > gcLimit const run function gc:collect
+
+# Calculate tps.
+execute store result score $ tps run debug stop
+debug start
