@@ -9,7 +9,7 @@ function player:join_team
 function player:add_tags
 
 function uid:tick
-execute unless score $game custom1 matches 2 if entity @s[tag=!died] run function char:player_tick
+execute unless score $game custom1 matches 2 run function char:player_tick
 execute unless score $game custom1 matches 2 run function hh:tick
 execute unless score $game custom1 matches 2 if entity @s[tag=!died] run function buff:tick
 
