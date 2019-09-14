@@ -42,7 +42,6 @@ execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block 
 execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s run fill ~ ~ ~ ~ ~ ~ minecraft:obsidian replace minecraft:air
 
 # Damage
-execute at @e[type=minecraft:area_effect_cloud,tag=new_summoned] run say @e[distance=..1,tag=player,tag=!died,tag=enemy]
 execute at @e[type=minecraft:area_effect_cloud,tag=new_summoned] run scoreboard players add @e[distance=..1,tag=player,tag=!died,tag=enemy] hhDamagedM 10
 execute at @e[type=minecraft:area_effect_cloud,tag=new_summoned] run scoreboard players set @e[distance=..1,tag=player,tag=!died,tag=enemy] hhLastDamageWay 3
 execute at @e[type=minecraft:area_effect_cloud,tag=new_summoned] run scoreboard players operation @e[distance=..1,tag=player,tag=!died,tag=enemy] hhLastDamageUid = @s uid
