@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-        "#minewatch:player_through",
-        "#minewatch:solid_four_directions",
+        "#.mw:player_through",
+        "#.mw:solid_four_directions",
         "#minecraft:stairs",
         "#minecraft:slabs",
         "#minecraft:banners",

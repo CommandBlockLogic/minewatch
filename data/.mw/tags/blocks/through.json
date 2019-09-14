@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "#minewatch:player_through",
+        "#.mw:player_through",
         "minecraft:acacia_fence",
         "minecraft:birch_fence",
         "minecraft:dark_oak_fence",
