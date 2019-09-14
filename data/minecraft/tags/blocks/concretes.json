@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#minecraft:concretes_except_black",
-    "minecraft:black_concrete"
-  ]
-}
