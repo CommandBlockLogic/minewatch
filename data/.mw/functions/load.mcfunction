@@ -1,5 +1,6 @@
 # .mw:load
 
+function buff:load
 function char:load
 function hh:load
 function game:load
