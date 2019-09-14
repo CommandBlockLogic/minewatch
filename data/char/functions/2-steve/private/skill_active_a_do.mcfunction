@@ -39,7 +39,7 @@ execute if score facing tmp matches 2 run summon minecraft:area_effect_cloud ~1 
 
 # Setblock.
 execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:obsidian run scoreboard players set @s custom1 1
-execute at @e[type=minecraft:area_effect_cloud,tag=new_summoned] run scoreboard players operation @e[distance=..1.8,tag=player,tag=!died,tag=enemy] hhLastDamageUid = @s 1
+execute at @e[type=minecraft:area_effect_cloud,tag=new_summoned] run scoreboard players operation @e[distance=..1.8,tag=player,tag=!died,tag=enemy] hhLastDamageUid = @s uid
 execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s run fill ~ ~ ~ ~ ~ ~ minecraft:obsidian replace minecraft:air
 
 tag @e remove new_summoned
