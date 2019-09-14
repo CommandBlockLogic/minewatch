@@ -8,9 +8,9 @@ execute store result score count tmp if entity @e
 execute if score count tmp > gcLimit const run function gc:collect
 
 # Calculate tps.
-# scoreboard players add #timer tps 1
-# execute if score #timer tps matches 600.. store result score $ tps run debug stop
-# execute if score #timer tps matches 600.. run debug start
-# execute if score #timer tps matches 600.. run scoreboard players reset $time tps
-# scoreboard players operation $max tps > $ tps
-# scoreboard players operation $min tps < $ tps
+scoreboard players add #timer tps 1
+execute if score #timer tps matches 600.. store result score $ tps run debug stop
+execute if score #timer tps matches 600.. run debug start
+execute if score #timer tps matches 600.. run scoreboard players reset #timer tps
+scoreboard players operation $max tps > $ tps
+scoreboard players operation $min tps < $ tps
