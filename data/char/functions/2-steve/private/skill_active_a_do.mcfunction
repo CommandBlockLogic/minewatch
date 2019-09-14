@@ -1,5 +1,7 @@
 # char:2-steve/private/skill_active_a_do
 
+say do
+
 scoreboard players set @s charSkillACool 300
 
 # Facing:
