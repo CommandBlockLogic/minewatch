@@ -22,15 +22,21 @@ scoreboard objectives add hhShouldRerender dummy "是否应当重绘血量条"
 
 # 1：近战攻击
 # 2：普通攻击
-# 3：主动技能
-# 4：被动技能
-# 5：终极技能
-# 6 / 未设置：地形
-# 7：普通攻击（爆头）
-# 8：主动技能（爆头）
-# 9：被动技能（爆头）
-# 10：终极技能（爆头）
-# 11：地形（爆头）
+# 3：主动技能A
+# 4：主动技能B
+# 5：被动技能A
+# 6：被动技能B
+# 7：终极技能A
+# 8：终极技能B
+# 9 / 未设置：地形
+# 10：普通攻击（爆头）
+# 11：主动技能A（爆头）
+# 12：主动技能B（爆头）
+# 13：被动技能A（爆头）
+# 14：被动技能B（爆头）
+# 15：终极技能A（爆头）
+# 16：终极技能B（爆头）
+# 17：地形（爆头）
 scoreboard objectives add hhLastDamageWay dummy "上一次受到伤害的方式"
 scoreboard objectives add hhLastDamageTime dummy "距离上一次受到伤害后经过的时间"
 scoreboard objectives add hhLastDamageUid dummy "上一次伤害源的玩家标识符"
