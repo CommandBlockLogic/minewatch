@@ -27,3 +27,6 @@ execute if score @s charSkillPCool matches 0 if score @s charSkillPChosen matche
 execute if score @s pahPressQ matches 1.. if score @s charSkillUCool matches 0 if score @s charSkillUChosen matches 1 run function char:scheduler/skill_ultimate_a
 execute if score @s pahPressQ matches 1.. if score @s charSkillUCool matches 0 if score @s charSkillUChosen matches 2 run function char:scheduler/skill_ultimate_b
 execute if score @s pahPressF matches 1.. run say F
+
+# Do.
+function char:scheduler/do
