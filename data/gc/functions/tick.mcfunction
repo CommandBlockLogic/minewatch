@@ -11,6 +11,4 @@ execute if score count tmp > gcLimit const run function gc:collect
 scoreboard players add #timer tps 1
 execute if score #timer tps matches 100.. store result score $ tps run debug stop
 execute if score #timer tps matches 100.. run debug start
-execute if score #timer tps matches 100.. run scoreboard players operation $max tps > $ tps
-execute if score #timer tps matches 100.. run scoreboard players operation $min tps < $ tps
 execute if score #timer tps matches 100.. run scoreboard players reset #timer tps
