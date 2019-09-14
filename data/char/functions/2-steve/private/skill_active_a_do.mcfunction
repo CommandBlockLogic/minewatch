@@ -1,6 +1,10 @@
 # char:2-steve/private/skill_active_a_do
 
+# Cooldown
 scoreboard players set @s charSkillACool 300
+
+# Sound.
+playsound minecraft:block.anvil.land master @a
 
 # Facing:
 ## West.
