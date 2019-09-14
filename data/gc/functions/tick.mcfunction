@@ -21,3 +21,4 @@ execute if score on tps matches 1.. if score $ tps matches 21.. run bossbar set 
 execute if score on tps matches 1.. if score $ tps matches 18..20 run bossbar set .mw:tps color green
 execute if score on tps matches 1.. if score $ tps matches 12..17 run bossbar set .mw:tps color yellow
 execute if score on tps matches 1.. if score $ tps matches ..11 run bossbar set .mw:tps color red
+execute if score on tps matches 1.. run bossbar set .mw:tps name {"color": "aqua", "score": {"objective": "tps", "name": "$"}}
