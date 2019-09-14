@@ -10,3 +10,8 @@ scoreboard players operation @s hhInnateMax = @e[type=minecraft:armor_stand,tag=
 scoreboard players set @s charSkillAChosen 1
 scoreboard players set @s charSkillPChosen 1
 scoreboard players set @s charSkillUChosen 1
+
+scoreboard players set @s charWeaponCool 0
+scoreboard players set @s charSkillACool 0
+scoreboard players set @s charSkillPCool 0
+scoreboard players set @s charSkillUCool 0
