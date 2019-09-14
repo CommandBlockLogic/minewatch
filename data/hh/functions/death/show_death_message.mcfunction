@@ -12,6 +12,6 @@ execute if score @s hhLastDamageWay matches 17 run data modify entity @e[type=mi
 execute unless score @s hhLastDamageWay matches 0.. run data modify entity @e[type=minecraft:area_effect_cloud,tag=new_summoned,limit=1] CustomName set value '"§r\\u2620"'
 
 execute unless entity @e[tag=hh_killer] run tellraw @a ["", {"selector": "@e[type=minecraft:area_effect_cloud,tag=new_summoned]"}, " ", {"selector": "@s"}]
-execute if entity @e[tag=hh_killer] run tellraw @a ["", {"selector": "@e[tag=hh_killer]"}, {"selector": "@e[type=minecraft:area_effect_cloud,tag=new_summoned]"}, " ", {"selector": "@s"}]
+execute if entity @e[tag=hh_killer] run tellraw @a ["", {"selector": "@e[tag=hh_killer]"}, " ", {"selector": "@e[type=minecraft:area_effect_cloud,tag=new_summoned]"}, " ", {"selector": "@s"}]
 
 kill @e[tag=new_summoned]
