@@ -78,5 +78,5 @@
     - 贴图：Mars_Cloud 折君
     - 模型：SPGoding 折君
     - 音效：Minecraft Overwatch
-- 地　图：HerobrineXia 铃子 Mars_Cloud SPGoding
+- 地　图：00ll00 HerobrineXia 铃子 Mars_Cloud SPGoding
 - 服务器：K_Bai
