@@ -2,4 +2,4 @@
 
 scoreboard objectives add tps dummy "TPS"
 
-scoreboard players set gcLimit const 256
+scoreboard players set gcLimit const 512
