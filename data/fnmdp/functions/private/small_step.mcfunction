@@ -10,8 +10,8 @@ execute store result score y tmp run data get entity @s Pos[1] 100
 execute store result score z tmp run data get entity @s Pos[2] 100
 
 # Get small velocities.
-scoreboard players set VSmallMax tmp 10
-scoreboard players set VSmallMin tmp -10
+scoreboard players set VSmallMax tmp 50
+scoreboard players set VSmallMin tmp -50
 ## X.
 scoreboard players operation VxSmall tmp = Vx params
 execute if score Vx params > VSmallMin tmp if score Vx params < VSmallMax tmp run scoreboard players set Vx params 0
