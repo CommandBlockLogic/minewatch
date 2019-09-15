@@ -17,8 +17,6 @@ function fnmdp:private/small_step
 # Boom.
 scoreboard players add @s fnmdpAge 1
 scoreboard players set boom tmp 0
-execute if entity @s[scores={fnmdpVx=-5..5,fnmdpVy=-5..5,fnmdpVz=-5..5}] run say 1
 execute if entity @s[scores={fnmdpVx=-5..5,fnmdpVy=-5..5,fnmdpVz=-5..5}] run scoreboard players set boom tmp 1
-execute if score @s fnmdpAge >= @s fnmdpLife run say 2
 execute if score @s fnmdpAge >= @s fnmdpLife run scoreboard players set boom tmp 1
 execute if score boom tmp matches 1 run function fnmdp:boom
