@@ -43,7 +43,7 @@ scoreboard players operation @e[tag=tmp] hhLastDamageUid = @s uid
 tag @e remove tmp
 
 # Setblock.
-execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s run scoreboard players set @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=!new_summoned,distance=..1] custom2 1
+execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s run scoreboard players set @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=!new_summoned,distance=..0.1] custom2 1
 execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:obsidian run scoreboard players set @s custom1 1
 execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:air run playsound minecraft:block.metal.place master @a
 execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:obsidian
