@@ -110,7 +110,7 @@ execute store result entity @s Pos[2] double 0.001 run scoreboard players get z 
 
 # Recursion.
 scoreboard players set should tmp 0
-execute if score Vx params matches 1.. run scoreboard players set should tmp 1
-execute if score Vy params matches 1.. run scoreboard players set should tmp 1
-execute if score Vz params matches 1.. run scoreboard players set should tmp 1
+execute unless score Vx params matches 0 run scoreboard players set should tmp 1
+execute unless score Vy params matches 0 run scoreboard players set should tmp 1
+execute unless score Vz params matches 0 run scoreboard players set should tmp 1
 execute if score should tmp matches 1 run function fnmdp:private/small_step
