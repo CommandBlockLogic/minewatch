@@ -67,6 +67,7 @@ execute store result entity @s Pos[1] double 0.01 run scoreboard players get y t
 execute store result entity @s Pos[2] double 0.01 run scoreboard players get z tmp
 
 # Boom.
+scoreboard players add @s fnmdpAge 1
 scoreboard players set boom tmp 0
 execute if entity @s[scores={fnmdpVx=-5..5,fnmdpVy=-5..5,fnmdpVz=-5..5}] run scoreboard players set boom tmp 1
 execute if score @s fnmdpAge >= @s fnmdpLife run scoreboard players set boom tmp 1
