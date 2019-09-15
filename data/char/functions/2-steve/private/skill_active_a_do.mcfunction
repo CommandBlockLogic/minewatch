@@ -5,13 +5,13 @@ scoreboard players set @s charSkillACool -300
 
 # Facing:
 ## West.
-execute if entity @s[y_rotation=45..134] run scoreboard players set facing tmp 1
+execute if entity @s[y_rotation=45..134.99] run scoreboard players set facing tmp 1
 ## East.
-execute if entity @s[y_rotation=225..314] run scoreboard players set facing tmp 1
+execute if entity @s[y_rotation=225..314.99] run scoreboard players set facing tmp 1
 ## North.
-execute if entity @s[y_rotation=135..224] run scoreboard players set facing tmp 2
+execute if entity @s[y_rotation=135..224.99] run scoreboard players set facing tmp 2
 ## South.
-execute if entity @s[y_rotation=-45..44] run scoreboard players set facing tmp 2
+execute if entity @s[y_rotation=-45..44.99] run scoreboard players set facing tmp 2
 
 # Get velocities.
 execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^2 {Tags: ["new_summoned"]}
