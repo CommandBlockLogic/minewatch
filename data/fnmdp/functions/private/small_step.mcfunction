@@ -14,21 +14,21 @@ scoreboard players set VSmallMax tmp 500
 scoreboard players set VSmallMin tmp -500
 ## X.
 scoreboard players operation VxSmall tmp = Vx params
-execute if score Vx params > VSmallMin tmp if score Vx params < VSmallMax tmp run scoreboard players set Vx params 0
+execute if score Vx params >= VSmallMin tmp if score Vx params <= VSmallMax tmp run scoreboard players set Vx params 0
 execute if score Vx params > VSmallMax tmp run scoreboard players operation VxSmall tmp = VSmallMax tmp
 execute if score Vx params > VSmallMax tmp run scoreboard players operation Vx params -= VSmallMax tmp
 execute if score Vx params < VSmallMin tmp run scoreboard players operation VxSmall tmp = VSmallMin tmp
 execute if score Vx params < VSmallMin tmp run scoreboard players operation Vx params -= VSmallMin tmp
 ## Y.
 scoreboard players operation VySmall tmp = Vy params
-execute if score Vy params > VSmallMin tmp if score Vy params < VSmallMax tmp run scoreboard players set Vy params 0
+execute if score Vy params >= VSmallMin tmp if score Vy params <= VSmallMax tmp run scoreboard players set Vy params 0
 execute if score Vy params > VSmallMax tmp run scoreboard players operation VySmall tmp = VSmallMax tmp
 execute if score Vy params > VSmallMax tmp run scoreboard players operation Vy params -= VSmallMax tmp
 execute if score Vy params < VSmallMin tmp run scoreboard players operation VySmall tmp = VSmallMin tmp
 execute if score Vy params < VSmallMin tmp run scoreboard players operation Vy params -= VSmallMin tmp
 ## Z.
 scoreboard players operation VzSmall tmp = Vz params
-execute if score Vz params > VSmallMin tmp if score Vz params < VSmallMax tmp run scoreboard players set Vz params 0
+execute if score Vz params >= VSmallMin tmp if score Vz params <= VSmallMax tmp run scoreboard players set Vz params 0
 execute if score Vz params > VSmallMax tmp run scoreboard players operation VzSmall tmp = VSmallMax tmp
 execute if score Vz params > VSmallMax tmp run scoreboard players operation Vz params -= VSmallMax tmp
 execute if score Vz params < VSmallMin tmp run scoreboard players operation VzSmall tmp = VSmallMin tmp
