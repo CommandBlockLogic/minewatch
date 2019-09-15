@@ -1,6 +1,7 @@
 # hh:vanilla_combat/melee_attack
 # @as player
 
+say 1
 execute unless score $game custom1 matches 2 run function player:add_tags
 
 execute unless score @s hhMeleeDamage matches 0.. run scoreboard players set @s hhMeleeDamage 30
