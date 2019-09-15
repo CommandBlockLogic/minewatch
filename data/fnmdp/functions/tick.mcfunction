@@ -55,3 +55,9 @@ scoreboard players operation z tmp += @s fnmdpVz
 execute store result entity @s Pos[0] double 0.01 run scoreboard players get x tmp
 execute store result entity @s Pos[1] double 0.01 run scoreboard players get y tmp
 execute store result entity @s Pos[2] double 0.01 run scoreboard players get z tmp
+
+# Boom.
+scoreboard players set boom tmp 0
+execute if entity @s[scores={fnmdpVx=-5..5,fnmdpVy=-5..5,fnmdpVz=-5..5}] run scoreboard players set boom tmp 1
+execute if score @s Age >= @s Life run scoreboard players set boom tmp 1
+execute if score boom tmp matches 1 run function fnmdp:boom
