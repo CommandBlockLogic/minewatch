@@ -12,9 +12,11 @@ scoreboard players operation @s fnmdpVz += @s fnmdpAz
 scoreboard players operation Vx params = @s fnmdpVx
 scoreboard players operation Vy params = @s fnmdpVy
 scoreboard players operation Vz params = @s fnmdpVz
-tag @e[tag=enemy,tag=!died] add collision
+tag @e[tag=!self,tag=!died] add collision
 function fnmdp:private/small_step
 tag @e remove collision
+function fnmdp:damage
+tag @e remove fnmdp_hitted
 # tellraw @a[tag=self] ["坐标 X Y Z: ", {"score": {"objective": "tmp", "name": "x"}}, " ", {"score": {"objective": "tmp", "name": "y"}}, " ", {"score": {"objective": "tmp", "name": "z"}}]
 
 # Boom.

@@ -34,4 +34,5 @@ execute if score size params matches 1 if score isConflicted result matches 0 if
 execute if score size params matches 1 if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[west=false] store result score isConflicted result if score fnmdp:isConflicted$x tmp matches ..400
 
 # Entity.
-execute if score isConflicted result matches 0 store result score isConflicted result if entity @e[tag=collision,distance=..1]
+tag @e[tag=collision,distance=..1.5] add fnmdp_hitted
+execute if score isConflicted result matches 0 store result score isConflicted result if entity @e[tag=fnmdp_hitted]
