@@ -14,7 +14,7 @@ execute if entity @s[y_rotation=135..224] run scoreboard players set facing tmp 
 execute if entity @s[y_rotation=-45..44] run scoreboard players set facing tmp 2
 
 # Get velocities.
-execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^1.5 {Tags: ["new_summoned"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^2 {Tags: ["new_summoned"]}
 execute store result score Vx tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[0] 100
 execute store result score Vy tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[1] 100
 execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[2] 100
@@ -33,6 +33,6 @@ scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=ne
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpAz 0
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVKeepN 0
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVKeepT 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpLife 5
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpLife 4
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpSize 2
 tag @e remove new_summoned
