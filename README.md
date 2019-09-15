@@ -13,6 +13,7 @@
 | ------- | ---- | ---- |
 | .mw | Dot MineWatch | 统筹安排 |
 | char  | Character | 角色管理 |
+| fnmdp  | Fancy Newtonian Minecraft Danmu Projectile | 高级牛顿力学弹幕弹射物系统 |
 | gc  | Garbage Collecter | 垃圾 marker 回收 |
 | hh  | Health Handler | 血量管理 |
 | pah | Player Action Handler | 处理玩家按键行为 |
@@ -57,6 +58,7 @@
 | char_sample | 角色样本 |
 | died | 死了的玩家 |
 | enemy | 玩家的敌人 |
+| fnmdp | FNMDP 系统的弹射物，该标签永远同 `marker_with_uid` 一同出现 |
 | force_player | 强制该实体为一名玩家 |
 | fucking_cbl | 调试 tag，拥有此 tag 的玩家不会被加入游戏 |
 | health_bar | 储存玩家血条 |

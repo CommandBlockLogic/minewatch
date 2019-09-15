@@ -15,4 +15,5 @@ execute as @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,ta
 execute as @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=my_marker,scores={custom2=100..}] at @s run kill @s
 
 # Set item.
-execute if entity @s[scores={charSkillACool=..0}] run replaceitem entity @s hotbar.0 minecraft:iron_sword 1
+execute if entity @s[scores={charSkillACool=..0}] if score @s buffWeakness matches 1.. run replaceitem entity @s hotbar.0 minecraft:stone_sword 1
+execute if entity @s[scores={charSkillACool=..0}] unless score @s buffWeakness matches 1.. run replaceitem entity @s hotbar.0 minecraft:iron_sword 1
