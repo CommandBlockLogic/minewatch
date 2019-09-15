@@ -3,9 +3,6 @@
 # Cooldown
 scoreboard players set @s charSkillACool 300
 
-# Sound.
-playsound minecraft:block.anvil.land master @a
-
 # Facing:
 ## West.
 execute if entity @s[y_rotation=45..134] run scoreboard players set facing tmp 1
