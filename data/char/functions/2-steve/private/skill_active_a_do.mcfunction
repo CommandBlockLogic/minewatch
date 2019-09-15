@@ -42,6 +42,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block 
 # Damage
 execute at @e[type=minecraft:area_effect_cloud,tag=new_summoned] run tag @e[distance=..1.5,tag=player,tag=!died] add tmp
 scoreboard players add @e[tag=tmp,tag=enemy] hhDamagedM 10
+scoreboard players set @e[tag=tmp,tag=teammate] hhLastDamageTime 0
 scoreboard players set @e[tag=tmp] hhLastDamageWay 3
 scoreboard players operation @e[tag=tmp] hhLastDamageUid = @s uid
 tag @e remove tmp
