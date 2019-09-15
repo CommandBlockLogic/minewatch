@@ -28,6 +28,28 @@ scoreboard objectives add custom4 dummy "自定义4"
 scoreboard objectives add custom5 dummy "自定义5"
 
 # 队伍
+team add blue {"text": "蓝队", "color": "aqua"}
+team modify blue collisionRule pushOtherTeams
+team modify blue color aqua
+team modify blue friendlyFire false
+team modify blue nametagVisibility hideForOtherTeams
+team modify blue prefix {"text": "", "color": "aqua"}
+team modify blue seeFriendlyInvisibles true
+team modify blue suffix {"text": "", "color": "reset"}
+
+team add blueNameTag {"text": "蓝队", "color": "aqua"}
+team modify blueNameTag collisionRule pushOtherTeams
+team modify blueNameTag color aqua
+team modify blueNameTag friendlyFire false
+team modify blueNameTag nametagVisibility always
+team modify blueNameTag prefix {"text": "", "color": "aqua"}
+team modify blueNameTag seeFriendlyInvisibles true
+team modify blueNameTag suffix {"text": "", "color": "reset"}
+
+team add blueColor {"text": "红色", "color": "aqua"}
+team modify blueColor color aqua
+team modify blueColor collisionRule never
+
 team add red {"text": "红队", "color": "red"}
 team modify red collisionRule pushOtherTeams
 team modify red color red
@@ -46,23 +68,9 @@ team modify redNameTag prefix {"text": "", "color": "red"}
 team modify redNameTag seeFriendlyInvisibles true
 team modify redNameTag suffix {"text": "", "color": "reset"}
 
-team add blue {"text": "蓝队", "color": "aqua"}
-team modify blue collisionRule pushOtherTeams
-team modify blue color aqua
-team modify blue friendlyFire false
-team modify blue nametagVisibility hideForOtherTeams
-team modify blue prefix {"text": "", "color": "aqua"}
-team modify blue seeFriendlyInvisibles true
-team modify blue suffix {"text": "", "color": "reset"}
-
-team add blueNameTag {"text": "蓝队", "color": "aqua"}
-team modify blueNameTag collisionRule pushOtherTeams
-team modify blueNameTag color aqua
-team modify blueNameTag friendlyFire false
-team modify blueNameTag nametagVisibility always
-team modify blueNameTag prefix {"text": "", "color": "aqua"}
-team modify blueNameTag seeFriendlyInvisibles true
-team modify blueNameTag suffix {"text": "", "color": "reset"}
+team add redColor {"text": "红色", "color": "red"}
+team modify redColor color red
+team modify redColor collisionRule never
 
 # 区块
 forceload add -1 -1 1 1
