@@ -5,13 +5,13 @@
 # - Vz
 
 # Get position.
-execute store result score x tmp run data get entity @s Pos[0] 10000
-execute store result score y tmp run data get entity @s Pos[1] 10000
-execute store result score z tmp run data get entity @s Pos[2] 10000
+execute store result score x tmp run data get entity @s Pos[0] 1000
+execute store result score y tmp run data get entity @s Pos[1] 1000
+execute store result score z tmp run data get entity @s Pos[2] 1000
 
 # Get small velocities.
-scoreboard players set VSmallMax tmp 5000
-scoreboard players set VSmallMin tmp -5000
+scoreboard players set VSmallMax tmp 500
+scoreboard players set VSmallMin tmp -500
 ## X.
 scoreboard players operation VxSmall tmp = Vx params
 execute if score Vx params > VSmallMin tmp if score Vx params < VSmallMax tmp run scoreboard players set Vx params 0
@@ -43,7 +43,7 @@ scoreboard players operation zTmp tmp = z tmp
 scoreboard players operation size params = @s fnmdpSize
 ## X.
 scoreboard players operation xTmp tmp += VxSmall tmp
-execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.0001 run scoreboard players get xTmp tmp
+execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.001 run scoreboard players get xTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpKeepT
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpKeepN
@@ -57,10 +57,10 @@ execute if score isConflicted result matches 1.. run scoreboard players operatio
 execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp /= 100 const
-execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.0001 run scoreboard players get x tmp
+execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.001 run scoreboard players get x tmp
 ## Y.
 scoreboard players operation yTmp tmp += VySmall tmp
-execute store result entity @e[limit=1,tag=new_summoned] Pos[1] double 0.0001 run scoreboard players get yTmp tmp
+execute store result entity @e[limit=1,tag=new_summoned] Pos[1] double 0.001 run scoreboard players get yTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpKeepN
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpKeepT
@@ -74,10 +74,10 @@ execute if score isConflicted result matches 1.. run scoreboard players operatio
 execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp /= 100 const
-execute store result entity @e[limit=1,tag=new_summoned] Pos[1] double 0.0001 run scoreboard players get y tmp
+execute store result entity @e[limit=1,tag=new_summoned] Pos[1] double 0.001 run scoreboard players get y tmp
 ## Z.
 scoreboard players operation zTmp tmp += VzSmall tmp
-execute store result entity @e[limit=1,tag=new_summoned] Pos[2] double 0.0001 run scoreboard players get zTmp tmp
+execute store result entity @e[limit=1,tag=new_summoned] Pos[2] double 0.001 run scoreboard players get zTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpKeepN
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpKeepN
@@ -91,7 +91,7 @@ execute if score isConflicted result matches 1.. run scoreboard players operatio
 execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp /= 100 const
-execute store result entity @e[limit=1,tag=new_summoned] Pos[2] double 0.0001 run scoreboard players get z tmp
+execute store result entity @e[limit=1,tag=new_summoned] Pos[2] double 0.001 run scoreboard players get z tmp
 ## End.
 kill @e[tag=new_summoned]
 
@@ -101,9 +101,9 @@ scoreboard players operation y tmp += VySmall tmp
 scoreboard players operation z tmp += VzSmall tmp
 
 # Set positions.
-execute store result entity @s Pos[0] double 0.0001 run scoreboard players get x tmp
-execute store result entity @s Pos[1] double 0.0001 run scoreboard players get y tmp
-execute store result entity @s Pos[2] double 0.0001 run scoreboard players get z tmp
+execute store result entity @s Pos[0] double 0.001 run scoreboard players get x tmp
+execute store result entity @s Pos[1] double 0.001 run scoreboard players get y tmp
+execute store result entity @s Pos[2] double 0.001 run scoreboard players get z tmp
 
 # Recursion.
 scoreboard players set should tmp 0

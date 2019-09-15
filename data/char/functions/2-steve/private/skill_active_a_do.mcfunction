@@ -15,10 +15,12 @@ execute if entity @s[y_rotation=-45..44.99] run scoreboard players set facing tm
 
 # Get velocities.
 execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^2 {Tags: ["new_summoned"]}
-execute store result score Vx tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[0] 10000
-execute store result score Vy tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[1] 10000
-execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[2] 10000
+execute store result score Vx tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[0] 1000
+execute store result score Vy tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[1] 1000
+execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[2] 1000
 kill @e[tag=new_summoned]
+
+tellraw @a ["发射时 X Y Z 速度×1000：", {"score": {"objective": "tmp", "name": "Vx"}}, " ", {"score": {"objective": "tmp", "name": "Vy"}}, " ", {"score": {"objective": "tmp", "name": "Vz"}}]
 
 # Summon obsidian bullet.
 execute anchored eyes positioned ^ ^ ^ anchored feet run summon minecraft:armor_stand ~ ~ ~ {Tags: ["new_summoned", "marker_with_uid", "my_marker", "fnmdp", "char_2-steve_obsidian_bullet"], ArmorItems: [{}, {}, {}, {id: "minecraft:obsidian", Count: 1b}], Glowing: 1b, Marker: 1b, NoGravity: 1b, Invisible: 1b}
