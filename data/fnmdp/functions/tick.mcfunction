@@ -13,7 +13,6 @@ scoreboard players operation Vx params = @s fnmdpVx
 scoreboard players operation Vy params = @s fnmdpVy
 scoreboard players operation Vz params = @s fnmdpVz
 function fnmdp:private/small_step
-tellraw @a[tag=self] "==="
 
 # Boom.
 scoreboard players add @s fnmdpAge 1
