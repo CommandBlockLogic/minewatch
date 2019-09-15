@@ -55,15 +55,15 @@ scoreboard players operation xTmp tmp += VxSmall tmp
 execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.001 run scoreboard players get xTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
 # execute if score isConflicted result matches 1.. run say X
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpKeepT
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpVKeepT
+execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpVKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpVKeepN
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp *= @s fnmdpKeepT
-execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp *= @s fnmdpKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp *= @s fnmdpKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp *= @s fnmdpVKeepT
+execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp *= @s fnmdpVKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp *= @s fnmdpVKeepN
 execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp /= 100 const
@@ -73,15 +73,15 @@ scoreboard players operation yTmp tmp += VySmall tmp
 execute store result entity @e[limit=1,tag=new_summoned] Pos[1] double 0.001 run scoreboard players get yTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
 # execute if score isConflicted result matches 1.. run say Y
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpKeepT
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpVKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpVKeepT
+execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpVKeepN
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp *= @s fnmdpKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp *= @s fnmdpKeepT
-execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp *= @s fnmdpKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp *= @s fnmdpVKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp *= @s fnmdpVKeepT
+execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp *= @s fnmdpVKeepN
 execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp /= 100 const
@@ -91,15 +91,15 @@ scoreboard players operation zTmp tmp += VzSmall tmp
 execute store result entity @e[limit=1,tag=new_summoned] Pos[2] double 0.001 run scoreboard players get zTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
 # execute if score isConflicted result matches 1.. run say Z
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpKeepT
+execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpVKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpVKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpVKeepT
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp *= @s fnmdpKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp *= @s fnmdpKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp *= @s fnmdpKeepT
+execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp *= @s fnmdpVKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp *= @s fnmdpVKeepN
+execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp *= @s fnmdpVKeepT
 execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp /= 100 const
 execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp /= 100 const
