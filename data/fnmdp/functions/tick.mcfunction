@@ -19,6 +19,7 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["new_summoned"]}
 scoreboard players operation xTmp tmp = x tmp
 scoreboard players operation yTmp tmp = y tmp
 scoreboard players operation zTmp tmp = z tmp
+scoreboard players operation size params = @s fnmdpSize
 ## X.
 scoreboard players operation xTmp tmp += @s fnmdpVx
 execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.01 run scoreboard players get xTmp tmp
@@ -71,5 +72,5 @@ execute store result entity @s Pos[2] double 0.01 run scoreboard players get z t
 # Boom.
 scoreboard players set boom tmp 0
 execute if entity @s[scores={fnmdpVx=-5..5,fnmdpVy=-5..5,fnmdpVz=-5..5}] run scoreboard players set boom tmp 1
-execute if score @s Age >= @s Life run scoreboard players set boom tmp 1
+execute if score @s fnmdpAge >= @s fnmdpLife run scoreboard players set boom tmp 1
 execute if score boom tmp matches 1 run function fnmdp:boom
