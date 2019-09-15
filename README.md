@@ -67,6 +67,7 @@
 | my_marker | 玩家对应的 marker |
 | my_char | 玩家对应的角色样本 |
 | need_healing | 该玩家需要治疗 |
+| no_9_damage | 不受地形伤害 |
 | player | 游戏玩家 |
 | protected | 被保护的实体，不会被 GC 收集 |
 | same_team | 玩家的同队玩家（包括自己） |
