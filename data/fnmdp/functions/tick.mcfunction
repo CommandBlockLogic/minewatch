@@ -12,7 +12,7 @@ scoreboard players operation @s fnmdpVz += @s fnmdpAz
 scoreboard players operation Vx params = @s fnmdpVx
 scoreboard players operation Vy params = @s fnmdpVy
 scoreboard players operation Vz params = @s fnmdpVz
-tag @e[tag=!self,tag=!died] add collision
+tag @e[tag=player,tag=!self,tag=!died] add collision
 function fnmdp:private/small_step
 tag @e remove collision
 function fnmdp:damage
