@@ -2,9 +2,10 @@
 
 function buff:load
 function char:load
-function hh:load
+function fnmdp:load
 function game:load
 function gc:load
+function hh:load
 function pah:load
 function uid:load
 function world:load

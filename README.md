@@ -76,10 +76,10 @@
 
 ## 枪毙名单
 
-- 数据包：SPGoding HerobrineXia
+- 数据包：SPGoding HerobrineXia K_Bai
 - 资源包： 
     - 贴图：Mars_Cloud 折君
     - 模型：SPGoding 折君
     - 音效：Minecraft Overwatch
-- 地　图：00ll00 HerobrineXia 铃子 Mars_Cloud SPGoding
+- 地　图：铃子 00ll00 HerobrineXia Mars_Cloud SPGoding
 - 服务器：K_Bai

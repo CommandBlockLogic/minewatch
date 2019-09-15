@@ -18,6 +18,13 @@
         "minecraft:brown_stained_glass_pane",
         "minecraft:green_stained_glass_pane",
         "minecraft:red_stained_glass_pane",
-        "minecraft:black_stained_glass_pane"
+        "minecraft:black_stained_glass_pane",
+        "minecraft:acacia_fence",
+        "minecraft:birch_fence",
+        "minecraft:dark_oak_fence",
+        "minecraft:jungle_fence",
+        "minecraft:oak_fence",
+        "minecraft:spruce_fence",
+        "minecraft:iron_bars"
     ]
 }
