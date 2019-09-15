@@ -5,9 +5,9 @@
 # - Vz
 
 # Get position.
-execute store result score x tmp run data get entity @s Pos[0] 100
-execute store result score y tmp run data get entity @s Pos[1] 100
-execute store result score z tmp run data get entity @s Pos[2] 100
+execute store result score x tmp run data get entity @s Pos[0] 10000
+execute store result score y tmp run data get entity @s Pos[1] 10000
+execute store result score z tmp run data get entity @s Pos[2] 10000
 
 # Get small velocities.
 scoreboard players set VSmallMax tmp 50
@@ -101,9 +101,9 @@ scoreboard players operation y tmp += VySmall tmp
 scoreboard players operation z tmp += VzSmall tmp
 
 # Set positions.
-execute store result entity @s Pos[0] double 0.01 run scoreboard players get x tmp
-execute store result entity @s Pos[1] double 0.01 run scoreboard players get y tmp
-execute store result entity @s Pos[2] double 0.01 run scoreboard players get z tmp
+execute store result entity @s Pos[0] double 0.0001 run scoreboard players get x tmp
+execute store result entity @s Pos[1] double 0.0001 run scoreboard players get y tmp
+execute store result entity @s Pos[2] double 0.0001 run scoreboard players get z tmp
 
 # Recursion.
 scoreboard players set should tmp 0

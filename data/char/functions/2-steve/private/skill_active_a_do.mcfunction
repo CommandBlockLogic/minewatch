@@ -15,9 +15,9 @@ execute if entity @s[y_rotation=-45..44] run scoreboard players set facing tmp 2
 
 # Get velocities.
 execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^2 {Tags: ["new_summoned"]}
-execute store result score Vx tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[0] 100
-execute store result score Vy tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[1] 100
-execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[2] 100
+execute store result score Vx tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[0] 10000
+execute store result score Vy tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[1] 10000
+execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[2] 10000
 kill @e[tag=new_summoned]
 
 # Summon obsidian bullet.
