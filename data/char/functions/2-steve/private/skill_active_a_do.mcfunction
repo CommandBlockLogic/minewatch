@@ -21,15 +21,18 @@ execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:
 kill @e[tag=new_summoned]
 
 # Summon obsidian bullet.
-execute anchored eyes positioned ^ ^ ^ anchored feet run summon minecraft:falling_block ~ ~ ~ {Tags: ["new_summoned", "marker_with_uid", "my_marker", "fnmdp"], BlockState: {Name: "minecraft:obsidian"}, Glowing: 1b, NoGravity: 1b}
-scoreboard players operation @e[limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpVx = Vx tmp
-scoreboard players operation @e[limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpVy = Vy tmp
-scoreboard players operation @e[limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpVz = Vz tmp
-scoreboard players set @e[limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpAx 0
-scoreboard players set @e[limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpAy 0
-scoreboard players set @e[limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpAz 0
-scoreboard players set @e[limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpVKeepN 0
-scoreboard players set @e[limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpVKeepT 0
-scoreboard players set @e[limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpLife 8
-scoreboard players set @e[limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpSize 2
+execute anchored eyes positioned ^ ^ ^ anchored feet run summon minecraft:falling_block ~ ~ ~ {Tags: ["new_summoned", "marker_with_uid", "my_marker", "fnmdp"], BlockState: {Name: "minecraft:obsidian"}, Glowing: 1b, NoGravity: 1b, Time: 2}
+execute if entity @s[tag=blue_team] run team join blueColor @e[distance=..5,type=minecraft:falling_block,tag=new_summoned]
+execute if entity @s[tag=red_team] run team join redColor @e[distance=..5,type=minecraft:falling_block,tag=new_summoned]
+scoreboard players operation @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpVx = Vx tmp
+scoreboard players operation @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpVy = Vy tmp
+scoreboard players operation @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpVz = Vz tmp
+scoreboard players operation @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] custom1 = facing tmp
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpAx 0
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpAy 0
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpAz 0
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpVKeepN 0
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpVKeepT 0
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpLife 8
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:falling_block,tag=new_summoned] fnmdpSize 2
 tag @e remove new_summoned
