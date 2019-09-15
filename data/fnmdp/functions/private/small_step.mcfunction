@@ -35,7 +35,6 @@ execute if score Vz params < VSmallMin tmp run scoreboard players operation VzSm
 execute if score Vz params < VSmallMin tmp run scoreboard players operation Vz params -= VSmallMin tmp
 
 tellraw @a[tag=self] ["分解速度 X Y Z × 1000: ", {"score": {"objective": "tmp", "name": "VxSmall"}}, " ", {"score": {"objective": "tmp", "name": "VySmall"}}, " ", {"score": {"objective": "tmp", "name": "VzSmall"}}]
-tellraw @a[tag=self] "==="
 
 # Check collision.
 ## Begin.
