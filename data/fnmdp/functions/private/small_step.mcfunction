@@ -34,6 +34,8 @@ execute if score Vz params > VSmallMax tmp run scoreboard players operation Vz p
 execute if score Vz params < VSmallMin tmp run scoreboard players operation VzSmall tmp = VSmallMin tmp
 execute if score Vz params < VSmallMin tmp run scoreboard players operation Vz params -= VSmallMin tmp
 
+tellraw @a ["分解速度 X Y Z × 1000: ", {"score": {"objective": "tmp", "name": "VzSmall"}}, " ", {"score": {"objective": "tmp", "name": "VySmall"}}, " ", {"score": {"objective": "tmp", "name": "VzSmall"}}]
+
 # Check collision.
 ## Begin.
 summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["new_summoned"]}

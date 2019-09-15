@@ -20,8 +20,6 @@ execute store result score Vy tmp run data get entity @e[limit=1,type=minecraft:
 execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[2] 1000
 kill @e[tag=new_summoned]
 
-tellraw @a ["发射时 X Y Z 速度×1000：", {"score": {"objective": "tmp", "name": "Vx"}}, " ", {"score": {"objective": "tmp", "name": "Vy"}}, " ", {"score": {"objective": "tmp", "name": "Vz"}}]
-
 # Summon obsidian bullet.
 execute anchored eyes positioned ^ ^ ^ anchored feet run summon minecraft:armor_stand ~ ~ ~ {Tags: ["new_summoned", "marker_with_uid", "my_marker", "fnmdp", "char_2-steve_obsidian_bullet"], ArmorItems: [{}, {}, {}, {id: "minecraft:obsidian", Count: 1b}], Glowing: 1b, Marker: 1b, NoGravity: 1b, Invisible: 1b}
 execute if entity @s[tag=blue_team] run team join blueColor @e[distance=..5,type=minecraft:armor_stand,tag=new_summoned]
@@ -35,6 +33,6 @@ scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=ne
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpAz 0
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVKeepN 0
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVKeepT 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpLife 10
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpLife 1
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpSize 2
 tag @e remove new_summoned
