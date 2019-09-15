@@ -21,7 +21,7 @@ execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:
 kill @e[tag=new_summoned]
 
 # Summon obsidian bullet.
-execute anchored eyes positioned ^ ^ ^ anchored feet run summon minecraft:armor_stand ~ ~ ~ {Tags: ["new_summoned", "marker_with_uid", "my_marker", "fnmdp", "char_2-steve_obsidian_bullet"], ArmorItems: [{}, {}, {}, {id: "minecraft:obsidian", Count: 1b}], Glowing: 1b, NoGravity: 1b, Invulnerable: 1b}
+execute anchored eyes positioned ^ ^ ^ anchored feet run summon minecraft:armor_stand ~ ~ ~ {Tags: ["new_summoned", "marker_with_uid", "my_marker", "fnmdp", "char_2-steve_obsidian_bullet"], ArmorItems: [{}, {}, {}, {id: "minecraft:obsidian", Count: 1b}], Glowing: 1b, NoGravity: 1b, Invulnerable: 1b, Marker: 1b, Invisible: 1b}
 execute if entity @s[tag=blue_team] run team join blueColor @e[distance=..5,type=minecraft:armor_stand,tag=new_summoned]
 execute if entity @s[tag=red_team] run team join redColor @e[distance=..5,type=minecraft:armor_stand,tag=new_summoned]
 scoreboard players operation @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVx = Vx tmp
