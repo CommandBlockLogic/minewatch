@@ -2,7 +2,6 @@
 # @tag @in
 # - fnmdp_hitted
 
-scoreboard players add @e[tag=fnmdp_hitted,tag=enemy] hhDamagedM 10
-scoreboard players set @e[tag=fnmdp_hitted] hhLastDamageTime 0
+scoreboard players add @e[tag=fnmdp_hitted] hhDamagedM 10
 scoreboard players set @e[tag=fnmdp_hitted] hhLastDamageWay 3
 scoreboard players operation @e[tag=fnmdp_hitted] hhLastDamageUid = @s uid
