@@ -4,7 +4,7 @@
 scoreboard players set @s hhMeleeDamage 80
 
 # Active skill A - obsidian wall.
-execute if entity @s[scores={charSkillACool=1}] run playsound minecraft:block.lava.extinguish master @a
+execute if entity @s[scores={charSkillACool=1}] run playsound minecraft:block.lava.extinguish master @s ~ ~ ~ 1000000
 execute if entity @s[scores={charSkillACool=1}] anchored eyes positioned ^ ^ ^ anchored feet run function char:2-steve/private/skill_active_a_ray
 execute if entity @s[scores={charSkillACool=1..}] run scoreboard players set @s charSkillACool -300
 
