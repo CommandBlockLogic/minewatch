@@ -13,8 +13,7 @@ scoreboard players operation Vx params = @s fnmdpVx
 scoreboard players operation Vy params = @s fnmdpVy
 scoreboard players operation Vz params = @s fnmdpVz
 function fnmdp:private/small_step
-
-tellraw @a[tag=self] ["坐标 X Y Z: ", {"score": {"objective": "tmp", "name": "x"}}, " ", {"score": {"objective": "tmp", "name": "y"}}, " ", {"score": {"objective": "tmp", "name": "z"}}]
+# tellraw @a[tag=self] ["坐标 X Y Z: ", {"score": {"objective": "tmp", "name": "x"}}, " ", {"score": {"objective": "tmp", "name": "y"}}, " ", {"score": {"objective": "tmp", "name": "z"}}]
 
 # Boom.
 scoreboard players add @s fnmdpAge 1
