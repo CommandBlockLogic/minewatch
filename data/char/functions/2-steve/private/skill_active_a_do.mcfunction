@@ -38,9 +38,9 @@ execute if score facing tmp matches 2 run summon minecraft:area_effect_cloud ~ ~
 execute if score facing tmp matches 2 run summon minecraft:area_effect_cloud ~1 ~3 ~ {Duration: 32767, NoGravity: 1b, Tags: ["char_2-steve_obsidian_wall", "char_attachment", "marker_with_uid", "my_marker", "new_summoned", "protected"]}
 
 # Setblock.
-execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:air run scoreboard players set @s custom1 1
-execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:obsidian run playsound minecraft:block.metal.place master @a
-execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:obsidian run setblock ~ ~ ~ minecraft:obsidian
+execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:obsidian run scoreboard players set @s custom1 1
+execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:air run playsound minecraft:block.metal.place master @a
+execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:obsidian
 
 # Damage
 execute at @e[type=minecraft:area_effect_cloud,tag=new_summoned] run tag @e[distance=..1,tag=player,tag=!died,tag=enemy] add tmp
