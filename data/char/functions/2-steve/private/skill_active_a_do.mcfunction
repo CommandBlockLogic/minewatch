@@ -14,14 +14,14 @@ execute if entity @s[y_rotation=135..224.99] run scoreboard players set facing t
 execute if entity @s[y_rotation=-45..44.99] run scoreboard players set facing tmp 2
 
 # Get velocities.
-execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^0.25 {Tags: ["new_summoned"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^0.125 {Tags: ["new_summoned"]}
 execute store result score Vx tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[0] 1000
 execute store result score Vy tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[1] 1000
 execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[2] 1000
 kill @e[tag=new_summoned]
 
 # Summon obsidian bullet.
-execute anchored eyes positioned ^ ^ ^ anchored feet run summon minecraft:armor_stand ~ ~ ~ {Tags: ["new_summoned", "marker_with_uid", "my_marker", "fnmdp", "char_2-steve_obsidian_bullet"], ArmorItems: [{}, {}, {}, {id: "minecraft:obsidian", Count: 1b}], Glowing: 1b, Marker: 1b, NoGravity: 1b, Invisible: 1b}
+execute anchored eyes positioned ^ ^ ^ anchored feet run summon minecraft:armor_stand ~ ~ ~ {Tags: ["new_summoned", "marker_with_uid", "my_marker", "fnmdp", "char_2-steve_obsidian_bullet"], ArmorItems: [{}, {}, {}, {id: "minecraft:obsidian", Count: 1b}], Glowing: 1b, NoGravity: 1b}
 execute if entity @s[tag=blue_team] run team join blueColor @e[distance=..5,type=minecraft:armor_stand,tag=new_summoned]
 execute if entity @s[tag=red_team] run team join redColor @e[distance=..5,type=minecraft:armor_stand,tag=new_summoned]
 scoreboard players operation @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVx = Vx tmp
@@ -33,6 +33,6 @@ scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=ne
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpAz 0
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVKeepN 0
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVKeepT 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpLife 32
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpLife 64
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpSize 2
 tag @e remove new_summoned
