@@ -30,9 +30,9 @@ scoreboard players operation @e[tag=tmp] hhLastDamageUid = @s uid
 tag @e remove tmp
 
 # Setblock.
-execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:obsidian unless entity @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=!new_summoned,distance=..0.1,scores={custom=0}] run scoreboard players set @s custom1 1
+execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:obsidian unless entity @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=!new_summoned,distance=..0.1] run scoreboard players set @s custom1 1
+execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:obsidian if entity @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=!new_summoned,distance=..0.1,scores={custom1=1}] run scoreboard players set @s custom1 1
 execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s run kill @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=!new_summoned,distance=..0.1]
-execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:air run scoreboard players set @s custom1 0
 execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:air run playsound minecraft:block.metal.place master @a
 execute as @e[type=minecraft:area_effect_cloud,tag=new_summoned] at @s if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:obsidian
 
