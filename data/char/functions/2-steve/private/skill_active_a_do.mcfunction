@@ -1,7 +1,7 @@
 # char:2-steve/private/skill_active_a_do
 
 # Cooldown
-scoreboard players set @s charSkillACool 300
+scoreboard players set @s charSkillACool -300
 
 # Facing:
 ## West.
