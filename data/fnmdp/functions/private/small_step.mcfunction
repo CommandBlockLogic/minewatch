@@ -3,6 +3,10 @@
 # - Vx
 # - Vy
 # - Vz
+# @tmp @out
+# - x
+# - y
+# - z
 
 # Get position.
 execute store result score x tmp run data get entity @s Pos[0] 1000
