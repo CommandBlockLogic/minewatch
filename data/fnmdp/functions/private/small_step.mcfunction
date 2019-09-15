@@ -13,26 +13,26 @@ execute store result score z tmp run data get entity @s Pos[2] 100
 scoreboard players set VSmallMax tmp 50
 scoreboard players set VSmallMin tmp -50
 ## X.
-scoreboard players operation VxSmall tmp = Vx tmp
-execute if score Vx tmp > VSmallMin tmp if score Vx tmp < VSmallMax tmp run scoreboard players set Vx tmp 0
-execute if score Vx tmp > VSmallMax tmp run scoreboard players operation VxSmall tmp = VSmallMax tmp
-execute if score Vx tmp > VSmallMax tmp run scoreboard players operation Vx tmp -= VSmallMax tmp
-execute if score Vx tmp < VSmallMin tmp run scoreboard players operation VxSmall tmp = VSmallMin tmp
-execute if score Vx tmp < VSmallMin tmp run scoreboard players operation Vx tmp -= VSmallMin tmp
+scoreboard players operation VxSmall tmp = Vx params
+execute if score Vx params > VSmallMin tmp if score Vx params < VSmallMax tmp run scoreboard players set Vx params 0
+execute if score Vx params > VSmallMax tmp run scoreboard players operation VxSmall tmp = VSmallMax tmp
+execute if score Vx params > VSmallMax tmp run scoreboard players operation Vx params -= VSmallMax tmp
+execute if score Vx params < VSmallMin tmp run scoreboard players operation VxSmall tmp = VSmallMin tmp
+execute if score Vx params < VSmallMin tmp run scoreboard players operation Vx params -= VSmallMin tmp
 ## Y.
-scoreboard players operation VySmall tmp = Vy tmp
-execute if score Vy tmp > VSmallMin tmp if score Vy tmp < VSmallMax tmp run scoreboard players set Vy tmp 0
-execute if score Vy tmp > VSmallMax tmp run scoreboard players operation VySmall tmp = VSmallMax tmp
-execute if score Vy tmp > VSmallMax tmp run scoreboard players operation Vy tmp -= VSmallMax tmp
-execute if score Vy tmp < VSmallMin tmp run scoreboard players operation VySmall tmp = VSmallMin tmp
-execute if score Vy tmp < VSmallMin tmp run scoreboard players operation Vy tmp -= VSmallMin tmp
+scoreboard players operation VySmall tmp = Vy params
+execute if score Vy params > VSmallMin tmp if score Vy params < VSmallMax tmp run scoreboard players set Vy params 0
+execute if score Vy params > VSmallMax tmp run scoreboard players operation VySmall tmp = VSmallMax tmp
+execute if score Vy params > VSmallMax tmp run scoreboard players operation Vy params -= VSmallMax tmp
+execute if score Vy params < VSmallMin tmp run scoreboard players operation VySmall tmp = VSmallMin tmp
+execute if score Vy params < VSmallMin tmp run scoreboard players operation Vy params -= VSmallMin tmp
 ## Z.
-scoreboard players operation VzSmall tmp = Vz tmp
-execute if score Vz tmp > VSmallMin tmp if score Vz tmp < VSmallMax tmp run scoreboard players set Vz tmp 0
-execute if score Vz tmp > VSmallMax tmp run scoreboard players operation VzSmall tmp = VSmallMax tmp
-execute if score Vz tmp > VSmallMax tmp run scoreboard players operation Vz tmp -= VSmallMax tmp
-execute if score Vz tmp < VSmallMin tmp run scoreboard players operation VzSmall tmp = VSmallMin tmp
-execute if score Vz tmp < VSmallMin tmp run scoreboard players operation Vz tmp -= VSmallMin tmp
+scoreboard players operation VzSmall tmp = Vz params
+execute if score Vz params > VSmallMin tmp if score Vz params < VSmallMax tmp run scoreboard players set Vz params 0
+execute if score Vz params > VSmallMax tmp run scoreboard players operation VzSmall tmp = VSmallMax tmp
+execute if score Vz params > VSmallMax tmp run scoreboard players operation Vz params -= VSmallMax tmp
+execute if score Vz params < VSmallMin tmp run scoreboard players operation VzSmall tmp = VSmallMin tmp
+execute if score Vz params < VSmallMin tmp run scoreboard players operation Vz params -= VSmallMin tmp
 
 # Check collision.
 ## Begin.
@@ -107,7 +107,7 @@ execute store result entity @s Pos[2] double 0.01 run scoreboard players get z t
 
 # Recursion.
 scoreboard players set should tmp 0
-execute if score Vx tmp matches 1.. run scoreboard players set should tmp 1
-execute if score Vy tmp matches 1.. run scoreboard players set should tmp 1
-execute if score Vz tmp matches 1.. run scoreboard players set should tmp 1
+execute if score Vx params matches 1.. run scoreboard players set should tmp 1
+execute if score Vy params matches 1.. run scoreboard players set should tmp 1
+execute if score Vz params matches 1.. run scoreboard players set should tmp 1
 execute if score should tmp matches 1 run function fnmdp:private/small_step
