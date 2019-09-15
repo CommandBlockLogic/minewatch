@@ -5,21 +5,7 @@ scoreboard players set @s hhMeleeDamage 80
 
 # Active skill A - obsidian wall.
 execute if entity @s[scores={charSkillACool=1}] run playsound minecraft:block.lava.extinguish master @s ~ ~ ~ 1000000
-execute if entity @s[scores={charSkillACool=1}] anchored eyes positioned ^ ^ ^ anchored feet run function char:2-steve/private/skill_active_a_ray
-execute if entity @s[scores={charSkillACool=1..}] run scoreboard players set @s charSkillACool -300
-
-# Cooldown
-scoreboard players set @s charSkillACool -300
-
-# Facing:
-## West.
-execute if entity @s[y_rotation=45..134] run scoreboard players set facing tmp 1
-## East.
-execute if entity @s[y_rotation=225..314] run scoreboard players set facing tmp 1
-## North.
-execute if entity @s[y_rotation=135..224] run scoreboard players set facing tmp 2
-## South.
-execute if entity @s[y_rotation=-45..44] run scoreboard players set facing tmp 2
+execute if entity @s[scores={charSkillACool=1..}] run function char:2-steve/private/skill_active_a_do
 
 execute as @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=my_marker] run scoreboard players add @s custom2 1
 execute as @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=my_marker,scores={custom2=100..}] at @s unless score @s custom1 matches 1 if block ~ ~ ~ minecraft:obsidian run playsound minecraft:block.metal.break master @a[tag=!self]
