@@ -48,6 +48,8 @@ scoreboard players operation xTmp tmp = x tmp
 scoreboard players operation yTmp tmp = y tmp
 scoreboard players operation zTmp tmp = z tmp
 scoreboard players operation size params = @s fnmdpSize
+execute store result entity @e[limit=1,tag=new_summoned] Pos[1] double 0.001 run scoreboard players get yTmp tmp
+execute store result entity @e[limit=1,tag=new_summoned] Pos[2] double 0.001 run scoreboard players get zTmp tmp
 ## X.
 scoreboard players operation xTmp tmp += VxSmall tmp
 execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.001 run scoreboard players get xTmp tmp
