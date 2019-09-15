@@ -24,7 +24,6 @@ scoreboard players operation size params = @s fnmdpSize
 scoreboard players operation xTmp tmp += @s fnmdpVx
 execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.01 run scoreboard players get xTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
-execute if score isConflicted result matches 1.. run say X碰撞
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpKeepT
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpKeepN
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpKeepN
@@ -36,7 +35,6 @@ execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.01 run 
 scoreboard players operation yTmp tmp += @s fnmdpVy
 execute store result entity @e[limit=1,tag=new_summoned] Pos[1] double 0.01 run scoreboard players get yTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
-execute if score isConflicted result matches 1.. run say Y碰撞
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpKeepN
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpKeepT
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpKeepN
@@ -48,7 +46,6 @@ execute store result entity @e[limit=1,tag=new_summoned] Pos[1] double 0.01 run 
 scoreboard players operation zTmp tmp += @s fnmdpVz
 execute store result entity @e[limit=1,tag=new_summoned] Pos[2] double 0.01 run scoreboard players get zTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
-execute if score isConflicted result matches 1.. run say Z碰撞
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpKeepN
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpKeepN
 execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpKeepT
