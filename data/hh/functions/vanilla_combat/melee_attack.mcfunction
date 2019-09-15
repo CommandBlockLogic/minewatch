@@ -8,6 +8,8 @@ execute unless score $game custom1 matches 2 run scoreboard players operation @e
 execute unless score $game custom1 matches 2 run scoreboard players set @e[tag=enemy,tag=be_attacked] hhLastDamageWay 1
 execute unless score $game custom1 matches 2 run scoreboard players operation @e[tag=enemy,tag=be_attacked] hhLastDamageUid = @s uid
 
+scoreboard players add @s buffWeakness 30
+
 execute unless score $game custom1 matches 2 run function player:remove_tags
 
 advancement revoke @s only hh:vanilla_combat/melee_attack

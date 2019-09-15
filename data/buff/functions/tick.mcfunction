@@ -16,3 +16,7 @@ execute if score @s buffLevitation20 matches 1.. run scoreboard players remove @
 execute unless score @s buffSpeed1 matches 1.. run effect clear @s minecraft:speed
 execute if score @s buffSpeed1 matches 1.. run effect give @s minecraft:speed 1 1 true
 execute if score @s buffSpeed1 matches 1.. run scoreboard players remove @s buffSpeed1 1
+
+execute unless score @s buffWeakness matches 1.. run effect clear @s minecraft:weakness
+execute if score @s buffWeakness matches 1.. run effect give @s minecraft:weakness 1 100 true
+execute if score @s buffWeakness matches 1.. run scoreboard players remove @s buffWeakness 1
