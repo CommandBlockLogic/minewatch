@@ -4,8 +4,6 @@
 # - Vy
 # - Vz
 
-say R
-
 # Get position.
 execute store result score x tmp run data get entity @s Pos[0] 100
 execute store result score y tmp run data get entity @s Pos[1] 100
