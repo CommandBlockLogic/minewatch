@@ -10,7 +10,7 @@ execute if entity @s[scores={charSkillACool=11}] run playsound minecraft:block.l
 execute if entity @s[scores={charSkillACool=11..20}] run replaceitem entity @s hotbar.0 minecraft:water_bucket 1
 execute if entity @s[scores={charSkillACool=21}] run playsound minecraft:block.lava.extinguish master @s ~ ~ ~ 1000000
 execute if entity @s[scores={charSkillACool=21..39}] run replaceitem entity @s hotbar.0 minecraft:obsidian 1
-execute if entity @s[scores={charSkillACool=40}] anchored eyes at @s run function char:2-steve/private/skill_active_a_ray
+execute if entity @s[scores={charSkillACool=40}] at @s anchored eyes run function char:2-steve/private/skill_active_a_ray
 execute if entity @s[scores={charSkillACool=40}] run scoreboard players set @s charSkillACool -300
 
 execute as @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=my_marker] run scoreboard players add @s custom2 1
