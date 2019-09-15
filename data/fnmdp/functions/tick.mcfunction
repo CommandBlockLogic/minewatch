@@ -12,6 +12,7 @@ scoreboard players operation @s fnmdpVz += @s fnmdpAz
 scoreboard players operation Vx params = @s fnmdpVx
 scoreboard players operation Vy params = @s fnmdpVy
 scoreboard players operation Vz params = @s fnmdpVz
+function fnmdp:private/small_step
 
 # Boom.
 scoreboard players add @s fnmdpAge 1
