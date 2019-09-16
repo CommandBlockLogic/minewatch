@@ -22,7 +22,7 @@ execute if score $game hhReviveTime matches 0 as @e[tag=player] run function gam
 execute if score $game hhReviveTime matches 0 run scoreboard players reset $game hhReviveTime
 execute if score $game hhReviveTime matches 1.. run scoreboard players remove $game hhReviveTime 1
 
-scoreboard players reset @s p
-scoreboard players reset @s begin
-scoreboard players reset @s join_blue
-scoreboard players reset @s join_red
+scoreboard players reset @a p
+scoreboard players reset @a begin
+scoreboard players reset @a join_blue
+scoreboard players reset @a join_red
