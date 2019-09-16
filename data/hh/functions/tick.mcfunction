@@ -27,8 +27,8 @@ execute if entity @s[tag=!died] if score @s hhHealed matches 1.. run function hh
 
 # Reducing animation.
 execute if score @s hhReducing matches 1.. run scoreboard players set @s hhShouldRerender 1
-scoreboard players operation @s hhReducing *= 9 const
-scoreboard players operation @s hhReducing /= 10 const
+scoreboard players operation @s hhReducing *= 4 const
+scoreboard players operation @s hhReducing /= 5 const
 
 # Restore innate shield.
 execute if entity @s[tag=!died] if score @s hhLastDamageTime matches 60.. if score @s hhInnateShield < @e[type=minecraft:armor_stand,tag=my_char,limit=1] hhInnateShield run scoreboard players add @s hhInnateShield 1
