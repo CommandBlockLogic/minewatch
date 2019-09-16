@@ -1,5 +1,10 @@
 # game:tick
 
+execute if score $game custom1 matches 0 run scoreboard players reset @a p
+execute if score $game custom1 matches 1..2 run scoreboard players reset @a begin
+execute if score $game custom1 matches 1..2 run scoreboard players reset @a join_blue
+execute if score $game custom1 matches 1..2 run scoreboard players reset @a join_red
+
 execute if score $game custom1 matches 1..2 run scoreboard players enable @a p
 execute if score $game custom1 matches 0 run scoreboard players enable @a join_blue
 execute if score $game custom1 matches 0 run scoreboard players enable @a join_red
@@ -21,8 +26,3 @@ execute if score $game hhReviveTime matches 0 run title @a clear
 execute if score $game hhReviveTime matches 0 as @e[tag=player] run function game:teleport
 execute if score $game hhReviveTime matches 0 run scoreboard players reset $game hhReviveTime
 execute if score $game hhReviveTime matches 1.. run scoreboard players remove $game hhReviveTime 1
-
-scoreboard players reset @a p
-scoreboard players reset @a begin
-scoreboard players reset @a join_blue
-scoreboard players reset @a join_red
