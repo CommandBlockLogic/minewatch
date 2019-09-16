@@ -1,5 +1,8 @@
 # char:2-steve/private/skill_active_a_boom
 
+# Effect.
+particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 force
+
 # Summon marker.
 execute if score @s custom1 matches 1 align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:area_effect_cloud ~ ~ ~-1 {Duration: 32767, NoGravity: 1b, Tags: ["char_2-steve_obsidian_wall", "char_attachment", "marker_with_uid", "my_marker", "new_summoned", "protected"]}
 execute if score @s custom1 matches 1 align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration: 32767, NoGravity: 1b, Tags: ["char_2-steve_obsidian_wall", "char_attachment", "marker_with_uid", "my_marker", "new_summoned", "protected"]}
