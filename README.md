@@ -40,14 +40,14 @@
 ## 格数分配
 
 - hotbar.0：主武器
-- hotbar.1：喷漆
-- hotbar.2：技能 Q 冷却底图（偏移到 hotbar.6，可能没有）
-- hotbar.3：技能 F 冷却底图（偏移到 hotbat.7）
-- hotbar.4：大招充能
-- hotbar.5：空气
-- hotbar.6：技能 Q 特定图标（可能没有）
-- hotbar.7：技能 F 特定图标
-- hotbar.8：子弹
+- hotbar.1：
+- hotbar.2：
+- hotbar.3：
+- hotbar.4：
+- hotbar.5：
+- hotbar.6：
+- hotbar.7：
+- hotbar.8：
 
 ## 实体标签列表
 
