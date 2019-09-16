@@ -2,4 +2,4 @@
 
 teleport @s ~ ~0.1 ~
 
-advancement revoke @s only player:enter_block
+advancement revoke @s only player:enter_obsidian
