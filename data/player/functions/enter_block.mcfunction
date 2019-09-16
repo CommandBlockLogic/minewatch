@@ -1,5 +1,5 @@
 # player:enter_block
 
-execute at @s positioned ~ ~1 ~ run teleport @s ~ ~ ~
+teleport @s ~ ~0.2 ~
 
 advancement revoke @s only player:enter_obsidian
