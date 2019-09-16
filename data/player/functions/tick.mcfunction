@@ -18,6 +18,6 @@ execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:wate
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:water run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhDamagedM 1073741824
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:lava unless score @s hhLastDamageWay matches 3.. run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhLastDamageWay 17
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:lava run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhDamagedM 1073741824
-execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:obsidian run teleport ~ ~0.5 ~
+execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:obsidian run teleport ~ ~1 ~
 
 function player:remove_tags
