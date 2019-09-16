@@ -5,6 +5,8 @@ scoreboard players set @s hhMeleeDamage 80
 
 # Active skill A - obsidian wall.
 execute if entity @s[scores={charSkillACool=1}] run playsound minecraft:block.lava.extinguish master @s ~ ~ ~ 1000000
+execute if entity @s[scores={charSkillACool=1}] run playsound minecraft:block.lava.ambient master @s ~ ~ ~ 1000000
+execute if entity @s[scores={charSkillACool=1}] run playsound minecraft:block.water.ambient master @s ~ ~ ~ 1000000
 execute if entity @s[scores={charSkillACool=1..}] run function char:2-steve/private/skill_active_a_do
 
 execute as @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=my_marker] run scoreboard players add @s custom2 1
