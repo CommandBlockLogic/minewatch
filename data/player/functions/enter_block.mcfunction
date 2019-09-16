@@ -1,4 +1,4 @@
-# .mw:enter_block
+# player:enter_block
 
 teleport @s ~ ~0.1 ~
 
