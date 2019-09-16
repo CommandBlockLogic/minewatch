@@ -1,7 +1,7 @@
 # hh:death/respawn
 # @as player
 
-tag @s remove force_player
+tag @s remove died_force_player
 tag @s remove died
 gamemode adventure
 title @s clear

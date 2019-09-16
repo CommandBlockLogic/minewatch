@@ -22,6 +22,6 @@ scoreboard players reset @s hhLastDamageUid
 scoreboard players reset @s hhLastDamageTime
 gamemode spectator
 tag @s add died
-tag @s add force_player
+tag @s add died_force_player
 
 tag @e remove hh_killer
