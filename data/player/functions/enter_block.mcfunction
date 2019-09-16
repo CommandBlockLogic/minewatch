@@ -1,7 +1,5 @@
 # player:enter_block
 
-say 1
-
-teleport @s ~ ~0.2 ~
+teleport @s ~ ~1 ~
 
 advancement revoke @s only player:enter_obsidian
