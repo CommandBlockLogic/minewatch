@@ -10,6 +10,7 @@ execute if score @s charSkillPChosen matches 1 run scoreboard players operation 
 # Passive skill B - revive.
 execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhMeleeDamage < 60 const
 execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhInnateHealth < 150 const
+execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhInnateMax < 150 const
 execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run playsound minecraft:item.totem.use master @a
 execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run particle minecraft:totem_of_undying ~ ~1 ~ 1 1 1 0 100 force
 execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run tag @s remove died_force_player
