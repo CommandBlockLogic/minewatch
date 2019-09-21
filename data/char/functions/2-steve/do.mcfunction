@@ -1,8 +1,9 @@
 # char:2-steve/do
 
 # Weapon.
-scoreboard players add @s hhMeleeDamage 1
+execute if score @s buffWeakness matches 1.. run scoreboard players reset @s hhMeleeDamage
 scoreboard players reset @s buffWeakness
+scoreboard players add @s hhMeleeDamage 1
 execute if score @s charSkillPChosen matches 1 run scoreboard players operation @s hhMeleeDamage < 120 const
 execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhMeleeDamage < 60 const
 
