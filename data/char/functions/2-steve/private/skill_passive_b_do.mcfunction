@@ -20,4 +20,4 @@ scoreboard players set @s hhTempShieldTime 200
 tag @s remove died
 
 # Cooldown.
-scoreboard players set @s charSkillPCool -1200
+scoreboard players operation @s charSkillPCool = @e[limit=1,tag=my_char] charSkillPCool
