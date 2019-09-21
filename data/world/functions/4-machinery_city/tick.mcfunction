@@ -24,5 +24,3 @@ scoreboard players set rotation params 90
 execute positioned 1084 4 1000 run function world:components/spawn_point/summon_red
 scoreboard players set rotation params 270
 execute positioned 916 4 1000 run function world:components/spawn_point/summon_red
-## Tick.
-function world:1-bells/components/spring/tick
