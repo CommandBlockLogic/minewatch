@@ -1,7 +1,9 @@
 # char:2-steve/do
 
 # Weapon.
-scoreboard players set @s hhMeleeDamage 80
+scoreboard players add @s hhMeleeDamage 1
+execute if score @s charSkillPChosen matches 1 run scoreboard players operation @s hhMeleeDamage < 60 const
+execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhMeleeDamage < 120 const
 
 # Active skill A - obsidian wall.
 execute if entity @s[scores={charSkillACool=1}] run playsound minecraft:block.lava.pop master @s ~ ~ ~ 1000000
