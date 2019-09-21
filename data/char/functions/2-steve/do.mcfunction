@@ -12,7 +12,7 @@ execute if score @s charSkillPChosen matches 2 run scoreboard players operation 
 execute if entity @s[tag=died] run playsound minecraft:item.totem.use master @a
 execute if entity @s[tag=died] run particle minecraft:totem_of_undying ~ ~1 ~ 1 1 1 0 100 force
 execute if entity @s[tag=died] run tag @s remove died_force_player
-execute if entity @s[tag=died] run teleport @s ~ ~1 ~
+execute if entity @s[tag=died] run teleport @s ~ ~0.1 ~
 execute if entity @s[tag=died] run gamemode adventure
 execute if entity @s[tag=died] run title @s clear
 execute if entity @s[tag=died] run scoreboard players reset @s hhDamagedM
