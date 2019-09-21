@@ -2,8 +2,9 @@
 
 # Weapon.
 scoreboard players add @s hhMeleeDamage 1
-execute if score @s charSkillPChosen matches 1 run scoreboard players operation @s hhMeleeDamage < 60 const
-execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhMeleeDamage < 120 const
+scoreboard players reset @s buffWeakness
+execute if score @s charSkillPChosen matches 1 run scoreboard players operation @s hhMeleeDamage < 120 const
+execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhMeleeDamage < 60 const
 
 # Active skill A - obsidian wall.
 execute if entity @s[scores={charSkillACool=1}] run playsound minecraft:block.lava.pop master @s ~ ~ ~ 1000000
@@ -17,5 +18,6 @@ execute as @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,ta
 execute as @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=my_marker,scores={custom2=100..}] at @s run kill @s
 
 # Set item.
-execute if entity @s[scores={charSkillACool=..0}] if score @s buffWeakness matches 1.. run replaceitem entity @s hotbar.0 minecraft:wooden_sword 1
-execute if entity @s[scores={charSkillACool=..0}] unless score @s buffWeakness matches 1.. run replaceitem entity @s hotbar.0 minecraft:iron_sword 1
+execute if entity @s[scores={charSkillACool=..0}] if score @s hhMeleeDamage matches 1..59 run replaceitem entity @s hotbar.0 minecraft:wooden_sword 1
+execute if entity @s[scores={charSkillACool=..0}] if score @s hhMeleeDamage matches 60..119 run replaceitem entity @s hotbar.0 minecraft:iron_sword 1
+execute if entity @s[scores={charSkillACool=..0}] if score @s hhMeleeDamage matches 120 run replaceitem entity @s hotbar.0 minecraft:diamond_sword 1
