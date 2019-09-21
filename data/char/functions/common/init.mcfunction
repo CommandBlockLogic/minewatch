@@ -7,9 +7,9 @@ scoreboard players operation @s hhInnateArmor = @e[type=minecraft:armor_stand,ta
 scoreboard players operation @s hhInnateShield = @e[type=minecraft:armor_stand,tag=my_char] hhInnateShield
 scoreboard players operation @s hhInnateMax = @e[type=minecraft:armor_stand,tag=my_char] hhInnateMax
 
-scoreboard players set @s charSkillAChosen 1
-scoreboard players set @s charSkillPChosen 1
-scoreboard players set @s charSkillUChosen 1
+execute unless score @s charSkillAChosen matches 1.. run scoreboard players set @s charSkillAChosen 1
+execute unless score @s charSkillPChosen matches 1.. run scoreboard players set @s charSkillPChosen 1
+execute unless score @s charSkillUChosen matches 1.. run scoreboard players set @s charSkillUChosen 1
 
 scoreboard players set @s charWeaponCool 0
 scoreboard players set @s charSkillACool 0
