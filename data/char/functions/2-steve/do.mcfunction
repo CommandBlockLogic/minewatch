@@ -6,23 +6,24 @@ scoreboard players reset @s buffWeakness
 scoreboard players add @s hhMeleeDamage 5
 ## Passive skill A - diamond sword.
 execute if score @s charSkillPChosen matches 1 run scoreboard players operation @s hhMeleeDamage < 120 const
-execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhMeleeDamage < 60 const
 
 # Passive skill B - revive.
-execute if entity @s[tag=died] run playsound minecraft:item.totem.use master @a
-execute if entity @s[tag=died] run particle minecraft:totem_of_undying ~ ~1 ~ 1 1 1 0 100 force
-execute if entity @s[tag=died] run tag @s remove died_force_player
-execute if entity @s[tag=died] run teleport @s ~ ~0.1 ~
-execute if entity @s[tag=died] run gamemode adventure
-execute if entity @s[tag=died] run title @s clear
-execute if entity @s[tag=died] run scoreboard players reset @s hhDamagedM
-execute if entity @s[tag=died] run scoreboard players reset @s hhDamagedR
-execute if entity @s[tag=died] run scoreboard players reset @s hhHealed
-execute if entity @s[tag=died] run scoreboard players reset @s hhReviveTime
-execute if entity @s[tag=died] run scoreboard players set @s hhInnateHealth 150
-execute if entity @s[tag=died] run scoreboard players set @s hhTempShield 200
-execute if entity @s[tag=died] run scoreboard players set @s hhTempShieldTime 200
-execute if entity @s[tag=died] run tag @s remove died
+execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhMeleeDamage < 60 const
+execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhInnateHealth < 150 const
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run playsound minecraft:item.totem.use master @a
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run particle minecraft:totem_of_undying ~ ~1 ~ 1 1 1 0 100 force
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run tag @s remove died_force_player
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run teleport @s ~ ~0.1 ~
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run gamemode adventure
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run title @s clear
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run scoreboard players reset @s hhDamagedM
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run scoreboard players reset @s hhDamagedR
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run scoreboard players reset @s hhHealed
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run scoreboard players reset @s hhReviveTime
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run scoreboard players set @s hhInnateHealth 150
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run scoreboard players set @s hhTempShield 200
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run scoreboard players set @s hhTempShieldTime 200
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] run tag @s remove died
 
 # Active skill A - obsidian wall.
 execute if entity @s[scores={charSkillACool=1}] run playsound minecraft:block.lava.pop master @s ~ ~ ~ 1000000
