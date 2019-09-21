@@ -20,4 +20,4 @@ scoreboard players set @s hhTempShieldTime 200
 tag @s remove died
 
 # Cooldown.
-scoreboard players set @s charSkillPCool -600
+scoreboard players set @s charSkillPCool -1200
