@@ -6,14 +6,14 @@ execute unless score @s charID matches 1.. run function char:1-pca/select
 
 # Trigger skills.
 ## Cooldown.
-execute if entity @s[tag=!died] if score @s charWeaponCool matches 1.. run scoreboard players add @s charWeaponCool 1
-execute if entity @s[tag=!died] if score @s charWeaponCool matches ..-1 run scoreboard players add @s charWeaponCool 1
-execute if entity @s[tag=!died] if score @s charSkillACool matches 1.. run scoreboard players add @s charSkillACool 1
-execute if entity @s[tag=!died] if score @s charSkillACool matches ..-1 run scoreboard players add @s charSkillACool 1
-execute if entity @s[tag=!died] if score @s charSkillPCool matches 1.. run scoreboard players add @s charSkillPCool 1
-execute if entity @s[tag=!died] if score @s charSkillPCool matches ..-1 run scoreboard players add @s charSkillPCool 1
-execute if entity @s[tag=!died] if score @s charSkillUCool matches 1.. run scoreboard players add @s charSkillUCool 1
-execute if entity @s[tag=!died] if score @s charSkillUCool matches ..-1 run scoreboard players add @s charSkillUCool 1
+execute if score @s charWeaponCool matches 1.. run scoreboard players add @s charWeaponCool 1
+execute if score @s charWeaponCool matches ..-1 run scoreboard players add @s charWeaponCool 1
+execute if score @s charSkillACool matches 1.. run scoreboard players add @s charSkillACool 1
+execute if score @s charSkillACool matches ..-1 run scoreboard players add @s charSkillACool 1
+execute if score @s charSkillPCool matches 1.. run scoreboard players add @s charSkillPCool 1
+execute if score @s charSkillPCool matches ..-1 run scoreboard players add @s charSkillPCool 1
+execute if score @s charSkillUCool matches 1.. run scoreboard players add @s charSkillUCool 1
+execute if score @s charSkillUCool matches ..-1 run scoreboard players add @s charSkillUCool 1
 ## Trigger.
 execute if entity @s[tag=!died] if score @s pahRightClick matches 1.. if score @s charWeaponCool matches 0 run function char:scheduler/weapon
 execute if entity @s[tag=!died] if score @s pahPressF matches 1.. if score @s charSkillACool matches 0 if score @s charSkillAChosen matches 1 run function char:scheduler/skill_active_a
