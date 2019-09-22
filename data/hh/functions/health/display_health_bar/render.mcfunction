@@ -9,10 +9,6 @@
 # - reducing
 # - lost
 
-# Calculate max.
-scoreboard players operation max tmp = @s hhInnateMax
-scoreboard players operation max tmp += @s hhTempTotal
-
 # Calculate all.
 scoreboard players operation innateHealthBak tmp = @s hhInnateHealth
 scoreboard players operation innateArmorBak tmp = @s hhInnateArmor
@@ -20,7 +16,7 @@ scoreboard players operation innateShieldBak tmp = @s hhInnateShield
 scoreboard players operation tempArmorBak tmp = @s hhTempArmor
 scoreboard players operation tempShieldBak tmp = @s hhTempShield
 scoreboard players operation reducingBak tmp = @s hhReducing
-scoreboard players operation lostBak tmp = max tmp
+scoreboard players operation lostBak tmp = @s hhTotalMax
 scoreboard players operation lostBak tmp -= @s hhInnateHealth
 scoreboard players operation lostBak tmp -= @s hhInnateArmor
 scoreboard players operation lostBak tmp -= @s hhInnateShield
@@ -69,7 +65,7 @@ scoreboard players operation bleedingBak tmp -= bleedingCopy tmp
 # Calculate percents.
 scoreboard players operation innateHealth tmp = innateHealthBak tmp
 scoreboard players operation innateHealth tmp *= 500 const
-scoreboard players operation innateHealth tmp /= max tmp
+scoreboard players operation innateHealth tmp /= @s hhTotalMax
 scoreboard players operation unit tmp = innateHealth tmp
 scoreboard players operation innateHealth tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
@@ -78,7 +74,7 @@ execute if score innateHealthBak tmp matches 1.. run scoreboard players operatio
 
 scoreboard players operation innateArmor tmp = innateArmorBak tmp
 scoreboard players operation innateArmor tmp *= 500 const
-scoreboard players operation innateArmor tmp /= max tmp
+scoreboard players operation innateArmor tmp /= @s hhTotalMax
 scoreboard players operation unit tmp = innateArmor tmp
 scoreboard players operation innateArmor tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
@@ -87,7 +83,7 @@ execute if score innateArmorBak tmp matches 1.. run scoreboard players operation
 
 scoreboard players operation innateShield tmp = innateShieldBak tmp
 scoreboard players operation innateShield tmp *= 500 const
-scoreboard players operation innateShield tmp /= max tmp
+scoreboard players operation innateShield tmp /= @s hhTotalMax
 scoreboard players operation unit tmp = innateShield tmp
 scoreboard players operation innateShield tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
@@ -96,7 +92,7 @@ execute if score innateShieldBak tmp matches 1.. run scoreboard players operatio
 
 scoreboard players operation tempArmor tmp = tempArmorBak tmp
 scoreboard players operation tempArmor tmp *= 500 const
-scoreboard players operation tempArmor tmp /= max tmp
+scoreboard players operation tempArmor tmp /= @s hhTotalMax
 scoreboard players operation unit tmp = tempArmor tmp
 scoreboard players operation tempArmor tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
@@ -105,7 +101,7 @@ execute if score tempArmorBak tmp matches 1.. run scoreboard players operation t
 
 scoreboard players operation tempShield tmp = tempShieldBak tmp
 scoreboard players operation tempShield tmp *= 500 const
-scoreboard players operation tempShield tmp /= max tmp
+scoreboard players operation tempShield tmp /= @s hhTotalMax
 scoreboard players operation unit tmp = tempShield tmp
 scoreboard players operation tempShield tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
@@ -114,7 +110,7 @@ execute if score tempShieldBak tmp matches 1.. run scoreboard players operation 
 
 scoreboard players operation bleeding tmp = bleedingBak tmp
 scoreboard players operation bleeding tmp *= 500 const
-scoreboard players operation bleeding tmp /= max tmp
+scoreboard players operation bleeding tmp /= @s hhTotalMax
 scoreboard players operation unit tmp = bleeding tmp
 scoreboard players operation bleeding tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
@@ -123,7 +119,7 @@ execute if score bleedingBak tmp matches 1.. run scoreboard players operation bl
 
 scoreboard players operation reducing tmp = reducingBak tmp
 scoreboard players operation reducing tmp *= 500 const
-scoreboard players operation reducing tmp /= max tmp
+scoreboard players operation reducing tmp /= @s hhTotalMax
 scoreboard players operation unit tmp = reducing tmp
 scoreboard players operation reducing tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
@@ -132,12 +128,12 @@ execute if score reducingBak tmp matches 1.. run scoreboard players operation re
 
 scoreboard players operation lost tmp = lostBak tmp
 scoreboard players operation lost tmp *= 500 const
-scoreboard players operation lost tmp /= max tmp
+scoreboard players operation lost tmp /= @s hhTotalMax
 scoreboard players operation unit tmp = lost tmp
 scoreboard players operation lost tmp /= 10 const
 scoreboard players operation unit tmp %= 10 const
 execute if score unit tmp matches 5.. run scoreboard players add lost tmp 1
-execute if score max tmp matches 1.. run scoreboard players operation lost tmp > 1 const
+execute if score @s hhTotalMax matches 1.. run scoreboard players operation lost tmp > 1 const
 
 scoreboard players operation total tmp = innateHealth tmp
 scoreboard players operation total tmp += innateArmor tmp

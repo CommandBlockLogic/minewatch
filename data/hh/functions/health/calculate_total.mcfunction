@@ -20,3 +20,6 @@ scoreboard players operation @s hhTempTotal += @s hhTempShield
 
 scoreboard players operation @s hhTotal = @s hhInnateTotal
 scoreboard players operation @s hhTotal += @s hhTempTotal
+
+scoreboard players operation @s hhTotalMax = @s hhInnateMax
+scoreboard players operation @s hhTotalMax += @s hhTempTotal
