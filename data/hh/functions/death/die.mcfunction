@@ -11,7 +11,7 @@ execute as @a[tag=hh_killer] at @s run playsound hh:kill master @s
 function char:scheduler/die
 function hh:death/show_death_message
 
-scoreboard players set @s hhReviveTime 200
+scoreboard players opertation @s hhReviveTime = $hhReviveTime custom1
 scoreboard players reset @s hhDamagedM
 scoreboard players reset @s hhDamagedR
 scoreboard players reset @s hhDamagedB

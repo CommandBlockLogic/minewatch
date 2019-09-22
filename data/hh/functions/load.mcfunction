@@ -43,3 +43,5 @@ scoreboard objectives add hhLastDamageTime dummy "距离上一次受到伤害后
 scoreboard objectives add hhLastDamageUid dummy "上一次伤害源的玩家标识符"
 
 scoreboard objectives add hhReviveTime dummy "复活剩余时间"
+
+scoreboard players set $hhReviveTime custom1 200
