@@ -12,7 +12,7 @@ execute if score @s charSkillPChosen matches 1 run scoreboard players set @s hhI
 execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhMeleeDamage < 60 const
 execute if score @s charSkillPChosen matches 2 run scoreboard players operation @s hhInnateHealth < 150 const
 execute if score @s charSkillPChosen matches 2 run scoreboard players set @s hhInnateMax 150
-execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] if score @s charSkillPCool matches 0 if score @s hhReviveTime = $hhReviveTime custom1run function char:2-steve/private/skill_passive_b_do
+execute if score @s charSkillPChosen matches 2 if entity @s[tag=died] if score @s charSkillPCool matches 0 if score @s hhReviveTime = $hhReviveTime custom1 run function char:2-steve/private/skill_passive_b_do
 
 # Active skill A - obsidian wall.
 execute if entity @s[scores={charSkillACool=1}] run playsound minecraft:block.lava.pop master @s ~ ~ ~ 1000000
