@@ -19,8 +19,8 @@ execute if entity @s[tag=!died] if score hh:tick$totalDamage tmp matches 1.. run
 
 # Death.
 function hh:health/calculate_total
-execute if entity @s[tag=!died] if score @s hhTotal matches ..0 run function hh:death/die
 execute if entity @s[tag=died] run function hh:death/died
+execute if entity @s[tag=!died] if score @s hhTotal matches ..0 run function hh:death/die
 
 # Healed.
 execute if entity @s[tag=!died] if score @s hhHealed matches 1.. run function hh:health/healed
