@@ -3,7 +3,7 @@
 # Effect.
 playsound minecraft:item.totem.use master @a
 particle minecraft:totem_of_undying ~ ~1 ~ 1 1 1 0 100 force
-tellraw @a ["复活的图标 ", {"selector": "@s"}]
+tellraw @a ["❤ ", {"selector": "@s"}]
 
 # Revive.
 teleport @s ~ ~0.1 ~
