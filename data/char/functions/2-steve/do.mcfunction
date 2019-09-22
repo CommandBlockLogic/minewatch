@@ -28,6 +28,6 @@ execute as @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,ta
 execute as @e[type=minecraft:area_effect_cloud,tag=char_2-steve_obsidian_wall,tag=my_marker,scores={custom2=100..}] at @s run kill @s
 
 # Set item.
-execute if entity @s[scores={charSkillACool=..0}] if score @s hhMeleeDamage matches 1..59 run replaceitem entity @s hotbar.0 minecraft:wooden_sword 1 {Unbreakable: 1b}
-execute if entity @s[scores={charSkillACool=..0}] if score @s hhMeleeDamage matches 60..119 run replaceitem entity @s hotbar.0 minecraft:iron_sword 1 {Unbreakable: 1b}
-execute if entity @s[scores={charSkillACool=..0}] if score @s hhMeleeDamage matches 120 run replaceitem entity @s hotbar.0 minecraft:diamond_sword 1 {Unbreakable: 1b}
+execute if entity @s[scores={charSkillACool=..0}] if score @s hhMeleeDamage matches 1..59 run replaceitem entity @s hotbar.0 minecraft:wooden_sword{Unbreakable: 1b} 1 {Unbreakable:}
+execute if entity @s[scores={charSkillACool=..0}] if score @s hhMeleeDamage matches 60..119 run replaceitem entity @s hotbar.0 minecraft:iron_sword{Unbreakable: 1b} 1
+execute if entity @s[scores={charSkillACool=..0}] if score @s hhMeleeDamage matches 120 run replaceitem entity @s hotbar.0 minecraft:diamond_sword{Unbreakable: 1b} 1
