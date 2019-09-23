@@ -1,7 +1,5 @@
 #> spray:paint
 # @as player
-# @tmp @out
-# - 
 
 # Summon 16×16=256 markers.
 scoreboard players set scanDirection params 1

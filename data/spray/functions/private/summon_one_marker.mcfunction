@@ -6,7 +6,7 @@
 # - yCursor: The position in the Y axis, starts from 0.
 
 # Summon.
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["new_summoned", "marker_with_uid", "my_marker", "spray_spray"], Duration: 1000000}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["new_summoned", "marker_with_uid", "my_marker", "spray_spray"], Duration: 1000000, CustomName: '"Spray"'}
 scoreboard players operation xCursor params += scanDirection params
 
 # Turn to new row...
@@ -24,5 +24,8 @@ execute if score xCursor params matches ..-1 run scoreboard players set scanDire
 execute if score xCursor params matches ..-1 run scoreboard players add xCursor params 1
 
 # Recursion...
-## while not finishing the last row.
-execute if score yCursor params <= sprayYMax const run function spray:private/summon_one_marker
+## while not finishing the last row...
+### while moving from the left to the right
+execute if score yCursor params <= sprayYMax const if score scanDirection params matches 1 positioned ^-0.1 ^ ^ run function spray:private/summon_one_marker
+### while moving from the right to the left
+execute if score yCursor params <= sprayYMax const if score scanDirection params matches -1 positioned ^0.1 ^ ^ run function spray:private/summon_one_marker
