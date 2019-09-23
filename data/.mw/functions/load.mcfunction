@@ -7,6 +7,7 @@ function game:load
 function gc:load
 function hh:load
 function pah:load
+function spray:load
 function uid:load
 function world:load
 
