@@ -1,11 +1,11 @@
 #> fnmdp:load
 
-scoreboard objectives add fnmdpVx dummy "Vx×100"
-scoreboard objectives add fnmdpVy dummy "Vy×100"
-scoreboard objectives add fnmdpVz dummy "Vz×100"
-scoreboard objectives add fnmdpAx dummy "Ax×100"
-scoreboard objectives add fnmdpAy dummy "Ay×100"
-scoreboard objectives add fnmdpAz dummy "Az×100"
+scoreboard objectives add fnmdpVx dummy "Vx×1000"
+scoreboard objectives add fnmdpVy dummy "Vy×1000"
+scoreboard objectives add fnmdpVz dummy "Vz×1000"
+scoreboard objectives add fnmdpAx dummy "Ax×1000"
+scoreboard objectives add fnmdpAy dummy "Ay×1000"
+scoreboard objectives add fnmdpAz dummy "Az×1000"
 scoreboard objectives add fnmdpVKeepN dummy "切向速度保留率×100"
 scoreboard objectives add fnmdpVKeepT dummy "法向速度保留率×100"
 scoreboard objectives add fnmdpAge dummy "当前存活刻"
