@@ -10,22 +10,31 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["new_summoned", "marker_with_ui
 scoreboard players operation xCursor params += scanDirection params
 
 # Turn to new row...
+scoreboard players set shouldTurn tmp 0
 ## while scanning from the left to the right.
-### Turn.
-execute if score xCursor params > sprayXMax const run scoreboard players add yCursor params 1
+### Set shouldTurn.
+execute if score xCursor params > sprayXMax const run scoreboard players set shouldTurn tmp 1
 ### Switch scanDirection.
 execute if score xCursor params > sprayXMax const run scoreboard players set scanDirection params -1
-### Move the cursor back.
+### Move the cursor back in the range.
 execute if score xCursor params > sprayXMax const run scoreboard players remove xCursor params 1
 ## while scanning from the right to the left.
 ### Do the same things as above.
-execute if score xCursor params matches ..-1 run scoreboard players add yCursor params 1
+execute if score xCursor params matches ..-1 run scoreboard players set shouldTurn tmp 1
 execute if score xCursor params matches ..-1 run scoreboard players set scanDirection params 1
 execute if score xCursor params matches ..-1 run scoreboard players add xCursor params 1
+## Actually turn.
+scoreboard players operation yCursor tmp += shouldTurn tmp
 
 # Recursion...
 ## while not finishing the last row...
-### while moving from the left to the right
-execute if score yCursor params <= sprayYMax const if score scanDirection params matches 1 positioned ^-0.1 ^ ^ run function spray:private/summon_one_marker
-### while moving from the right to the left
-execute if score yCursor params <= sprayYMax const if score scanDirection params matches -1 positioned ^0.1 ^ ^ run function spray:private/summon_one_marker
+### while moving from the left to the right...
+#### if should not turn to new row.
+execute if score yCursor params <= sprayYMax const if score scanDirection params matches 1 if score shouldTurn tmp matches 0 positioned ^-0.1 ^ ^ run function spray:private/summon_one_marker
+#### if should turn to new row.
+execute if score yCursor params <= sprayYMax const if score scanDirection params matches 1 if score shouldTurn tmp matches 1 positioned ^-0.1 ^-0.1 ^ run function spray:private/summon_one_marker
+### while moving from the right to the left...
+#### if should not turn to new row.
+execute if score yCursor params <= sprayYMax const if score scanDirection params matches -1 if score shouldTurn tmp matches 0 positioned ^0.1 ^ ^ run function spray:private/summon_one_marker
+#### if should turn to new row.
+execute if score yCursor params <= sprayYMax const if score scanDirection params matches -1 if score shouldTurn tmp matches 1 positioned ^0.1 ^-0.1 ^ run function spray:private/summon_one_marker
