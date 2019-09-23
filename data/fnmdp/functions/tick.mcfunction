@@ -21,7 +21,6 @@ tag @e remove fnmdp_hitted
 # Boom.
 scoreboard players add @s fnmdpAge 1
 scoreboard players set boom tmp 0
-execute if entity @s[scores={fnmdpVx=-50..50,fnmdpVy=-50..50,fnmdpVz=-50..50}] run say 1
 execute if entity @s[scores={fnmdpVx=-50..50,fnmdpVy=-50..50,fnmdpVz=-50..50}] run scoreboard players set boom tmp 1
 execute if score @s fnmdpAge >= @s fnmdpLife run scoreboard players set boom tmp 1
 execute if score boom tmp matches 1 run function fnmdp:boom
