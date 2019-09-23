@@ -16,6 +16,6 @@ execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:
 kill @e[tag=newly_summoned]
 
 # Set details.
-execute as @e[distance=..10,limit=1,type=minecraft:area_effect_cloud,tag=newly_summoned_spray] at @s run function spray:private/set_one_marker
+execute as @e[distance=..10,type=minecraft:area_effect_cloud,tag=newly_summoned_spray] at @s run function spray:private/set_one_marker
 
 tag @e remove newly_summoned_spray
