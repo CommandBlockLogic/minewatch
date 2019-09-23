@@ -1,6 +1,9 @@
 # buff:tick
 # @as [tag=player]
 
+effect clear @s minecraft:health_boost
+effect clear @s minecraft:regeneration
+
 execute unless score @s buffInvisibility matches 1.. run effect clear @s minecraft:invisibility
 execute if score @s buffInvisibility matches 1.. run effect give @s minecraft:invisibility 1 0 true
 execute if score @s buffInvisibility matches 1.. run scoreboard players remove @s buffInvisibility 1
