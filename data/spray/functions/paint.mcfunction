@@ -16,15 +16,6 @@ execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:
 kill @e[tag=newly_summoned]
 
 # Set details.
-scoreboard players operation @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=newly_summoned_spray] fnmdpVx = Vx tmp
-scoreboard players operation @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=newly_summoned_spray] fnmdpVy = Vy tmp
-scoreboard players operation @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=newly_summoned_spray] fnmdpVz = Vz tmp
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=newly_summoned_spray] fnmdpAx 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=newly_summoned_spray] fnmdpAy 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=newly_summoned_spray] fnmdpAz 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=newly_summoned_spray] fnmdpVKeepN 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=newly_summoned_spray] fnmdpVKeepT 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=newly_summoned_spray] fnmdpLife 30
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=newly_summoned_spray] fnmdpSize 1
+execute as @e[distance=..10,limit=1,type=minecraft:area_effect_cloud,tag=newly_summoned_spray] at @s run function spray:private/set_one_marker
 
 tag @e remove newly_summoned_spray
