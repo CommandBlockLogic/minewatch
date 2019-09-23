@@ -1,14 +1,11 @@
-# fnmdp:private/small_step
+#> fnmdp:private/small_step
 # @params 
-# - Vx
-# - Vy
-# - Vz
-# @tmp @out
-# - x
-# - y
-# - z
+# - Vx - Stores the remaining @s fnmdpVx which is still not checked.
+# - Vy - Stores the remaining @s fnmdpVy which is still not checked.
+# - Vz - Stores the remaining @s fnmdpVz which is still not checked.
 
 # Get position.
+## xyz tmp stores stable positions which are not in walls or entities.
 execute store result score x tmp run data get entity @s Pos[0] 1000
 execute store result score y tmp run data get entity @s Pos[1] 1000
 execute store result score z tmp run data get entity @s Pos[2] 1000
@@ -38,12 +35,10 @@ execute if score Vz params > VSmallMax tmp run scoreboard players operation Vz p
 execute if score Vz params < VSmallMin tmp run scoreboard players operation VzSmall tmp = VSmallMin tmp
 execute if score Vz params < VSmallMin tmp run scoreboard players operation Vz params -= VSmallMin tmp
 
-# tellraw @a[tag=self] ["分解速度 X Y Z: ", {"score": {"objective": "tmp", "name": "VxSmall"}}, " ", {"score": {"objective": "tmp", "name": "VySmall"}}, " ", {"score": {"objective": "tmp", "name": "VzSmall"}}]
-# tellraw @a[tag=self] ["剩余速度 X Y Z: ", {"score": {"objective": "params", "name": "Vx"}}, " ", {"score": {"objective": "params", "name": "Vy"}}, " ", {"score": {"objective": "params", "name": "Vz"}}]
-
 # Check collision.
 ## Begin.
 summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["new_summoned"]}
+### xyzTmp tmp is used to move the checking marker [tag=new_summoned] to next position and check conflict.
 scoreboard players operation xTmp tmp = x tmp
 scoreboard players operation yTmp tmp = y tmp
 scoreboard players operation zTmp tmp = z tmp
@@ -54,60 +49,24 @@ execute store result entity @e[limit=1,tag=new_summoned] Pos[2] double 0.001 run
 scoreboard players operation xTmp tmp += VxSmall tmp
 execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.001 run scoreboard players get xTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
-# execute if score isConflicted result matches 1.. run say X
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpVKeepT
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp *= @s fnmdpVKeepT
-execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp /= 100 const
+execute if score isConflicted result matches 1.. run function fnmdp:private/small_step_conflict_x
 execute store result entity @e[limit=1,tag=new_summoned] Pos[0] double 0.001 run scoreboard players get x tmp
 ## Y.
 scoreboard players operation yTmp tmp += VySmall tmp
 execute store result entity @e[limit=1,tag=new_summoned] Pos[1] double 0.001 run scoreboard players get yTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
-# execute if score isConflicted result matches 1.. run say Y
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpVKeepT
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp *= @s fnmdpVKeepT
-execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp /= 100 const
+execute if score isConflicted result matches 1.. run function fnmdp:private/small_step_conflict_y
 execute store result entity @e[limit=1,tag=new_summoned] Pos[1] double 0.001 run scoreboard players get y tmp
 ## Z.
 scoreboard players operation zTmp tmp += VzSmall tmp
 execute store result entity @e[limit=1,tag=new_summoned] Pos[2] double 0.001 run scoreboard players get zTmp tmp
 execute at @e[limit=1,tag=new_summoned] run function fnmdp:is_conflicted
-# execute if score isConflicted result matches 1.. run say Z
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz *= @s fnmdpVKeepT
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVx /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVy /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation @s fnmdpVz /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp *= @s fnmdpVKeepN
-execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp *= @s fnmdpVKeepT
-execute if score isConflicted result matches 1.. run scoreboard players operation VxSmall tmp /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VySmall tmp /= 100 const
-execute if score isConflicted result matches 1.. run scoreboard players operation VzSmall tmp /= 100 const
+execute if score isConflicted result matches 1.. run function fnmdp:private/small_step_conflict_z
 execute store result entity @e[limit=1,tag=new_summoned] Pos[2] double 0.001 run scoreboard players get z tmp
 ## End.
 kill @e[tag=new_summoned]
 
-# Calculate positions.
+# Calculate final positions.
 scoreboard players operation x tmp += VxSmall tmp
 scoreboard players operation y tmp += VySmall tmp
 scoreboard players operation z tmp += VzSmall tmp

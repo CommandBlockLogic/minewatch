@@ -1,4 +1,4 @@
-# fnmdp:load
+#> fnmdp:load
 
 scoreboard objectives add fnmdpVx dummy "Vx×100"
 scoreboard objectives add fnmdpVy dummy "Vy×100"
