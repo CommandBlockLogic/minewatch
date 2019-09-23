@@ -1,8 +1,8 @@
 # fnmdp:private/is_conflicted_small
 # @tmp @in
-# - xTmp - Used to move the checking marker [tag=new_summoned] to next position and check conflict.
-# - yTmp - Used to move the checking marker [tag=new_summoned] to next position and check conflict.
-# - zTmp - Used to move the checking marker [tag=new_summoned] to next position and check conflict.
+# - xTmp - Used to move the checking marker [tag=newly_summoned] to next position and check conflict.
+# - yTmp - Used to move the checking marker [tag=newly_summoned] to next position and check conflict.
+# - zTmp - Used to move the checking marker [tag=newly_summoned] to next position and check conflict.
 # @result
 # - isConflicted
 
