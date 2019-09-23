@@ -1,6 +1,7 @@
 # buff:tick
 # @as [tag=player]
 
+effect clear @s minecraft:absorption
 effect clear @s minecraft:health_boost
 effect clear @s minecraft:regeneration
 
