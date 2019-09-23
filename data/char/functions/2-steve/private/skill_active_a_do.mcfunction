@@ -14,7 +14,7 @@ execute if entity @s[y_rotation=135..224.99] run scoreboard players set facing t
 execute if entity @s[y_rotation=-45..44.99] run scoreboard players set facing tmp 2
 
 # Get velocities.
-execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^16 {Tags: ["new_summoned"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^1.6 {Tags: ["new_summoned"]}
 execute store result score Vx tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[0] 1000
 execute store result score Vy tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[1] 1000
 execute store result score Vz tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=new_summoned] Pos[2] 1000
