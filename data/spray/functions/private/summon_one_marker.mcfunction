@@ -24,7 +24,7 @@ execute if score xCursor params matches ..-1 run scoreboard players set shouldTu
 execute if score xCursor params matches ..-1 run scoreboard players set scanDirection params 1
 execute if score xCursor params matches ..-1 run scoreboard players add xCursor params 1
 ## Actually turn.
-scoreboard players operation yCursor tmp += shouldTurn tmp
+execute if score shouldTurn tmp matches 1 run scoreboard players add yCursor params 1
 
 # Recursion...
 ## while not finishing the last row...
