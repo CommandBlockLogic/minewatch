@@ -4,7 +4,7 @@
 # playsound minecraft:item.totem.use master @a
 # particle minecraft:totem_of_undying ~ ~1 ~ 1 1 1 0 100 force
 replaceitem entity @s weapon.offhand minecraft:totem_of_undying
-effect give @s minecraft:instant_damage 1 32 true
+effect give @s minecraft:instant_damage 1 16 true
 tellraw @a ["❤ ", {"selector": "@s"}]
 
 # Revive.
