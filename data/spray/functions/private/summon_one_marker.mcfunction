@@ -28,13 +28,13 @@ execute if score shouldTurn tmp matches 1 run scoreboard players add yCursor par
 
 # Recursion...
 ## while not finishing the last row...
-### while moving from the left to the right...
-#### if should not turn to new row.
-execute if score yCursor params <= sprayYMax const if score scanDirection params matches 1 if score shouldTurn tmp matches 0 positioned ^-0.1 ^ ^ run function spray:private/summon_one_marker
+### if should not turn to new row...
+#### while moving from the left to the right.
+execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 0 if score scanDirection params matches 1 positioned ^-0.1 ^ ^ run function spray:private/summon_one_marker
+### if should turn to new row.
+execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 1 positioned ^ ^-0.1 ^ run function spray:private/summon_one_marker
+### if should not turn to new row.
+#### while moving from the right to the left...
+execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 0 if score scanDirection params matches -1 positioned ^0.1 ^ ^ run function spray:private/summon_one_marker
 #### if should turn to new row.
-execute if score yCursor params <= sprayYMax const if score scanDirection params matches 1 if score shouldTurn tmp matches 1 positioned ^-0.1 ^-0.1 ^ run function spray:private/summon_one_marker
-### while moving from the right to the left...
-#### if should not turn to new row.
-execute if score yCursor params <= sprayYMax const if score scanDirection params matches -1 if score shouldTurn tmp matches 0 positioned ^0.1 ^ ^ run function spray:private/summon_one_marker
-#### if should turn to new row.
-execute if score yCursor params <= sprayYMax const if score scanDirection params matches -1 if score shouldTurn tmp matches 1 positioned ^0.1 ^-0.1 ^ run function spray:private/summon_one_marker
+execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches -1 positioned ^ ^-0.1 ^ run function spray:private/summon_one_marker
