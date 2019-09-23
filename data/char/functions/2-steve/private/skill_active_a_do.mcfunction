@@ -29,8 +29,8 @@ scoreboard players operation @e[distance=..5,limit=1,type=minecraft:armor_stand,
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpAx 0
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpAy 0
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpAz 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVKeepN 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVKeepT 0
-scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpLife 5
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVKeepN 100
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpVKeepT -100
+scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpLife 50
 scoreboard players set @e[distance=..5,limit=1,type=minecraft:armor_stand,tag=new_summoned] fnmdpSize 2
 tag @e remove new_summoned
