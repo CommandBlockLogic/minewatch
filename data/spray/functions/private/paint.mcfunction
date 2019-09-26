@@ -1,6 +1,8 @@
 #> spray:private/paint
 # @as player
 
+function spray:private/set_buffer
+
 # Kill old paint.
 kill @e[tag=my_marker,tag=spray_paint]
 
