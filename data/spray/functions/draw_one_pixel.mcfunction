@@ -9,6 +9,6 @@ execute if score @s custom1 matches 0 run kill @s
 # 1 -> #009900
 # 2 -> #0099ff
 # 3 -> #ccff00
-execute if score @s custom1 matches 1 run particle minecraft:dust 0.0 0.6 0.0 0.25 ~ ~ ~ 0 0 0 0 2 force
-execute if score @s custom1 matches 2 run particle minecraft:dust 0.7 0.0 0.0 0.25 ~ ~ ~ 0 0 0 0 2 force
-execute if score @s custom1 matches 3 run particle minecraft:dust 0.8 1.0 0.0 0.25 ~ ~ ~ 0 0 0 0 2 force
+execute if score @s custom1 matches 1 run particle minecraft:dust 0.0 0.6 0.0 0.25 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 2 run particle minecraft:dust 0.7 0.0 0.0 0.25 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 3 run particle minecraft:dust 0.8 1.0 0.0 0.25 ~ ~ ~ 0 0 0 0 2
