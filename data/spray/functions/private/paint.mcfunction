@@ -12,7 +12,7 @@ scoreboard players set yCursor params 0
 execute anchored eyes positioned ^ ^ ^ anchored feet run function spray:private/summon_one_marker
 
 # Get velocities.
-execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^0.3 {Tags: ["newly_summoned"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:area_effect_cloud ^ ^ ^0.2 {Tags: ["newly_summoned"]}
 execute store result score spray:private/paint$Vx tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=newly_summoned] Pos[0] 1000
 execute store result score spray:private/paint$Vy tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=newly_summoned] Pos[1] 1000
 execute store result score spray:private/paint$Vz tmp run data get entity @e[limit=1,type=minecraft:area_effect_cloud,tag=newly_summoned] Pos[2] 1000

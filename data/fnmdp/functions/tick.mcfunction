@@ -13,27 +13,42 @@
 #define protected tag fnmdp_conflictable Indicates a player that can be hitted by the current projectile.
 #define protected tag fnmdp_damagable Indicates a player that can be damaged by the current projectile.
 
+# Flying effect.
+function fnmdp:flying
+
 # Calculate velocities.
 scoreboard players operation @s fnmdpVx += @s fnmdpAx
 scoreboard players operation @s fnmdpVy += @s fnmdpAy
 scoreboard players operation @s fnmdpVz += @s fnmdpAz
 
-# Move step by step so it wouldn't fly through walls.
-scoreboard players operation Vx params = @s fnmdpVx
-scoreboard players operation Vy params = @s fnmdpVy
-scoreboard players operation Vz params = @s fnmdpVz
+# Deal with flag tags.
 execute if entity @s[tag=fnmdp_can_hit_enemy] run tag @e[tag=player,tag=enemy,tag=!died] add fnmdp_conflictable
 execute if entity @s[tag=fnmdp_can_hit_teammate] run tag @e[tag=player,tag=teammate,tag=!died] add fnmdp_conflictable
 tag @e[tag=fnmdp_conflictable] add fnmdp_damagable
 execute if entity @s[tag=fnmdp_can_damage_self] run tag @e[tag=player,tag=self,tag=!died] add fnmdp_damagable
+
+# Move step by step so it wouldn't fly through walls.
+## Vxyz params stores remaining velocities, used to check whether or not to loop.
+scoreboard players operation Vx params = @s fnmdpVx
+scoreboard players operation Vy params = @s fnmdpVy
+scoreboard players operation Vz params = @s fnmdpVz
+## Get positions.
+### xyz tmp stores stable positions which are not in walls or entities.
+execute store result score x tmp run data get entity @s Pos[0] 1000
+execute store result score y tmp run data get entity @s Pos[1] 1000
+execute store result score z tmp run data get entity @s Pos[2] 1000
+## Move.
 function fnmdp:private/small_step
+## Set positions.
+execute store result entity @s Pos[0] double 0.001 run scoreboard players get x tmp
+execute store result entity @s Pos[1] double 0.001 run scoreboard players get y tmp
+execute store result entity @s Pos[2] double 0.001 run scoreboard players get z tmp
+
+# Deal with conflicts and damage.
 tag @e remove fnmdp_conflictable
 function fnmdp:damage
 tag @e remove fnmdp_damagable
 tag @e remove fnmdp_hitted
-
-# Flying.
-function fnmdp:flying
 
 # Boom.
 scoreboard players add @s fnmdpAge 1

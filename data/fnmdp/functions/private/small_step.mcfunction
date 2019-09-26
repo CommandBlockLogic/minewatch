@@ -6,36 +6,19 @@
 # - Vy - Stores the remaining @s fnmdpVy which is still not checked.
 # - Vz - Stores the remaining @s fnmdpVz which is still not checked.
 
-# Get position.
-## xyz tmp stores stable positions which are not in walls or entities.
-execute store result score x tmp run data get entity @s Pos[0] 1000
-execute store result score y tmp run data get entity @s Pos[1] 1000
-execute store result score z tmp run data get entity @s Pos[2] 1000
-
 # Get small velocities.
-scoreboard players set VSmallMax tmp 250
-scoreboard players set VSmallMin tmp -250
 ## X.
 scoreboard players operation VxSmall tmp = Vx params
-execute if score Vx params >= VSmallMin tmp if score Vx params <= VSmallMax tmp run scoreboard players set Vx params 0
-execute if score Vx params > VSmallMax tmp run scoreboard players operation VxSmall tmp = VSmallMax tmp
-execute if score Vx params > VSmallMax tmp run scoreboard players operation Vx params -= VSmallMax tmp
-execute if score Vx params < VSmallMin tmp run scoreboard players operation VxSmall tmp = VSmallMin tmp
-execute if score Vx params < VSmallMin tmp run scoreboard players operation Vx params -= VSmallMin tmp
+execute if score Vx params >= fnmdpVSmallMin const if score Vx params <= fnmdpVSmallMax const run scoreboard players set Vx params 0
+execute unless score Vx params matches 0 run function fnmdp:private/small_step_vx_is_outrange
 ## Y.
 scoreboard players operation VySmall tmp = Vy params
-execute if score Vy params >= VSmallMin tmp if score Vy params <= VSmallMax tmp run scoreboard players set Vy params 0
-execute if score Vy params > VSmallMax tmp run scoreboard players operation VySmall tmp = VSmallMax tmp
-execute if score Vy params > VSmallMax tmp run scoreboard players operation Vy params -= VSmallMax tmp
-execute if score Vy params < VSmallMin tmp run scoreboard players operation VySmall tmp = VSmallMin tmp
-execute if score Vy params < VSmallMin tmp run scoreboard players operation Vy params -= VSmallMin tmp
+execute if score Vy params >= fnmdpVSmallMin const if score Vy params <= fnmdpVSmallMax const run scoreboard players set Vy params 0
+execute unless score Vy params matches 0 run function fnmdp:private/small_step_vy_is_outrange
 ## Z.
 scoreboard players operation VzSmall tmp = Vz params
-execute if score Vz params >= VSmallMin tmp if score Vz params <= VSmallMax tmp run scoreboard players set Vz params 0
-execute if score Vz params > VSmallMax tmp run scoreboard players operation VzSmall tmp = VSmallMax tmp
-execute if score Vz params > VSmallMax tmp run scoreboard players operation Vz params -= VSmallMax tmp
-execute if score Vz params < VSmallMin tmp run scoreboard players operation VzSmall tmp = VSmallMin tmp
-execute if score Vz params < VSmallMin tmp run scoreboard players operation Vz params -= VSmallMin tmp
+execute if score Vz params >= fnmdpVSmallMin const if score Vz params <= fnmdpVSmallMax const run scoreboard players set Vz params 0
+execute unless score Vz params matches 0 run function fnmdp:private/small_step_vz_is_outrange
 
 # Check collision.
 ## Begin.
@@ -68,15 +51,10 @@ execute store result entity @e[limit=1,tag=newly_summoned] Pos[2] double 0.001 r
 ## End.
 kill @e[tag=newly_summoned]
 
-# Calculate final positions.
+# Calculate final positions after moving this small step.
 scoreboard players operation x tmp += VxSmall tmp
 scoreboard players operation y tmp += VySmall tmp
 scoreboard players operation z tmp += VzSmall tmp
-
-# Set positions.
-execute store result entity @s Pos[0] double 0.001 run scoreboard players get x tmp
-execute store result entity @s Pos[1] double 0.001 run scoreboard players get y tmp
-execute store result entity @s Pos[2] double 0.001 run scoreboard players get z tmp
 
 # Recursion.
 scoreboard players set should tmp 0
