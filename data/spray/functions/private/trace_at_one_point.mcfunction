@@ -10,8 +10,12 @@
 # - sprayXMax tmp
 # - sprayYMax tmp
 
+# Get the next color code.
+execute store result score colorCode tmp run data get storage spray: buffer[0]
+data remove storage spray: buffer[0]
+
 # Do an ray tracing.
-function spray:private/ray_trace
+execute if score colorCode tmp matches 1.. run function spray:private/ray_trace
 
 # Move xCursor.
 scoreboard players operation xCursor params += scanDirection params
