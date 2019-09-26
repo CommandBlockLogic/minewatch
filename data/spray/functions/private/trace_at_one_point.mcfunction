@@ -7,6 +7,8 @@
 # - scanDirection: -1 to the left, 1 to the right
 # - xCursor: The position in the X axis, starting from 0.
 # - yCursor: The position in the Y axis, starting from 0.
+# - sprayXMax tmp
+# - sprayYMax tmp
 
 # Do an ray tracing.
 function spray:private/ray_trace
