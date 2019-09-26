@@ -14,13 +14,14 @@ execute unless score $game custom1 matches 2 as @e[tag=fnmdp,tag=my_marker] run 
 execute unless score $game custom1 matches 2 run function hh:tick
 execute unless score $game custom1 matches 2 run function buff:tick
 
+execute if score @s[tag=!died,tag=!no_9_damage] hhLastDamageWay matches 17 run say 1
+execute unless score @s hhLastDamageWay matches 3.. run say 2
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:water unless score @s hhLastDamageWay matches 3.. run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhLastDamageWay 9
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:water run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhDamagedM 1073741824
 execute unless score $game custom1 matches 2 at @s if block ~ ~1 ~ minecraft:water unless score @s hhLastDamageWay matches 3.. run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhLastDamageWay 9
 execute unless score $game custom1 matches 2 at @s if block ~ ~1 ~ minecraft:water run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhDamagedM 1073741824
 
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:lava unless score @s hhLastDamageWay matches 3.. run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhLastDamageWay 17
-execute if score @s[tag=!died,tag=!no_9_damage] hhLastDamageWay matches 17 run say hi
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:lava run teleport @s[tag=!died,tag=!no_9_damage] ~ ~ ~175
 execute unless score $game custom1 matches 2 at @s if block ~ ~1 ~ minecraft:lava unless score @s hhLastDamageWay matches 3.. run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhLastDamageWay 17
 execute unless score $game custom1 matches 2 at @s if block ~ ~1 ~ minecraft:lava run teleport @s[tag=!died,tag=!no_9_damage] ~ ~ ~175
