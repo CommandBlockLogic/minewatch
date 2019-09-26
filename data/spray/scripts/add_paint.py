@@ -3,7 +3,7 @@ from PIL import Image
 
 dirname = os.path.dirname(__file__)
 
-pngName = "1-sanity" # Change this.
+pngName = "2-carve" # Change this.
 pngPath = os.path.join(dirname, pngName + ".png")
 
 def getColorCode(color):
