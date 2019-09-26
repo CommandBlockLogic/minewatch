@@ -9,10 +9,11 @@ function player:join_team
 function player:add_tags
 
 function uid:tick
-execute unless score $game custom1 matches 2 run function char:player_tick
+execute unless score $game custom1 matches 2 run function char:tick_player
 execute unless score $game custom1 matches 2 as @e[tag=fnmdp,tag=my_marker] run function fnmdp:tick
 execute unless score $game custom1 matches 2 run function hh:tick
 execute unless score $game custom1 matches 2 run function buff:tick
+execute unless score $game custom1 matches 2 run function spray:tick_player
 
 # Blocks.
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:lava unless score @s hhLastDamageWay matches 3.. run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhLastDamageWay 17

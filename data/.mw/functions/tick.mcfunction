@@ -7,6 +7,7 @@ function game:tick
 execute unless score $game custom1 matches 2 run function char:tick
 execute unless score $game custom1 matches 2 run function world:tick
 execute as @e[tag=player] at @s run function player:tick
+execute as @e[tag=spray_paint] at @s run function spray:tick_paint
 function pah:after_tick
 
 function gc:tick
