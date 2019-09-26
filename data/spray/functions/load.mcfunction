@@ -15,4 +15,5 @@ scoreboard players set sprayYMax const 2
 scoreboard players set sprayCool const 50
 
 # `buffer` stores the current drawing paint.
-data modify storage spray: {} merge value {1-test: [0, 1, 2, 3, 0, 3, 2, 1, 2, 3, 0, 1, 2, 1, 0, 3], buffer: []}
+data modify storage spray: {} merge value {buffer: []}
+data modify storage spray: {} merge value {1-test: [0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b, 0b, 1b, 2b, 3b]}
