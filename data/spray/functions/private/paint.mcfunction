@@ -11,7 +11,6 @@ scoreboard players set scanDirection params 1
 scoreboard players set xCursor params 0
 scoreboard players set yCursor params 0
 ## SPRAY TRACING!
-scoreboard players set recursionCount tmp 0
 execute positioned ~ ~1.8 ~ positioned ^0.4 ^0.4 ^ run function spray:private/trace_at_one_point
 
 # Checkout.
