@@ -1,7 +1,7 @@
 #> spray:private/trace_at_one_point
 # @description
 # Recurse in order to execute a bunch of ray tracings. 
-# The number of execution is determined by `sprayXMax const` and `sprayYMax const` defined in `spray:load`.
+# The number of execution is determined by `sprayXMax tmp` and `sprayYMax tmp` defined in `spray:load`.
 # @as player
 # @params
 # - scanDirection: -1 to the left, 1 to the right
@@ -18,11 +18,11 @@ scoreboard players operation xCursor params += scanDirection params
 scoreboard players set shouldTurn tmp 0
 ## while scanning from the left to the right.
 ### Set shouldTurn.
-execute if score xCursor params > sprayXMax const run scoreboard players set shouldTurn tmp 1
+execute if score xCursor params > sprayXMax tmp run scoreboard players set shouldTurn tmp 1
 ### Switch scanDirection.
-execute if score xCursor params > sprayXMax const run scoreboard players set scanDirection params -1
+execute if score xCursor params > sprayXMax tmp run scoreboard players set scanDirection params -1
 ### Move the cursor back in the range.
-execute if score xCursor params > sprayXMax const run scoreboard players remove xCursor params 1
+execute if score xCursor params > sprayXMax tmp run scoreboard players remove xCursor params 1
 ## while scanning from the right to the left.
 ### Do the same things as above.
 execute if score xCursor params matches ..-1 run scoreboard players set shouldTurn tmp 1
@@ -34,9 +34,9 @@ execute if score shouldTurn tmp matches 1 run scoreboard players add yCursor par
 # Recurse...
 ## while not finishing the last row...
 ### if should turn.
-execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 1 positioned ^ ^-0.05 ^ run function spray:private/trace_at_one_point
+execute if score yCursor params <= sprayYMax tmp if score shouldTurn tmp matches 1 positioned ^ ^-0.05 ^ run function spray:private/trace_at_one_point
 ### if should not turn...
 #### while moving from the left to the right.
-execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 0 if score scanDirection params matches 1 positioned ^-0.05 ^ ^ run function spray:private/trace_at_one_point
+execute if score yCursor params <= sprayYMax tmp if score shouldTurn tmp matches 0 if score scanDirection params matches 1 positioned ^-0.05 ^ ^ run function spray:private/trace_at_one_point
 #### while moving from the right to the left.
-execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 0 if score scanDirection params matches -1 positioned ^0.05 ^ ^ run function spray:private/trace_at_one_point
+execute if score yCursor params <= sprayYMax tmp if score shouldTurn tmp matches 0 if score scanDirection params matches -1 positioned ^0.05 ^ ^ run function spray:private/trace_at_one_point
