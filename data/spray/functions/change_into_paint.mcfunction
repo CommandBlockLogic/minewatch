@@ -8,4 +8,4 @@ scoreboard players operation @e[tag=newly_summoned] custom1 = @s custom1
 
 # Checkout.
 tag @e remove newly_summoned
-kill @s
+## [tag=spray_spray] will be killed in function `fnmdp:boom`.
