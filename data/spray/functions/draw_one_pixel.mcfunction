@@ -26,9 +26,9 @@ execute if score @s custom1 matches 0 run kill @s
 # 17 -> 54 54 54
 # 18 -> 128 128 128
 # 19 -> 64 64 64
-execute if score @s custom1 matches 1 run particle minecraft:dust 0.0 0.6 0.0 0.26 ~ ~ ~ 0 0 0 0 1
-execute if score @s custom1 matches 2 run particle minecraft:dust 0.7 0.0 0.0 0.26 ~ ~ ~ 0 0 0 0 1
-execute if score @s custom1 matches 3 run particle minecraft:dust 0.8 1.0 0.0 0.26 ~ ~ ~ 0 0 0 0 1
+execute if score @s custom1 matches 1 run particle minecraft:dust 1.0 0.0 0.0 0.26 ~ ~ ~ 0 0 0 0 1
+execute if score @s custom1 matches 2 run particle minecraft:dust 0.0 1.0 0.0 0.26 ~ ~ ~ 0 0 0 0 1
+execute if score @s custom1 matches 3 run particle minecraft:dust 0.0 0.0 1.0 0.26 ~ ~ ~ 0 0 0 0 1
 execute if score @s custom1 matches 4 run particle minecraft:dust 0.0196078431372549 0.03137254901960784 0.01568627450980392 0.26 ~ ~ ~ 0 0 0 0 1
 execute if score @s custom1 matches 5 run particle minecraft:dust 0.5294117647058824 0.5294117647058824 0.5294117647058824 0.26 ~ ~ ~ 0 0 0 0 1
 execute if score @s custom1 matches 6 run particle minecraft:dust 0.5843137254901961 0.5843137254901961 0.5843137254901961 0.26 ~ ~ ~ 0 0 0 0 1
