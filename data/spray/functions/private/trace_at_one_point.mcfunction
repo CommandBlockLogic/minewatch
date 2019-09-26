@@ -1,21 +1,15 @@
-#> spray:private/summon_one_marker
+#> spray:private/trace_at_one_point
 # @description
-# Summons a [tag=newly_summoned_spray] markers and recurse in order to get a bunch of markers. 
-# The number of markers is determined by `sprayXMax const` and `sprayYMax const` defined in `spray:load`.
+# Recurse in order to execute a bunch of ray tracings. 
+# The number of execution is determined by `sprayXMax const` and `sprayYMax const` defined in `spray:load`.
 # @as player
 # @params
 # - scanDirection: -1 to the left, 1 to the right
 # - xCursor: The position in the X axis, starting from 0.
 # - yCursor: The position in the Y axis, starting from 0.
-# @tag @out
-# - newly_summoned_spray
 
-# Summon a [tag=spray_spray].
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned_spray", "newly_summoned", "marker_with_uid", "my_marker", "spray_spray", "fnmdp", "fnmdp_flying"], CustomName: '"Spray Spray"', Duration: 1000000, Color: -1}
-## Set properties.
-execute store result score @e[limit=1,tag=newly_summoned] custom1 run data get storage spray: buffer[0]
-data remove storage spray: buffer[0]
-tag @e remove newly_summoned
+# Do an ray tracing.
+function spray:private/ray_trace
 
 # Move xCursor.
 scoreboard players operation xCursor params += scanDirection params
