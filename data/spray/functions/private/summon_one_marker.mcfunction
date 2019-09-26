@@ -1,4 +1,7 @@
 #> spray:private/summon_one_marker
+# @description
+# Summons a [tag=newly_summoned_spray] markers and recurse in order to get a bunch of markers. 
+# The number of markers is determined by `sprayXMax const` and `sprayYMax const`, defined in `spray:load`.
 # @as player
 # @params
 # - scanDirection: -1 to the left, 1 to the right
@@ -10,7 +13,7 @@
 # Summon a [tag=spray_spray].
 summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned_spray", "marker_with_uid", "my_marker", "spray_spray", "fnmdp"], CustomName: '"Spray"', Duration: 1000000, Color: -1}
 
-# Move xCursor
+# Move xCursor.
 scoreboard players operation xCursor params += scanDirection params
 
 # Turn to new row...

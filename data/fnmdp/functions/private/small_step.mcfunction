@@ -1,4 +1,6 @@
 #> fnmdp:private/small_step
+# @description
+# Move a small step and recurse, in order to move according to the velocities in this tick. 
 # @params 
 # - Vx - Stores the remaining @s fnmdpVx which is still not checked.
 # - Vy - Stores the remaining @s fnmdpVy which is still not checked.

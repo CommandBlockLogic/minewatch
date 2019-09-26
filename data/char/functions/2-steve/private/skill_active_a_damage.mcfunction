@@ -1,4 +1,4 @@
-# char:2-steve/private/skill_active_a_damage
+#> char:2-steve/private/skill_active_a_damage
 # @tag @in
 # - fnmdp_hitted
 

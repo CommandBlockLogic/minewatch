@@ -12,7 +12,7 @@ function uid:tick
 execute unless score $game custom1 matches 2 run function char:player_tick
 execute unless score $game custom1 matches 2 as @e[tag=fnmdp,tag=my_marker] run function fnmdp:tick
 execute unless score $game custom1 matches 2 run function hh:tick
-execute unless score $game custom1 matches 2 if entity @s[tag=!died] run function buff:tick
+execute unless score $game custom1 matches 2 run function buff:tick
 
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:water unless score @s hhLastDamageWay matches 3.. run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhLastDamageWay 9
 execute unless score $game custom1 matches 2 at @s if block ~ ~1 ~ minecraft:water unless score @s hhLastDamageWay matches 3.. run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhLastDamageWay 9
