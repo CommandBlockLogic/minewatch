@@ -15,6 +15,6 @@ execute positioned -945 15 999 run function world:components/spawn_door/summon_b
 execute positioned -1055 15 999 run function world:components/spawn_door/summon_red
 
 scoreboard players set rotation params 90
-execute positioned -943 13.5 999 run function world:components/spawn_point/summon_blue
+execute positioned -943 13 999 run function world:components/spawn_point/summon_blue
 scoreboard players set rotation params 270
-execute positioned -1057 13.5 999 run function world:components/spawn_point/summon_red
+execute positioned -1057 13 999 run function world:components/spawn_point/summon_red
