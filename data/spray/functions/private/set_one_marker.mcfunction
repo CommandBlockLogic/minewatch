@@ -8,5 +8,5 @@
 scoreboard players operation @s fnmdpVx = spray:private/paint$Vx tmp
 scoreboard players operation @s fnmdpVy = spray:private/paint$Vy tmp
 scoreboard players operation @s fnmdpVz = spray:private/paint$Vz tmp
-scoreboard players set @s fnmdpLife 15
-scoreboard players set @s fnmdpSize 1
+scoreboard players set @s fnmdpLife 3
+scoreboard players set @s fnmdpSize 2
