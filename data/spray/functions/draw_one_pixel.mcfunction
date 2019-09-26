@@ -4,10 +4,10 @@
 #  - @s custom1: Indicates the color of this pixel.
 
 # 0 -> #000000
-execute if score @s custom1 matches 0 run particle minecraft:dust 0.0 0.0 0.0 1.0
+execute if score @s custom1 matches 0 run particle minecraft:dust 0.0 0.0 0.0 0.5
 # 1 -> #009900
-execute if score @s custom1 matches 0 run particle minecraft:dust 0.0 0.6 0.0 1.0
+execute if score @s custom1 matches 0 run particle minecraft:dust 0.0 0.6 0.0 0.5
 # 2 -> #0099ff
-execute if score @s custom1 matches 0 run particle minecraft:dust 0.0 0.6 0.0 1.0
+execute if score @s custom1 matches 0 run particle minecraft:dust 0.0 0.6 0.0 0.5
 # 3 -> #ccff00
-execute if score @s custom1 matches 0 run particle minecraft:dust 0.8 1.0 0.0 1.0
+execute if score @s custom1 matches 0 run particle minecraft:dust 0.8 1.0 0.0 0.5
