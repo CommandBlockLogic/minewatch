@@ -6,6 +6,7 @@
 # 0 -> ALPHA
 execute if score @s custom1 matches 0 run kill @s
 
+#> Available colors:
 # 1 -> #009900
 # 2 -> #0099ff
 # 3 -> #ccff00
