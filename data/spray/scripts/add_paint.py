@@ -60,7 +60,7 @@ with open(drawOnePixelPath, "r+") as f:
     px = img.load()
     (width, height) = img.size
     for y in range(0, height):
-        if (y % 2 == 1):
+        if (y % 2 == 0):
             for x in range(0, width):
                 color = px[x, y]
                 code = getColorCode(color)
