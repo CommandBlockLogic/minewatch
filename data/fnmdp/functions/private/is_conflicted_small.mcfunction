@@ -20,7 +20,11 @@ execute if score isConflicted result matches 0 run scoreboard players operation 
 execute if score isConflicted result matches 0 if block ~ ~ ~ #minecraft:slabs[type=bottom] store result score isConflicted result if score fnmdp:private/is_conflicted_small$y tmp matches 500..
 execute if score isConflicted result matches 0 if block ~ ~ ~ #minecraft:slabs[type=top] store result score isConflicted result if score fnmdp:private/is_conflicted_small$y tmp matches ..500
 ## Four_directions.
-execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[north=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$z tmp matches ..400
-execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[south=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$z tmp matches 600..
-execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[east=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$x tmp matches 600..
-execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[west=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$x tmp matches ..400
+execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[north=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$z tmp matches 0..400
+execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[north=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$z tmp matches -999..-600
+execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[south=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$z tmp matches 600..999
+execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[south=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$z tmp matches -400..0
+execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[east=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$x tmp matches 600..999
+execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[east=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$x tmp matches -400..0
+execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[west=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$x tmp matches 0..400
+execute if score isConflicted result matches 0 if block ~ ~ ~ #.mw:solid_four_directions[west=false] store result score isConflicted result if score fnmdp:private/is_conflicted_small$x tmp matches -999..-600
