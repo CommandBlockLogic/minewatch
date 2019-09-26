@@ -2,7 +2,7 @@
 # @manual
 # # How to Add a Paint?
 # 1. Add the paint to `storage spray:`, located in function `spray:load`.
-# 2. Update function `spray:private/get_the_paint`, so players can select this paint.
+# 2. Update function `spray:private/buffer`, so players can move this paint into buffer.
 # 3. Add color(s) in function `spray:draw_one_pixel` if you want to introduce new color(s).
 
 # Objectives.
