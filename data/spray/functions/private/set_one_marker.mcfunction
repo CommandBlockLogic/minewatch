@@ -14,4 +14,4 @@ scoreboard players set @s fnmdpAz 0
 scoreboard players set @s fnmdpVKeepN 0
 scoreboard players set @s fnmdpVKeepT 0
 scoreboard players set @s fnmdpLife 10
-scoreboard players set @s fnmdpSize 1
+scoreboard players set @s fnmdpSize 2
