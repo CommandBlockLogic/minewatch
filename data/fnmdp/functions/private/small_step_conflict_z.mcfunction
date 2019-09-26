@@ -4,7 +4,7 @@
 # - VySmall tmp
 # - VzSmall tmp
 
-say Z
+#say Z
 scoreboard players operation @s fnmdpVx *= @s fnmdpVKeepN
 scoreboard players operation @s fnmdpVy *= @s fnmdpVKeepN
 scoreboard players operation @s fnmdpVz *= @s fnmdpVKeepT
