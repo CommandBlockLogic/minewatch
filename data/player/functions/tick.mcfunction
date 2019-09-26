@@ -20,6 +20,7 @@ execute unless score $game custom1 matches 2 at @s if block ~ ~1 ~ minecraft:wat
 execute unless score $game custom1 matches 2 at @s if block ~ ~1 ~ minecraft:water run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhDamagedM 1073741824
 
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:lava unless score @s hhLastDamageWay matches 3.. run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhLastDamageWay 17
+execute if score @s[tag=!died,tag=!no_9_damage] hhLastDamageWay matches 17 run say hi
 execute unless score $game custom1 matches 2 at @s if block ~ ~ ~ minecraft:lava run teleport @s[tag=!died,tag=!no_9_damage] ~ ~ ~175
 execute unless score $game custom1 matches 2 at @s if block ~ ~1 ~ minecraft:lava unless score @s hhLastDamageWay matches 3.. run scoreboard players set @s[tag=!died,tag=!no_9_damage] hhLastDamageWay 17
 execute unless score $game custom1 matches 2 at @s if block ~ ~1 ~ minecraft:lava run teleport @s[tag=!died,tag=!no_9_damage] ~ ~ ~175
