@@ -10,4 +10,4 @@ execute if score @s custom1 matches 1 run particle minecraft:dust 0.0 0.6 0.0 0.
 # 2 -> #0099ff
 execute if score @s custom1 matches 2 run particle minecraft:dust 0.0 0.6 0.0 0.4
 # 3 -> #ccff00
-execute if score @s custom1 matches 3 run particle minecraft:dust 0.8 1.0 0.0 0.4
+execute if score @s custom1 matches 3 run particle minecraft:dust 0.8 0.0 0.0 0.4
