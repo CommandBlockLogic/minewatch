@@ -11,7 +11,7 @@
 # - newly_summoned_spray
 
 # Summon a [tag=spray_spray].
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned_spray", "newly_summoned", "marker_with_uid", "my_marker", "spray_spray", "fnmdp"], CustomName: '"Spray Spray"', Duration: 1000000, Color: -1}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned_spray", "newly_summoned", "marker_with_uid", "my_marker", "spray_spray", "fnmdp", "fnmdp_flying"], CustomName: '"Spray Spray"', Duration: 1000000, Color: -1}
 ## Set properties.
 execute store result score @e[limit=1,tag=newly_summoned] custom1 run data get storage spray: buffer[0]
 data remove storage spray: buffer[0]

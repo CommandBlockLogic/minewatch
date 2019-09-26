@@ -7,24 +7,26 @@
 #define public tag fnmdp Indicates a fnmdp projectile.
 #define public tag fnmdp_can_hit_enemy Shows that the current projectile can hit player's enemy.
 #define public tag fnmdp_can_hit_teammate Shows that the current projectile can hit player's teammate.
-#define public tag fnmdp_can_damage_self Shows that the current projectile can damage player themselves.
+#define public tag fnmdp_can_damage_hitted Shows that the current projectile can damage hitted players.
+#define public tag fnmdp_can_damage_self Shows that the current projectile can damage its owner.
+#define public tag fnmdp_flying Indicates that the current projectile have flying effect.
+#define public tag fnmdp_have_acceleration Indicates that the current projectile have acceleration.
+#define public tag fnmdp_elastic Indicates that the current projectile is elastic.
 # @protected
 #define protected tag fnmdp_hitted Indicates an entity hitted by the current projectile.
 #define protected tag fnmdp_conflictable Indicates a player that can be hitted by the current projectile.
 #define protected tag fnmdp_damagable Indicates a player that can be damaged by the current projectile.
 
 # Flying effect.
-function fnmdp:flying
+execute if entity @s[tag=fnmdp_flying] run function fnmdp:private/flying
 
 # Calculate velocities.
-scoreboard players operation @s fnmdpVx += @s fnmdpAx
-scoreboard players operation @s fnmdpVy += @s fnmdpAy
-scoreboard players operation @s fnmdpVz += @s fnmdpAz
+execute if entity @s[tag=fnmdp_have_acceleration] run function fnmdp:private/cal_acceleration
 
 # Deal with flag tags.
 execute if entity @s[tag=fnmdp_can_hit_enemy] run tag @e[tag=player,tag=enemy,tag=!died] add fnmdp_conflictable
 execute if entity @s[tag=fnmdp_can_hit_teammate] run tag @e[tag=player,tag=teammate,tag=!died] add fnmdp_conflictable
-tag @e[tag=fnmdp_conflictable] add fnmdp_damagable
+execute if entity @s[tag=fnmdp_can_damage_hitted] run tag @e[tag=fnmdp_conflictable] add fnmdp_damagable
 execute if entity @s[tag=fnmdp_can_damage_self] run tag @e[tag=player,tag=self,tag=!died] add fnmdp_damagable
 
 # Move step by step so it wouldn't fly through walls.
@@ -46,7 +48,7 @@ execute store result entity @s Pos[2] double 0.001 run scoreboard players get z 
 
 # Deal with conflicts and damage.
 tag @e remove fnmdp_conflictable
-function fnmdp:damage
+execute if entity @s[tag=fnmdp_can_damage_hitted] run function fnmdp:private/damage
 tag @e remove fnmdp_damagable
 tag @e remove fnmdp_hitted
 
@@ -57,4 +59,4 @@ scoreboard players set boom tmp 0
 execute if entity @s[scores={fnmdpVx=-50..50,fnmdpVy=-50..50,fnmdpVz=-50..50}] run scoreboard players set boom tmp 1
 #execute if score @s fnmdpAge >= @s fnmdpLife run say 2
 execute if score @s fnmdpAge >= @s fnmdpLife run scoreboard players set boom tmp 1
-execute if score boom tmp matches 1 run function fnmdp:boom
+execute if score boom tmp matches 1 run function fnmdp:private/boom
