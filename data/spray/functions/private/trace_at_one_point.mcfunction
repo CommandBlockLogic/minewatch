@@ -34,9 +34,9 @@ execute if score shouldTurn tmp matches 1 run scoreboard players add yCursor par
 # Recurse...
 ## while not finishing the last row...
 ### if should turn.
-execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 1 positioned ^ ^-0.1 ^ run function spray:private/summon_one_marker
+execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 1 positioned ^ ^-0.1 ^ run function spray:private/trace_at_one_point
 ### if should not turn...
 #### while moving from the left to the right.
-execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 0 if score scanDirection params matches 1 positioned ^-0.1 ^ ^ run function spray:private/summon_one_marker
+execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 0 if score scanDirection params matches 1 positioned ^-0.1 ^ ^ run function spray:private/trace_at_one_point
 #### while moving from the right to the left.
-execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 0 if score scanDirection params matches -1 positioned ^0.1 ^ ^ run function spray:private/summon_one_marker
+execute if score yCursor params <= sprayYMax const if score shouldTurn tmp matches 0 if score scanDirection params matches -1 positioned ^0.1 ^ ^ run function spray:private/trace_at_one_point
