@@ -5,6 +5,7 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_
 
 # Inherit color.
 scoreboard players operation @e[limit=1,tag=newly_summoned] custom1 = colorCode tmp
+function spray:private/colors
 
 # Checkout.
 tag @e remove newly_summoned

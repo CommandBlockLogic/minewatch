@@ -68,7 +68,7 @@ for pic in os.listdir(path_image_dir):
 
 # 输出颜色文本
 one_pixel = ''
-text = 'execute if score @s custom1 matches {0:d} run particle minecraft:dust {1:.4f} {2:.4f} {3:.4f} 0.28 ~ ~ ~ 0 0 0 0 2'
+text = 'execute if score @s custom1 matches {0:d} run data merge entity @s {{Particle: "dust {1:.4f} {2:.4f} {3:.4f} 0.28", Radius: 0.01f}}'
 for i in range(len(color_list)):
     if color_list[i].empty == True:
         continue
