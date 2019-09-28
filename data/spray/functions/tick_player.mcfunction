@@ -10,3 +10,4 @@ execute unless score @s sprayType matches 1.. run scoreboard players set @s spra
 
 # test
 execute as @e[type=area_effect_cloud,tag=spray_move] at @s run function spray:new_idea_private/particle_tick
+execute as @e[type=area_effect_cloud,tag=spray_move,scores={sprayPosX=0,sprayPosY=0}] at @s run function spray:new_idea_private/particle_ray_trace
