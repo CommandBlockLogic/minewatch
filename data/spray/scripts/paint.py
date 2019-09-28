@@ -82,7 +82,7 @@ count = 0
 for image in image_list:
     data_list = ''
     for pixel in image[1]:
-        data_list += '{}b,'.format(pixel)
+        data_list += '{}s,'.format(pixel)
     image_data += text.format(image[0], data_list)
     image_data += '\n'
     count += 1
