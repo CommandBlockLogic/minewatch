@@ -134,10 +134,10 @@ print(color_list)
 # 输出颜色文本
 one_pixel = ''
 text = '''execute if score colorCode tmp matches {0:d} run data merge entity @s {{Particle: "minecraft:dust {1:.4f} {2:.4f} {3:.4f} 0.28", Radius: 0.01f}}
-execute unless score colorCode tmp matches {0:d} runfunction spray:private/colors/{4:d}
+execute unless score colorCode tmp matches {0:d} run function spray:private/colors/{4:d}
 '''
 text2 = '''execute if score colorCode tmp matches {0:d} run kill @s
-execute unless score colorCode tmp matches {0:d} runfunction spray:private/colors/{4:d}
+execute unless score colorCode tmp matches {0:d} run function spray:private/colors/{4:d}
 '''
 for i in range(len(color_list)):
     with open(os.path.join(path_one_pixel_dir, '{:d}.mcfunction'.format(i)), 'w') as f:

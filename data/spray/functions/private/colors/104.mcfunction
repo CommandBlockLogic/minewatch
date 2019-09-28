@@ -1,2 +1,2 @@
 execute if score colorCode tmp matches 74 run data merge entity @s {Particle: "minecraft:dust 0.4000 0.0000 0.0000 0.28", Radius: 0.01f}
-execute unless score colorCode tmp matches 74 runfunction spray:private/colors/105
+execute unless score colorCode tmp matches 74 run function spray:private/colors/105
