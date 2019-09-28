@@ -1,0 +1,17 @@
+execute if score @s custom1 matches 1 run particle minecraft:dust 0.5843 0.5843 0.5843 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 2 run particle minecraft:dust 0.5294 0.5294 0.5294 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 3 run particle minecraft:dust 0.3647 0.3647 0.3647 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 4 run particle minecraft:dust 0.1922 0.1922 0.1922 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 5 run particle minecraft:dust 0.1765 0.1765 0.1765 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 6 run particle minecraft:dust 0.6745 0.6745 0.6745 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 7 run particle minecraft:dust 0.5020 0.5020 0.5020 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 8 run particle minecraft:dust 0.4392 0.4392 0.4392 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 9 run particle minecraft:dust 0.4314 0.4314 0.4314 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 10 run particle minecraft:dust 0.3922 0.3922 0.3922 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 11 run particle minecraft:dust 0.3294 0.3294 0.3294 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 12 run particle minecraft:dust 0.2824 0.2824 0.2824 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 13 run particle minecraft:dust 0.2588 0.2588 0.2588 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 14 run particle minecraft:dust 0.2510 0.2510 0.2510 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 15 run particle minecraft:dust 0.2118 0.2118 0.2118 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 16 run particle minecraft:dust 0.0196 0.0314 0.0157 0.28 ~ ~ ~ 0 0 0 0 2
+execute if score @s custom1 matches 17 run particle minecraft:dust 1.0000 0.0000 0.0000 0.28 ~ ~ ~ 0 0 0 0 2
