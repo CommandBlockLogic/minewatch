@@ -9,6 +9,9 @@
 scoreboard objectives add sprayType dummy "玩家储备的喷漆类型"
 scoreboard objectives add sprayCool dummy "玩家剩余的喷漆冷却时间"
 
+scoreboard objectives add sprayPosX dummy "喷漆粒子X坐标"
+scoreboard objectives add sprayPosY dummy "喷漆粒子Y坐标"
+
 # Consts
 scoreboard players set sprayCool const 50
 
