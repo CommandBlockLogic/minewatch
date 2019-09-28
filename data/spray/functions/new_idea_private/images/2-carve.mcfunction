@@ -1,2160 +1,432 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 1
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 4
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 5
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 6
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 21
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 22
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 0
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 1
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 1
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 2
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 2
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 3
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 3
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 4
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 4
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 5
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 5
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 6
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 6
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 7
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 7
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 8
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 8
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 9
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 9
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 9
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 9
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 10
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 10
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 10
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 10
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 11
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 11
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 11
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 11
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 11
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 6
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 12
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 4
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 5
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 6
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 13
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 14
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 14
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 14
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 14
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 4
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 14
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 5
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 14
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 15
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 15
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 15
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 15
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 15
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 15
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 16
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 16
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 16
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 16
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 16
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 16
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 17
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 17
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 17
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 17
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 17
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 17
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 18
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 18
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 18
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 18
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 18
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 18
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 19
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 19
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 19
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 19
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 19
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 19
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 19
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 19
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 19
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 4
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 5
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 6
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 20
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 4
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 5
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 6
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 21
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 22
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 23
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 24
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 24
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 24
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 24
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 24
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 25
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 25
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 25
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 25
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 25
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 25
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 26
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 26
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 26
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 4
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 26
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 26
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 26
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 27
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 27
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 4
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 27
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 27
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 27
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 27
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 28
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 28
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 28
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 28
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 28
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 28
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 28
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 28
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 28
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 29
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 29
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 29
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 29
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 29
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 29
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 30
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 30
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 31
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 31
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 32
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 32
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 33
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 33
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 34
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 34
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 34
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 21
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 34
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 35
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 35
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 35
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 35
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 35
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 21
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 35
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 36
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 36
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 36
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 36
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 36
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 36
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 37
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 37
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 37
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 37
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 37
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 37
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 37
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 37
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 38
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 38
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 38
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 38
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 38
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 38
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 38
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 38
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 39
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 39
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 39
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 39
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 39
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 39
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 39
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 39
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 39
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 40
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 40
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 40
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 40
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 40
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 40
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 40
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 40
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 40
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 40
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 41
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 41
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 41
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 41
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 41
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 41
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 41
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 41
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 41
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 42
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 42
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 42
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 42
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 42
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 42
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 4
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 5
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 6
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 43
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 4
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 5
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 6
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 44
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 45
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 45
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 45
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 45
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 45
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 45
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 45
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 46
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 46
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 46
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 46
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 46
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 46
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 46
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 46
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 46
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 46
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 47
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 47
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 47
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 47
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 47
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 47
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 47
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 47
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 47
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 47
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 48
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 48
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 48
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 48
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 48
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 48
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 48
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 48
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 48
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 49
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 49
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 49
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 49
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 49
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 49
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 49
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 49
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 50
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 50
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 50
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 50
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 50
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 50
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 50
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 50
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 50
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 50
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 51
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 51
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 51
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 51
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 51
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 51
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 51
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 51
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 51
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 52
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 52
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 52
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 52
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 53
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 53
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 53
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 54
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 54
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 55
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 55
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 56
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 56
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 57
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 57
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 58
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 58
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 59
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 59
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 60
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 60
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 61
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 61
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 62
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 62
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 0
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 1
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 2
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 3
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 4
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 5
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 6
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 7
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 8
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 9
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 10
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 11
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 12
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 13
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 14
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 15
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 16
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 17
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 18
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 19
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 20
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 21
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 22
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX 63
-scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY 23
-tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
-
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_1"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_4"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_5"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_6"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_21"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_22"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_0", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_1", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_1", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_2", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_2", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_3", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_3", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_4", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_4", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_5", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_5", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_6", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_6", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_7", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_7", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_8", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_8", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_9", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_9", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_9", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_9", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_10", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_10", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_10", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_10", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_11", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_11", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_11", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_11", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_11", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_6"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_12", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_4"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_5"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_6"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_13", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_14", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_14", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_14", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_14", "spray_posY_4"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_14", "spray_posY_5"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_14", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_15", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_15", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_15", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_15", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_15", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_15", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_16", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_16", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_16", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_16", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_16", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_16", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_17", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_17", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_17", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_17", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_17", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_17", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_18", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_18", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_18", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_18", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_18", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_18", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_19", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_19", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_19", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_19", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_19", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_19", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_19", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_19", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_19", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_4"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_5"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_6"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_20", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_4"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_5"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_6"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_21", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_22", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_23", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_24", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_24", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_24", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_24", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_24", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_25", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_25", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_25", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_25", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_25", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_25", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_26", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_26", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_26", "spray_posY_4"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_26", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_26", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_26", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_27", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_27", "spray_posY_4"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_27", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_27", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_27", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_27", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_28", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_28", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_28", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_28", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_28", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_28", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_28", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_28", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_28", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_29", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_29", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_29", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_29", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_29", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_29", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_30", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_30", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_31", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_31", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_32", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_32", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_33", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_33", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_34", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_34", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_34", "spray_posY_21"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_34", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_35", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_35", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_35", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_35", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_35", "spray_posY_21"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_35", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_36", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_36", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_36", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_36", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_36", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_36", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_37", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_37", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_37", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_37", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_37", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_37", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_37", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_37", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_38", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_38", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_38", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_38", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_38", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_38", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_38", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_38", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_39", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_39", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_39", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_39", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_39", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_39", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_39", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_39", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_39", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_40", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_40", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_40", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_40", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_40", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_40", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_40", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_40", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_40", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_40", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_41", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_41", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_41", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_41", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_41", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_41", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_41", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_41", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_41", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_42", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_42", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_42", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_42", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_42", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_42", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_4"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_5"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_6"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_43", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_4"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_5"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_6"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_44", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_45", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_45", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_45", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_45", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_45", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_45", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_45", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_46", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_46", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_46", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_46", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_46", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_46", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_46", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_46", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_46", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_46", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_47", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_47", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_47", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_47", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_47", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_47", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_47", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_47", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_47", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_47", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_48", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_48", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_48", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_48", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_48", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_48", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_48", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_48", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_48", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_49", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_49", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_49", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_49", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_49", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_49", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_49", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_49", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_50", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_50", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_50", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_50", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_50", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_50", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_50", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_50", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_50", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_50", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_51", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_51", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_51", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_51", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_51", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_51", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_51", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_51", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_51", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_52", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_52", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_52", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_52", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_53", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_53", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_53", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_54", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_54", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_55", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_55", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_56", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_56", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_57", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_57", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_58", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_58", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_59", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_59", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_60", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_60", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_61", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_61", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_62", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_62", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_0"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_1"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_2"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_3"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_4"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_5"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_6"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_7"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_8"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_9"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_10"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_11"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_12"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_13"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_14"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_15"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_16"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_17"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_18"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_19"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_20"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_21"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_22"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_63", "spray_posY_23"], CustomName: '"Spray Paint"', Duration: 1000, Particle: "minecraft:dust 1.0000 0.0000 0.0000 0.28", Radius: 0.01f}

@@ -16,7 +16,8 @@ path_all_image = os.path.join(dirname, path_all_image)
 # 遍历图片、生成命令
 all_image = ''
 text_all_image = 'execute if score @s sprayType matches {:d} run function spray:new_idea_private/images/{:s}'
-text_pixel = '''summon minecraft:area_effect_cloud ~ ~ ~ {{Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: \'"Spray Paint"\', Duration: 1000, Particle: "minecraft:dust {1[0]:.4f} {1[1]:.4f} {1[2]:.4f} 0.28", Radius: 0.01f}}
+text_pixel = 'summon minecraft:area_effect_cloud ~ ~ ~ {{Tags: ["newly_summoned", "marker_with_uid", "my_marker", "spray_paint", "spray_move", "spray_posX_{0[0]:d}", "spray_posY_{0[1]:d}"], CustomName: \'"Spray Paint"\', Duration: 1000, Particle: "minecraft:dust {1[0]:.4f} {1[1]:.4f} {1[2]:.4f} 0.28", Radius: 0.01f}}'
+text_pixel2 = '''summon minecraft:area_effect_cloud ~ ~ ~ {{Tags: ["newly_summoned", "newly_summoned2", "marker_with_uid", "my_marker", "spray_paint", "spray_move"], CustomName: \'"Spray Paint"\', Duration: 1000, Particle: "minecraft:dust {1[0]:.4f} {1[1]:.4f} {1[2]:.4f} 0.28", Radius: 0.01f}}
 scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosX {0[0]:d}
 scoreboard players set @e[type=area_effect_cloud,tag=newly_summoned2] sprayPosY {0[1]:d}
 tag @e[type=area_effect_cloud,tag=newly_summoned2] remove newly_summoned2
