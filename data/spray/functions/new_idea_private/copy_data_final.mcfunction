@@ -3,6 +3,5 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["newly_summoned", "marker_with_
 # 复制nbt
 data modify entity @e[type=area_effect_cloud,tag=newly_summoned,limit=1] Particle set from entity @s Particle
 
-# 杀死老的
+# 清除
 tag @e[type=area_effect_cloud,tag=newly_summoned] remove newly_summoned
-kill @s
