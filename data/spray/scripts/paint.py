@@ -11,6 +11,8 @@ class SPGColor:
     def __eq__(self, other):
         if self.empty == True and other.empty == True:
             return True
+        elif self.empty == True or other.empty == True:
+            return True
         else:
             return self.color == other.color
     def __repr__(self):
