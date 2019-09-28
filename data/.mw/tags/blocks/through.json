@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#.mw:player_through",
+        "#minecraft:slabs",
+        "minecraft:water"
+    ]
+}

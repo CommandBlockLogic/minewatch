@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function":"hh:vanilla_combat/be_attacked"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "criterion": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "hh:vanilla_combat/range_attack_by_arrow"
+    }
+}
