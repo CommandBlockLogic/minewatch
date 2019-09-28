@@ -4,10 +4,8 @@
 # - sprayXMax tmp
 # - sprayYMax tmp
 
-# Set buffer.
-execute if score @s sprayType matches 1 run data modify storage spray: buffer set from storage spray: 1-sanity
-execute if score @s sprayType matches 2 run data modify storage spray: buffer set from storage spray: 2-carve
-## Add new commands here...
+# Copy buffer.
+function spray:private/copy_buffer
 
 # Set resolution.
 execute store result score sprayXMax tmp run data get storage spray: buffer[0]

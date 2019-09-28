@@ -19,9 +19,9 @@ class SPGColor:
 
 
 path_image_dir = 'image'
-path_one_pixel = '../functions/colors.mcfunction'
-path_image_data = '../functions/image_data.mcfunction'
-path_set_buffer = '../functions/private/set_buffer_paint.mcfunction'
+path_one_pixel = '../functions/private/colors.mcfunction'
+path_image_data = '../functions/private/image_data.mcfunction'
+path_set_buffer = '../functions/private/copy_buffer.mcfunction'
 
 
 
